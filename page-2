@@ -1,0 +1,74 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        
+        <!--google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700|Fredoka+One|Permanent+Marker|Rock+Salt" rel="stylesheet">
+		<!--jq-->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<!--barba.js-->
+		<script src="/js/barba.js-master/dist/barba.min.js"></script>
+		<!--slick-->
+		<!-- Add the slick-theme.css if you want default styling -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css" />
+		<!-- bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<!--font awesome-->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="container-fluid">
+        	<div class="row">
+        		<div class="col-sm-12 bg-success text-white">
+        			<p>Bacon ipsum dolor amet picanha shankle ball tip tongue, beef ribs jerky short loin capicola spare ribs. Salami pancetta swine bacon, tenderloin pig short ribs prosciutto sausage frankfurter spare ribs ground round pastrami pork loin. Cow burgdoggen meatball swine turducken venison shankle. Fatback meatball salami, boudin porchetta frankfurter ham swine sausage sirloin tongue.</p>
+        			<p>Flank fatback shank jowl pork loin pork chop. Short ribs sausage pastrami, cow beef venison kielbasa bresaola andouille spare ribs filet mignon ground round. Ham hock cupim tail jerky beef chuck picanha pancetta frankfurter beef ribs alcatra spare ribs tenderloin fatback drumstick. Tenderloin chuck hamburger frankfurter tail. Short ribs pork cupim, t-bone meatball buffalo leberkas drumstick jerky shank andouille sausage brisket. Boudin doner buffalo beef ribs porchetta strip steak shankle tenderloin.</p>
+        			<p>Boudin beef ribs pork belly, turkey fatback meatball kielbasa tail leberkas sausage shank porchetta bacon tri-tip. Meatball spare ribs short loin, leberkas filet mignon alcatra turkey drumstick swine strip steak pork loin burgdoggen shankle pastrami prosciutto. Pig beef buffalo jerky, porchetta pork pork chop. Landjaeger tri-tip alcatra cupim. Jerky corned beef spare ribs salami, shoulder prosciutto kevin.</p>
+				</div>
+			</div>
+		</div>
+        
+        
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<!--        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>-->
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <!--  popper-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<!--typed.js-->
+		<script src="/js/typed.js/lib/typed.min.js"></script>
+		<!--slick-->
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+		<!--scroll reveal-->
+		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+		<!--flip.js-->
+		<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+		<!--bootstrap js-->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		<!--main.js-->
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
