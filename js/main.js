@@ -111,7 +111,6 @@ sr.reveal('.fade-in', {
 	distance: '0',
 	origin: 'center',
 	opacity: 0,
-	scale: 0,
 	reset: true
 });
 sr.reveal('.fade-in-slow', {
