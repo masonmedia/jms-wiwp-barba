@@ -107,6 +107,24 @@ body {
 	width: 100%;
 }
 
+/*links */
+
+a {
+	text-decoration: none;
+	transition: all .3s ease;
+}
+
+a:hover {
+	text-decoration: none;
+}
+a > .headline:hover, a > span:hover {
+	color: hotpink;
+	text-decoration: none;
+}
+.headline {
+	transition: all .3s ease;
+}
+
 /* height + width utils */
 
 .min-100 {
@@ -164,6 +182,15 @@ img {
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+}
+
+.fadeOut {
+	animation: fadeOut 1s ease-in-out;
+}
+
+@keyframes fadeOut {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
 }
 
 /* carousel */

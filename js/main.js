@@ -51,27 +51,34 @@
           });
 
 // + pages
-	
-var Homepage = Barba.BaseView.extend({
-  namespace: 'homepage',
-  onEnter: function() {
-      // The new Container is ready and attached to the DOM.
-	  $(h2).slideUp(1000);
-  },
-  onEnterCompleted: function() {
-      // The Transition has just finished.
-  },
-  onLeave: function() {
-      // A new Transition toward a new page has just started.
-  },
-  onLeaveCompleted: function() {
-      // The Container has just been removed from the DOM.
-  }
-});
+//	
+//var Homepage = Barba.BaseView.extend({
+//  namespace: 'homepage',
+//  onEnter: function() {
+//      // The new Container is ready and attached to the DOM.
+//	  $(".carousel-item").animate({opacity: '1'});
+//  },
+//  onEnterCompleted: function() {
+//      // The Transition has just finished.
+//  },
+//  onLeave: function() {
+//      // A new Transition toward a new page has just started.
+//  },
+//  onLeaveCompleted: function() {
+//      // The Container has just been removed from the DOM.
+//  }
+//});
+//
+//// Don't forget to init the view!
+//Homepage.init();
+// Barba.Pjax.start();
 
-// Don't forget to init the view!
-Homepage.init();
- Barba.Pjax.start();
+
+//greensock
+
+//TweenMax.from(".headline", 3, {x:300, opacity:0, scale:0.5});
+
+var tween = TweenMax.to(".headline", 4, {x:0, rotation:360, ease:Linear.easeNone, paused:false});
 
 //scroll reveal 
 
