@@ -51,12 +51,21 @@
           });
 
 // + pages
-//	
+	
 //var Homepage = Barba.BaseView.extend({
 //  namespace: 'homepage',
 //  onEnter: function() {
 //      // The new Container is ready and attached to the DOM.
-//	  $(".carousel-item").animate({opacity: '1'});
+//              var tlHome = new TimelineMax();
+//  
+//  tlHome.staggerFrom("nav .nav-item"), 1, {x: 200, autoAlpha: 0, ease: Power2.easeOut}, 0.1)
+//  tlHome.from(".content-tween-up"), 1, {y: 200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1)
+//  tlHome.from(".content-tween-down"), 1, {y: -200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1)
+//  tlHome.from(".content-stagger-up"), 1, {y: 200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1);
+//
+//
+//  
+//
 //  },
 //  onEnterCompleted: function() {
 //      // The Transition has just finished.
@@ -71,14 +80,20 @@
 //
 //// Don't forget to init the view!
 //Homepage.init();
-// Barba.Pjax.start();
+//Barba.Pjax.start();
+//      
 
-
-//greensock
-
-//TweenMax.from(".headline", 3, {x:300, opacity:0, scale:0.5});
-
-var tween = TweenMax.to(".headline", 4, {x:0, rotation:360, ease:Linear.easeNone, paused:false});
+// Rellax parallax
+     
+  var rellax = new Rellax('.rellax', {
+//    wrapper: '.rellax-wrap',
+    speed: -1,
+    center: true,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+  });
 
 //scroll reveal 
 
@@ -113,7 +128,6 @@ sr.reveal('.enter-top', {
 	distance: '60px',
 	origin: 'top',
 	opacity: 0,
-	scale: 0,
 	reset: true
 });
 sr.reveal('.enter-left', {
@@ -121,7 +135,13 @@ sr.reveal('.enter-left', {
 	distance: '60px',
 	origin: 'left',
 	opacity: 0,
-	scale: 0,
+	reset: true
+});
+sr.reveal('.enter-right', {
+	duration: 2000,
+	distance: '60px',
+	origin: 'right',
+	opacity: 0,
 	reset: true
 });
 sr.reveal('.enter-left-slow', {
@@ -138,7 +158,7 @@ sr.reveal('.enter-bottom', {
 	distance: '60px',
 	origin: 'bottom',
 	opacity: 0,
-	scale: 0,
+    easing: 'cubic-bezier(0.5, 0, 0, 1)',
 	reset: true
 });
 sr.reveal('.enter-bottom-slow', {
@@ -147,6 +167,13 @@ sr.reveal('.enter-bottom-slow', {
 	distance: '60px',
 	origin: 'bottom',
 	opacity: 0,
-	scale: 0,
+	reset: true
+});
+sr.reveal('.w-left', {
+	duration: 1000,
+	delay: 0,
+	distance: '60px',
+	origin: 'bottom',
+	opacity: 0,
 	reset: true
 });
