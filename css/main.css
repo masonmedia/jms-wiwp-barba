@@ -127,6 +127,9 @@ a > .headline:hover, a > span:hover {
 
 /* height + width utils */
 
+.min-50 {
+	min-height: 50vh;
+}
 .min-100 {
 	min-height: 100vh;
 }
@@ -142,13 +145,20 @@ a > .headline:hover, a > span:hover {
 .headline {
 	color: white;
 	font-size: 14vmin;
-	font-weight: 900;
+	font-weight: 200;
 	opacity: 0.8;
 /*	-webkit-text-stroke: 1px white;*/
 }
 
 .l-h {
 	line-height: 70%;
+}
+
+/*text effects*/
+
+.skew {
+    -webkit-transform: skew(0, -4.7deg);
+	transform: skew(0, -4.7deg);
 }
 
 /* colors */
@@ -271,6 +281,10 @@ img {
 /* media queries -------------*/
 
 @media (max-width: 992px) {
+    .table-lg {
+		display: table;
+	}
+    
 	.o--1 {
 		-webkit-box-ordinal-group: 0;
 		-ms-flex-order: -1;
@@ -294,12 +308,22 @@ img {
 	}
 }
 
-@media (max-width: 870px) {
-	.table-md {
-		display: table;
-	}
+@media (max-width: 768px) {
+/*
+    .min-100 {
+        min-height: 70vh;
+    }
+*/
 }
 
+@media (max-width: 600px) {
+    .headline {
+        font-size: 15vmin;
+    }
+    
+}
+    
+    
 @media (max-width: 500px) {
 	/*	reduce 100% height to min-50vh @ mobile */
 	img {

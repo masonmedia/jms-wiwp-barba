@@ -131,14 +131,14 @@ sr.reveal('.enter-top', {
 });
 sr.reveal('.enter-left', {
 	duration: 2000,
-	distance: '60px',
+	distance: '150px',
 	origin: 'left',
 	opacity: 0,
 	reset: true
 });
 sr.reveal('.enter-right', {
 	duration: 2000,
-	distance: '60px',
+	distance: '150px',
 	origin: 'right',
 	opacity: 0,
 	reset: true
