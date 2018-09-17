@@ -27,28 +27,28 @@
 
 //new
 
-          $('document').ready(function(){
-            var transEffect = Barba.BaseTransition.extend({
-                start: function(){
-                  this.newContainerLoading.then(val => this.fadeInNewcontent($(this.newContainer)));
-                },
-                fadeInNewcontent: function(nc) {
-                  nc.hide();
-                  var _this = this;
-                  $(this.oldContainer).slideUp(1000).promise().done(() => {
-                    nc.css('visibility','visible');
-					$(window).scrollTop(0); //scroll to top on page change
-                    nc.fadeIn(800, function(){
-                      _this.done();
-                    })
-                  });
-                }
-            });
-            Barba.Pjax.getTransition = function() {
-              return transEffect;
-            }
-            Barba.Pjax.start();
-          });
+//          $('document').ready(function(){
+//            var transEffect = Barba.BaseTransition.extend({
+//                start: function(){
+//                  this.newContainerLoading.then(val => this.fadeInNewcontent($(this.newContainer)));
+//                },
+//                fadeInNewcontent: function(nc) {
+//                  nc.hide();
+//                  var _this = this;
+//                  $(this.oldContainer).slideUp(1000).promise().done(() => {
+//                    nc.css('visibility','visible');
+//					$(window).scrollTop(0); //scroll to top on page change
+//                    nc.fadeIn(800, function(){
+//                      _this.done();
+//                    })
+//                  });
+//                }
+//            });
+//            Barba.Pjax.getTransition = function() {
+//              return transEffect;
+//            }
+//            Barba.Pjax.start();
+//          });
 
 // + pages
 	

@@ -140,6 +140,39 @@ a > .headline:hover, a > span:hover {
 	display: table;
 }
 
+/* position */
+
+.absolute {
+    position: absolute;
+}
+.relative {
+    position: relative;
+}
+.right-0 {
+    right: 0;
+}
+.left-0 {
+    left: 0;
+}
+.top-0 {
+    top: 0;
+}
+.bottom-0 {
+    bottom: 0;
+}
+.z--1 {
+    z-index: -1;
+}
+.z-0 {
+    z-index: 0;
+}
+.z-1 {
+    z-index: 1;
+}
+.z-2 {
+    z-index: 2;
+}
+
 /* text */
 
 .headline {
@@ -160,6 +193,24 @@ a > .headline:hover, a > span:hover {
     -webkit-transform: skew(0, -4.7deg);
 	transform: skew(0, -4.7deg);
 }
+.rotate {
+    transform: rotate(-90deg);
+}
+.x-bold {
+    font-weight: 900;
+}
+.word-break {
+    word-break: break-all;
+}
+.op-1 {
+    opacity: 0.1;
+}
+.op-3 {
+    opacity: 0.3;
+}
+.op-5 {
+    opacity: 0.5;
+}
 
 /* colors */
 
@@ -169,6 +220,10 @@ a > .headline:hover, a > span:hover {
 
 /* bg colors */
 
+
+.bg-pink {
+	background: hotpink;
+}
 .bg-caption {
 	background: black;
 	background: rgba(0,0,0,0.3);
@@ -203,6 +258,15 @@ img {
 	100% {opacity: 1;}
 }
 
+/* nav */
+.navbar {
+    padding: 15px 15px;
+}
+media (min-width: 992px)
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: .5rem;
+}
 /* carousel */
 
 .carousel-fade .carousel-item {
@@ -237,6 +301,8 @@ img {
 	background: url(/img/jms-artist-photo-yellow.jpg) center;
 	background: url(https://images.pexels.com/photos/163550/landscape-scenic-going-to-the-sun-road-rocky-mountains-163550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center;
 	background: linear-gradient(to top left, rgba(0,0,0,0.7), rgba(0,0,0,0.2), rgba(0,0,0,0)), url(https://images.pexels.com/photos/753873/pexels-photo-753873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center;
+	background: linear-gradient(to top left, rgba(0,0,0,0.7), rgba(0,0,0,0.2), rgba(0,0,0,0)), url(https://images.unsplash.com/photo-1503515235263-c699356bfb17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c5bc9902c181f76455b3d265f60d292e&auto=format&fit=crop&w=1336&q=80) center;
+/*	background: linear-gradient(to top left, rgba(0,0,0,0.7), rgba(0,0,0,0.2), rgba(0,0,0,0)), url(https://images.unsplash.com/photo-1493160831989-93b036daec5f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=36f52224eeae62dbb60a6da97e88889c&auto=format&fit=crop&w=1789&q=80) center;*/
 	background-size: cover;
 }
 .slide-2 {
@@ -269,6 +335,14 @@ img {
     padding-right: 15px;
 }
 
+/* about page */
+
+.bg-about-banner {
+	background: url(/img/jms-about-banner-Ireland.jpg) center left;
+	background-size: cover;
+    filter: saturate(2);
+}
+
 /* nfld page */
 
 .bg-nfld {
@@ -276,6 +350,26 @@ img {
 	background-size: cover;
 }
 
+/* footer */
+
+.bg-footer {
+	background: url(https://images.pexels.com/photos/163550/landscape-scenic-going-to-the-sun-road-rocky-mountains-163550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center;
+	background: linear-gradient(to top left, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://images.unsplash.com/photo-1503515235263-c699356bfb17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c5bc9902c181f76455b3d265f60d292e&auto=format&fit=crop&w=1336&q=80) center;
+	background-size: cover;
+}
+footer .fa {
+    font-size: 12vmin;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+.bg-ink-stroke {
+    background: url(/img/jms-ink-stroke.jpg) center;
+	background-size: cover;
+}
+.bg-ink-blot {
+    background: url(https://s3.envato.com/files/228849984/preview.jpg) center;
+	background-size: cover;
+}
 
 
 /* media queries -------------*/

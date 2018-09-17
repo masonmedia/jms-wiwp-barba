@@ -11,14 +11,11 @@
         <link rel="short icon" href="jms.ico">
         <!-- Place favicon.ico in the root directory -->
         <!--google fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Raleway:500,700,700i,900" rel="stylesheet">
-		<!--jq-->
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-		<!--barba.js-->
-		<script src="/js/barba.js-master/dist/barba.min.js"></script>
-		<script src="/js/barba.js-master/src/Transition/BaseTransition.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Raleway:200, 500,700,700i,900" rel="stylesheet">
 		<!--animate.css-->
 		<link rel="stylesheet" href="/css/animate.css/animate.min.css">
+        <!--animsition transitions-->
+        <link rel="stylesheet" href="/css/animsition.min.css">
 		<!-- bootstrap -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 		<!--font awesome-->
@@ -32,9 +29,8 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <main role="main" class="body-wrap">
-			<div id="barba-wrapper">
-			  <div class="barba-container">
+        <main role="main" class="body-wrap animated fadeIn">
+			
 				<!--nav-->
 					<nav class="navbar navbar-expand-lg fixed-top">
 					  <a class="navbar-brand" href="index.html">Workshops In Wild Places</a>
@@ -44,7 +40,7 @@
 					  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 						<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 						  <li class="nav-item active">
-							<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+							<a class="nav-link animsition-link" href="index.html" data-animsition-in-class="fade-in-sm" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-right" data-animsition-out-duration="800">Home <span class="sr-only">(current)</span></a>
 						  </li>
 						  <li class="nav-item">
 							<a class="nav-link" href="about.html">About</a>
@@ -64,17 +60,19 @@
 						</ul>
 					  </div>
 					</nav><!--end nav-->
-
+					
 					<!--banner-->
-				
-					<div role="banner" class="container-fluid p-0 bg-jms">
+					
+					<div role="banner" class="container-fluid p-0 bg-about-banner">
 					  <div class="row d-flex">
 						 <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left min-100 p-5">
-							<h5 class="text-white text-uppercase m-0 animated fadeInDown">Workshops in Wild Places:</h5>
-							<h2 class="headline text-uppercase l-h py-3 m-0 animated fadeInLeft">About</h2>
-							<h5 class="py-4 m-0 text-white border-top border-bottom border-light">Workshops in Wild Places is an international art teaching initiative developed by Canadian artist Janice Mason Steeves. Read more about WIWP below.</h5>
+						     <div class="wrap py-5 mb-5 rellax" data-rellax-speed="3">
+						         <h5 class="text-white text-uppercase pb-2 enter-bottom">Workshops in Wild Places</h5>
+							     <h2 class="headline text-uppercase l-h border-top border-bottom py-4 animated fadeInLeft">About</h2>
+							     <h5 class="pt-2 m-0 text-white enter-left">Workshops in Wild Places is an international art teaching initiative developed by Canadian artist Janice Mason Steeves. Read more about WIWP below.</h5>
+                             </div>
 						 </div>
-						<div class="col-lg-5"></div>
+						<div class="offset-lg-5"></div>
 						</div>
 					</div>
 
@@ -82,83 +80,95 @@
 
 					<div class="container-fluid p-0 bg-white">
 					  <div id="sec-1" class="row d-flex">
-						 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-end text-right min-100 p-5">
-							<h2 class="section-title text-uppercase bg-white border border-bottom-0 p-3 m-0">About WIWP</h2>
-							<p class="p-3 m-0 border">In these unique, innovative workshops, students travel to remote, wild locations throughout the world to connect with the landscape and translate that experience into Abstract Painting. These workshops are for more advanced painters, artists who are past a basic level and wish to have their work connect in a deep way to the land. Most of the workshops will use cold wax and oil, and some will focus on water-media. Each workshop will designate which media will be used.</p>
-						 </div>
-						 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 p-0 m-0 o-1">
-							<img src="https://images.pexels.com/photos/163550/landscape-scenic-going-to-the-sun-road-rocky-mountains-163550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Janice Mason Steeves: Workshops in Wild Places">
-						 </div>
+                          <div class="col-lg-5 d-flex flex-column justify-content-center align-items-end text-right min-100 p-5 rellax" data-rellax-speed="-3">
+                              <h2 class="section-title text-uppercase font-weight-bold bg-white border border-bottom-0 p-4 m-0 enter-left">About WIWP</h2>
+                              <p class="p-3 m-0 border enter-right">In these unique, innovative workshops, students travel to remote locations throughout the world to connect with the beauty, energy and power of the wild landscape and then––through a facilitated contemplative and creative process––translate that response into abstract paintings.</p>
+                         </div>
+                         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 rounded p-0 m-0 o-1 enter-right">
+                            <img class="shadow-lg rounded rellax" data-rellax-speed="1" src="https://images.pexels.com/photos/163550/landscape-scenic-going-to-the-sun-road-rocky-mountains-163550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Janice Mason Steeves: Workshops in Wild Places">
+                         </div>
+                    </div>
 
 						<!-- details-->
 
 						<div id="sec-2" class="row">
-							 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 p-0 m-0">
-								<img src="https://www.uniqhotels.com/media/hotels/ef/1.%20three%20camel%20lodge3_credit%20g.%20gan-ulzii%20%26%20nomadic%20expeditions.jpg" alt="Mason Media's Website Client, Big Horn Sheep">
+							 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 p-0 m-0 o-12 rellax" data-rellax-speed="-2">
+								<img class="shadow-lg rounded" src="https://www.uniqhotels.com/media/hotels/ef/1.%20three%20camel%20lodge3_credit%20g.%20gan-ulzii%20%26%20nomadic%20expeditions.jpg" alt="Workshops in Wild Places">
 							 </div>
-							 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5 o-0">
-								<h2 class="section-title text-uppercase bg-white border border-bottom-0 p-3 m-0">Details</h2>
-								<p class="p-4 m-0 border">Held in small luxury lodges in remote, wild places with easy access to the outdoors, these Abstract Painting Workshops will guide participants to experience and connect with the land in various ways with the intention of translating that connection into abstract paintings. There will be brief daily meditations, quiet time, journalling, sketching, group discussions, and lots of time for painting. The focus is on connecting with the land.</p>
+							 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5 rellax" data-rellax-speed="-3">
+								<h2 class="section-title text-uppercase font-weight-bold bg-white border border-bottom-0 p-4 m-0 enter-right">Details</h2>
+								<p class="p-4 m-0 border enter-left">Held in small luxury lodges in remote, wild places with easy access to the outdoors, these Abstract Painting Workshops will guide participants to experience and connect with the land in various ways with the intention of translating that connection into abstract paintings. There will be brief daily meditations, quiet time, journalling, sketching, group discussions, and lots of time for painting. The focus is on connecting with the land.</p>
 							 </div>
 						 </div>
 
-						 <!-- contact -->
+						 <!-- about jms -->
 
 						<div id="sec-3" class="row">
-							 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-end text-right min-100 p-5">
-								<h2 class="section-title text-uppercase bg-white border border-bottom-0 p-3 m-0">About Janice Mason Steeves</h2>
-								<p class="p-4 m-0 border">Janice brings 35 years of painting experience to her teaching, and a passion to help each student find their own way. Her teaching focuses not only on technique, but on composition, design, color, mindset, and self-expression. She offers a unique method which encourages students to develop their own artistic voices, in addition to a personal way of thinking about art, painting, and life. <span class="table">Find out more at <a class="font-weight-bold" href="http://www.janicemasonsteeves.com">janicemasonsteeves.com</a></span></p>
+							 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-end text-right min-100 p-5 rellax" data-rellax-speed="-3">
+								<h2 class="section-title text-uppercase bg-white border border-bottom-0 p-3 m-0 enter-left">About Janice Mason Steeves</h2>
+								<p class="p-4 m-0 border enter-right">Janice brings 35 years of painting experience to her teaching, and a passion to help each student find their own way. Her teaching focuses not only on technique, but on composition, design, color, mindset, and self-expression. She offers a unique method which encourages students to develop their own artistic voices, in addition to a personal way of thinking about art, painting, and life. <span class="table">Find out more at <a class="font-weight-bold" href="http://www.janicemasonsteeves.com">janicemasonsteeves.com</a></span></p>
+								<!--pagination-->
+                                <nav aria-label="Mason Media Page Navigation">
+                                  <ul class="pagination pagination-lg m-0 pt-3">
+                                    <li class="page-item">
+                                      <a class="page-link" href="/index.html" aria-label="Previous">
+                                        <span aria-hidden="true">Prev</span>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                    </li>
+                                    <li class="page-item">
+                                      <a class="page-link" href="/nfld.html" aria-label="Next">
+                                        <span aria-hidden="true">Next</span>
+                                        <span class="sr-only">Next</span>
+                                      </a>
+                                    </li>
+                                  </ul>
+							</nav>
 							 </div><!--end col-->
-							 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 p-0 m-0 o--1">
-								<img src="/img/jms-teaching-class.jpg" alt="Janice Mason Steeves: Workshops in Wild Places">
+							 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 p-0 m-0 o-12 rellax" data-rellax-speed="1">
+								<img class="shadow-lg" src="/img/jms-teaching-class.jpg" alt="Janice Mason Steeves: Workshops in Wild Places">
 							 </div>
 						 </div>
 
-					  <!--footer pagination col-->
-					  <div class="col-lg-12 d-flex flex-column justify-content-end align-items-end p-5 bg-black">
-						<!--pagination-->
-							<nav aria-label="Mason Media Page Navigation">
-							  <ul class="pagination pagination-lg m-0">
-								<li class="page-item">
-								  <a class="page-link bg-black text-yellow border-yellow" href="about.html" aria-label="Previous">
-									<span aria-hidden="true">&laquo;</span>
-									<span class="sr-only">Previous</span>
-								  </a>
-								</li>
-								<li class="page-item">
-								  <a class="page-link bg-black text-yellow border-yellow" href="#djm" aria-label="Next">
-									<span aria-hidden="true">&raquo;</span>
-									<span class="sr-only">Next</span>
-								  </a>
-								</li>
-								<li class="page-item">
-								  <a class="page-link bg-black text-yellow border-yellow" href="index.html" aria-label="Next">
-									<span aria-hidden="true">Home</span>
-									<span class="sr-only">Home</span>
-								  </a>
-								</li>
-							  </ul>
-							</nav>
-					  </div>
-					  </div><!--end row-->
+					  <!--footer pagination row-->
+					  <footer>
+                          <div id="sec-4" class="row text-white min-50 bg-footer">
+                          <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-end align-items-start p-5">
+                          <div class="headline x-bold word-break absolute z-0 l-h op-1">facebook</div>
+                                  <i class="fa fa-facebook display-2"></i>
+                                  <h2 class="font-weight-light">facebook</h2>
+                          </div>
+                            <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-end align-items-start p-5">
+                            <div class="headline x-bold word-break absolute z-0 l-h op-1">instagram</div>
+                                  <i class="fa fa-instagram display-2"></i>
+                                  <h2 class="font-weight-light">instagram</h2>
+                          </div>
+                          <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-end align-items-start p-5">
+                          <div class="headline x-bold word-break absolute z-0 l-h op-1">jms blog</div>
+                                  <i class="fa fa-pencil-square-o display-2"></i>
+                                  <h2 class="font-weight-light">blog</h2>
+                          </div>
+                          <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-end align-items-start p-5">
+                          <div class="headline x-bold word-break absolute z-0 l-h op-1">contact</div>
+                                  <i class="fa fa-envelope-o display-2"></i>
+                                  <h2 class="font-weight-light">contact</h2>
+                          </div>
+                          </div><!--end row-->
+                    </footer>
 				</div><!-- end container -->
-
-
-			  </div><!--end barba container-->
-			</div><!--end barba wrapper-->
 		</main>
         
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-<!--        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>-->
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <!--  popper-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<!--typed.js-->
-		<script src="/js/typed.js/lib/typed.min.js"></script>
+        <!--<script src="/js/typed.js/lib/typed.min.js"></script>-->
 		<!--scroll reveal-->
 		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-		<!--flip.js-->
-		<script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+<!--        rellax js-->
+        <script src="/js/rellax/rellax.min.js"></script>
 		<!--bootstrap js-->
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 		<!--main.js-->
