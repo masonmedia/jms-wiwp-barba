@@ -345,9 +345,17 @@ media (min-width: 992px)
 
 /* nfld page */
 
-.bg-nfld {
+.bg-nfld-banner {
 	background: url(/img/jms-the-drs-house-1.jpg) center;
 	background-size: cover;
+}
+
+/* scotland page */
+
+.bg-scotland-banner {
+    background: url(/img/jms-dunskey-aerial.jpg) center;
+	background-size: cover;
+    filter: contrast(160%);
 }
 
 /* footer */
