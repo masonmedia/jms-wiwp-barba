@@ -182,6 +182,18 @@ a > .headline:hover, a > span:hover {
 	opacity: 0.8;
 /*	-webkit-text-stroke: 1px white;*/
 }
+.big {
+    background: #000;
+    background: rgba(0,0,0,0.9);
+    color: transparent;
+    font-size: 12vw;
+    opacity: 0.8;
+    padding: 10px 20px;
+    position: absolute;
+    -webkit-text-stroke: 1px rgba(255,255,255,0.8);
+    text-align: center;
+    z-index: 1;
+}
 
 .l-h {
 	line-height: 70%;
@@ -338,7 +350,7 @@ media (min-width: 992px)
 /* about page */
 
 .bg-about-banner {
-	background: url(/img/jms-about-banner-Ireland.jpg) center left;
+	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jms-about-banner-Ireland.jpg) center left;
 	background-size: cover;
     filter: saturate(2);
 }
