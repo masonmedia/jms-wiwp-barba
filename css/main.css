@@ -404,7 +404,7 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
 /* bc page */
 
 .bg-bc-banner {
-	background: url(/img/jms-tofino-aerial.jpg) center;
+	background: url(/img/jms-tofino-aerial.jpg) center left;
 	background-size: cover;
 }
 
@@ -493,6 +493,12 @@ footer .fa {
 	img {
 	    height: auto;
 	}
+    .fs {
+        min-height: 100vh;
+    }
+    .min-100 {
+        min-height: 100%;
+    }
 }
 
 
