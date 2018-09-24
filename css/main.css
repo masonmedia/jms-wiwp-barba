@@ -232,6 +232,16 @@ a > .headline:hover, a > span:hover {
 
 /* bg colors */
 
+.cl-brown {background-color: rgba(126, 101, 81, 1);}
+.cl-lightbrown {background-color: rgba(147, 133, 129, 1);}
+.cl-lightgrey {background-color: rgba(205, 202, 204, 1);}
+.cl-seagreen {background-color: rgba(70, 99, 98, 1);}
+.cl-slate {background-color: rgba(136, 150, 171, 1);}
+.cl-sienna {background-color: rgba(114, 17, 33, 1);}
+.cl-moss {background-color: rgba(187, 190, 100, 1);}
+.cl-lichen {background-color: rgba(234, 240, 206, 1);}
+.cl-grey {background-color: rgba(192, 197, 193, 1);}
+.cl-bluegrey {background-color: rgba(125, 132, 145, 1);}
 
 .bg-pink {
 	background: hotpink;
@@ -242,6 +252,12 @@ a > .headline:hover, a > span:hover {
 }
 .bg-angle {
   background: linear-gradient(70deg, grey 40%, transparent 40%);
+}
+
+/* shapes */
+.circle {
+    -webkit-clip-path: circle(50% at 50% 50%);
+clip-path: circle(50% at 50% 50%);
 }
 	
 /* imgs */
@@ -272,6 +288,7 @@ img {
 
 /* nav */
 .navbar {
+    background: rgba(0,0,0,0.4);
     padding: 15px 15px;
 }
 media (min-width: 992px)
@@ -322,7 +339,7 @@ media (min-width: 992px)
 	background-size: cover;
 }
 .slide-3 {
-	background: url(http://images.dailyhive.com/20180504154122/Long-Beach-Lodge-Resort.jpg) center;
+	background: url(/img/jms-tofino-aerial.jpg) center;
 	background-size: cover;
 }
 .slide-4 {
@@ -330,10 +347,32 @@ media (min-width: 992px)
 	background-size: cover;
 }
 .bg-jms {
-	background: url(/img/jms-artist-photo-yellow.jpg) center;
+	background: url(/img/jms-artist-photo-yellow.jpg) center 40%;
 	background-size: cover;
 }
 
+/* bg textures */
+
+.bg-cubes {
+    background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.bg-angles {
+    background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.bg-marble {
+    background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.bg-squares {
+    background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/transparent-square-tiles.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
 /* nav */
 
 .navbar-brand, 
@@ -359,6 +398,13 @@ media (min-width: 992px)
 
 .bg-nfld-banner {
 	background: url(/img/jms-the-drs-house-1.jpg) center;
+	background-size: cover;
+}
+
+/* bc page */
+
+.bg-bc-banner {
+	background: url(/img/jms-tofino-aerial.jpg) center;
 	background-size: cover;
 }
 
@@ -428,6 +474,10 @@ footer .fa {
         min-height: 70vh;
     }
 */
+    .nav-link {
+        border-top: 1px solid lightgrey;
+        padding: 15px 0;
+    }
 }
 
 @media (max-width: 600px) {
