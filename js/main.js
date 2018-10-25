@@ -2,11 +2,11 @@ $(document).ready(function() {
   $(".animsition").animsition({
 //    inClass: 'fade-in',
 //    outClass: 'fade-out',
-    inDuration: 1500,
-    outDuration: 800,
+//    inDuration: 1500,
+//    outDuration: 800,
     linkElement: '.animsition-link',
     // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-    loading: true,
+    loading: false,
     loadingParentElement: 'body', //animsition wrapper element
     loadingClass: 'animsition-loading',
     loadingInner: '', // e.g '<img src="loading.svg" />'
@@ -117,88 +117,69 @@ sr.reveal('.w-left', {
 	reset: true
 });
 
+//back button functionality:  https://jqmtricks.wordpress.com/2014/12/01/detect-back-navigation/
+//http://pracheek.blogspot.com/2013/08/hyperlinks-not-working-with-jquery.html
 
-// Please note, the DOM should be ready
-//https://github.com/luruke/barba.js/issues/158: help with scroll to top after route/page change
+//$(document).ready(function(){
+//    $("a").each(function(){
+//          $(this).attr("rel","external");
+//    });
+//}); 
 
-//          $('document').ready(function(){
-//            var transEffect = Barba.BaseTransition.extend({
-//                start: function(){
-//                  this.newContainerLoading.then(val => this.fadeInNewcontent($(this.newContainer)));
-//                },
-//                fadeInNewcontent: function(nc) {
-//                  nc.hide();
-//                  var _this = this;
-//                  $(this.oldContainer).fadeOut(500).promise().done(() => {
-//                    nc.css('visibility','visible');
-//					$(window).scrollTop(0); //scroll to top on page change
-//                    nc.fadeIn(500, function(){
-//                      _this.done();
-//                    })
-//                  });
-//                }
-//            });
-//            Barba.Pjax.getTransition = function() {
-//              return transEffect;
-//            }
-//            Barba.Pjax.start();
-//          });
-//
+$(document).ready(function() {
+    
+var controller = new ScrollMagic.Controller();
 
-//new
+(".content-tween").each(function() {
+  
+  var contentTweenTL = new TimelineMax({
+    repeat:0,
+  });
+  
+  var contentTween = contentTweenTL.from($(this).find(".content-tween-left"), 0.5, {x: -200, autoAlpha: 0, delay: 0, ease: Power4.easeInOut}, .1)
+  .from($(this).find(".content-tween-right"), 0.5, {x: 200, autoAlpha: 0, delay: 0, ease: Power4.easeInOut}, .1)
+  .from($(this).find(".content-tween-up"), 0.5, {y: 200, autoAlpha: 0, delay: 0, ease: Power4.easeInOut}, .1)
+  .from($(this).find(".content-tween-down"), 0.5, {y: -200, autoAlpha: 0, delay: 0, ease: Power4.easeInOut}, .1)
+  .staggerFrom($(this).find(".content-stagger-up"), 0.8, {y: 200, autoAlpha: 0, delay: 0, ease: Back.easeInOut.config(1.7)}, .1);
 
-//          $('document').ready(function(){
-//            var transEffect = Barba.BaseTransition.extend({
-//                start: function(){
-//                  this.newContainerLoading.then(val => this.fadeInNewcontent($(this.newContainer)));
-//                },
-//                fadeInNewcontent: function(nc) {
-//                  nc.hide();
-//                  var _this = this;
-//                  $(this.oldContainer).slideUp(1000).promise().done(() => {
-//                    nc.css('visibility','visible');
-//					$(window).scrollTop(0); //scroll to top on page change
-//                    nc.fadeIn(800, function(){
-//                      _this.done();
-//                    })
-//                  });
-//                }
-//            });
-//            Barba.Pjax.getTransition = function() {
-//              return transEffect;
-//            }
-//            Barba.Pjax.start();
-//          });
+	var scene4 = new ScrollMagic.Scene({
+	        triggerElement: this,
+//            triggerHook: '0.7',
+            triggerHook: 'onEnter',
+	        offset: -100,
+			reverse:true
+	    })
+		.setTween(contentTween)
+		.addTo(controller);
+    }); 
+});
 
-// + pages
-	
-//var Homepage = Barba.BaseView.extend({
-//  namespace: 'homepage',
-//  onEnter: function() {
-//      // The new Container is ready and attached to the DOM.
-//              var tlHome = new TimelineMax();
-//  
-//  tlHome.staggerFrom("nav .nav-item"), 1, {x: 200, autoAlpha: 0, ease: Power2.easeOut}, 0.1)
-//  tlHome.from(".content-tween-up"), 1, {y: 200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1)
-//  tlHome.from(".content-tween-down"), 1, {y: -200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1)
-//  tlHome.from(".content-stagger-up"), 1, {y: 200, autoAlpha: 0, delay: 0,ease: Power2.easeOut}, .1);
-//
-//
-//  
-//
-//  },
-//  onEnterCompleted: function() {
-//      // The Transition has just finished.
-//  },
-//  onLeave: function() {
-//      // A new Transition toward a new page has just started.
-//  },
-//  onLeaveCompleted: function() {
-//      // The Container has just been removed from the DOM.
-//  }
-//});
-//
-//// Don't forget to init the view!
-//Homepage.init();
-//Barba.Pjax.start();
-//    
+
+//smooth scroll --> https://css-tricks.com/snippets/jquery/smooth-scrolling/
+
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("#banner a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+//        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+
+
