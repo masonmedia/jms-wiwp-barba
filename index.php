@@ -10,7 +10,7 @@ include 'includes/header.php';
 
 ?>
   
-<main role="main">  
+<main role="main" class="body-wrap">  
 
   <!--banner-->
 
@@ -32,11 +32,11 @@ include 'includes/header.php';
         
     <div class="container-fluid p-0">
       
-      <div id="sec-1" class="row d-flex text-secondary min-70 m-4 shadow-lg rellax" data-rellax-speed="1">
+        <div id="sec-1" class="row d-flex text-secondary min-70 m-4 shadow-lg rellax" data-rellax-speed="1">
             <div class="col-lg-6 slide-about min-50"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center bg-light min-50 p-5">
               <h2 class="headline text-secondary pb-2 l-h enter-left">About</h2>
-              <p class="pt-2 enter-top">Workshops in Wild Places is an international art teaching initiative developed by Canadian artist and educator Janice Mason Steeves. Travel to remote locations throughout the world to connect with the beauty and power of the wild landscape.</p>
+                <p class="pt-2 enter-top">Workshops in <span class="pink">Wild</span> Places is an international art teaching initiative developed by Canadian artist and educator Janice Mason Steeves. Travel to remote locations throughout the world to connect with the beauty and power of the wild landscape.</p>
               <a href="/about.php" class="btn btn-outline-secondary mt-2 animsition-link enter-bottom">Learn More</a>
               <a href="#sec-2">
                 <i class="fa fa-long-arrow-down pt-3 enter-bottom"></i>
@@ -67,6 +67,8 @@ include 'includes/header.php';
                 <a href="/nfld.php" class="btn btn-outline-light animsition-link enter-bottom">Learn More</a>
             </div>
         </div><!--end row-->
+          
+        <!--scotland-->
            
         <div id="sec-3" class="row d-flex min-70 text-light m-4 shadow-lg rellax" data-rellax-speed="1">
             <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center bg-scotland-banner min-50 p-5">
@@ -84,7 +86,7 @@ include 'includes/header.php';
                 <h2 class="headline pb-2 l-h enter-top">British Columbia</h2>
                 <p class="h4 pt-2 enter-left">Long Beach Lodge</p>
                 <p class="py-2 enter-top">November 10-17, 2019</p>
-                <a href="/bc.php" class="btn btn-outline-light animsition-link">Read More</a>
+                <a href="/bc.php" class="btn btn-outline-light animsition-link enter-bottom">Read More</a>
             </div>
         </div><!--end row-->
         
@@ -155,7 +157,7 @@ include 'includes/header.php';
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5">
                 <h2 class="headline text-secondary pb-2 l-h enter-top">Mongolia</h2>
                 <p class="h4 pt-2 enter-left">Art Retreat in the Gobi</p>
-                <p class="py-2 enter-right">August, 2020</p>
+                <p class="py-2 fade-in">August, 2020</p>
                 <a href="/mongolia.php" class="btn btn-outline-secondary animsition-link enter-bottom">Read More</a>
             </div>
             <div class="col-lg-6 min-50 bg-mongolia"></div>
@@ -168,7 +170,7 @@ include 'includes/header.php';
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5">
                 <h2 class="headline text-secondary pb-2 l-h enter-top">Chile</h2>
                 <p class="h4 pt-2 enter-left">Painting in the Atacama</p>
-                <p class="py-2 enter-right">September 2020</p>
+                <p class="py-2 fade-in">September 2020</p>
                 <a href="/chile.php" class="btn btn-outline-secondary animsition-link enter-bottom">Read More</a>
             </div>
         </div><!--end row-->  
@@ -179,7 +181,7 @@ include 'includes/header.php';
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5">
                 <h2 class="headline text-secondary pb-2 l-h enter-top">Nova Scotia</h2>
                 <p class="h4 pt-2 enter-left">Art Retreat in old growth forest</p>
-                <p class="py-2 enter-right">September 2020</p>
+                <p class="py-2 fade-in">September 2020</p>
                 <a href="/chile.php" class="btn btn-outline-secondary animsition-link enter-bottom">Read More</a>
             </div>
             <div class="col-lg-6 min-50 bg-ns-home"></div>

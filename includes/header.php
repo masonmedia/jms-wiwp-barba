@@ -29,7 +29,7 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
     <!--nav-->
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-xl fixed-top">
           <a class="navbar-brand animsition-link" href="/index.php" data-animsition-in-class="fade-in-left" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-right" data-animsition-out-duration="1000">Workshops In Wild Places</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <img src="/img/jms-mobile-menu-round.png" alt="Workshops in Wild Places">

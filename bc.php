@@ -1,69 +1,14 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>WIWP | Tofino</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" href="jms-touch-icon-1.png">
-        <link rel="short icon" href="jms.ico">
-        <!-- Place favicon.ico in the root directory -->
-        <!--google fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Raleway:200,500,700,700i,900" rel="stylesheet">
-		<!--barba.js-->
-		<script src="/js/barba.js-master/dist/barba.min.js"></script>
-		<script src="/js/barba.js-master/src/Transition/BaseTransition.js"></script>
-		<!--animate.css-->
-		<link rel="stylesheet" href="/css/animate.css/animate.min.css">
-        <!--animsition-->
-        <link rel="stylesheet" href="/css/animsition.min.css">
-		<!-- bootstrap -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-		<!--font awesome-->
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<?php
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body class="bg-marble animsition" data-animsition-in-class="fade-in-up-sm" data-animsition-in-duration="1000">
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+$page = "BC";
 
-        <main role="main" class="body-wrap">
-		
-				<!--nav-->
-					<nav class="navbar navbar-expand-lg fixed-top">
-					  <a class="navbar-brand animsition-link" data-animsition-out-class="fade-out" data-animsition-out-duration="1000" href="index.html">Workshops In Wild Places</a>
-					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-					      <img src="/img/jms-mobile-menu-round.png" alt="Workshops in Wild Places">
-<!--						<span class="navbar-toggler-icon"></span>-->
-					  </button>
-					  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-						<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-						  <li class="nav-item active">
-							<a class="nav-link animsition-link" href="index.html" data-animsition-out-class="fade-out-left-sm" data-animsition-out-duration="1000">Home <span class="sr-only">(current)</span></a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link animsition-link" data-animsition-out-class="fade-out-down-sm" data-animsition-out-duration="1000" href="about.html">About</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link animsition-link" data-animsition-out-class="fade-out-left" data-animsition-out-duration="1000" href="nfld.html">Newfoundland</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link animsition-link" data-animsition-out-class="fade-out-up-sm" data-animsition-out-duration="1000" href="bc.html">British Columbia</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="1000" href="scotland.html">Scotland</a>
-						  </li>
-						  <li class="nav-item">
-							<a class="nav-link animsition-link" data-animsition-out-class="rotate-out-sm" data-animsition-out-duration="1000" href="scotland.html">Contact</a>
-						  </li>
-						</ul>
-					  </div>
-					</nav><!--end nav-->
+$title = "BC";
+
+$metaD = "Welcome to Workshops in Wild Places";
+
+include 'includes/header.php';
+
+?>
 
 					<!--banner-->					
 					
@@ -71,7 +16,7 @@
 					  <div class="row d-flex min-100">
 						 <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left fs p-5">
 						     <div class="wrap py-5 mb-5 rellax" data-rellax-speed="3">
-						         <h5 class="text-white text-uppercase pb-2 enter-bottom">November 10-16, 2019 · Long Beach Lodge · Tofino, British Columbia</h5>
+						         <h5 class="text-white text-uppercase pb-2 enter-bottom">November 10-17, 2019 · Long Beach Lodge · Tofino, British Columbia</h5>
 							     <h2 class="headline text-uppercase l-h border-top border-bottom py-4 animated zoomIn">British <span class="table-lg">Columbia</span></h2>
                                 <h5 class="pt-2 m-0 text-white enter-left">Storm Watching</h5>
                              </div>
@@ -85,7 +30,7 @@
 					<div class="container-fluid p-0">
 					  <div id="sec-1" class="row d-flex">
                           <div class="col-lg-5 d-flex flex-column justify-content-center align-items-end text-right min-100 p-5 rellax" data-rellax-speed="-3">
-                          <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-bottom">Location</h2>
+                          <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Location</h2>
                           <p class="p-4 m-0 border enter-left">We'll be staying right on the ocean at <a class="font-weight-bold pink"  href="https://www.longbeachlodgeresort.com/" target="_blank">Long Beach Lodge</a>, in storm-watching season. Bring your raincoat and boots to experience the exhilaration of wind and storms that blow right across the Pacific as you walk the wide expanse of Cox Bay. Inside we'll aim to translate that experience into abstract paintings using cold wax and oils.</p>
                      </div>
                      <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 rounded p-0 m-0 o-1 fade-in rellax" data-rellax-speed="1">
@@ -100,8 +45,8 @@
 								<img class="shadow-lg" src="/img/jms-tofino-forest.jpg" alt="Workshops in Wild Places: The Doctor's House">
 							 </div>
 							 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5 rellax" data-rellax-speed="-3">
-								<h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-bottom">Details</h2>
-								<p class="p-4 m-0 border enter-right">Experience the natural beauty, exceptional amenities and handcrafted cuisine at Long Beach Lodge Resort. Set amongst the native coastal vegetation, Long Beach Lodge takes full advantage of the expansive sandy beach, the open ocean, and the wild west coast surf. View Tofino's biggest waves and partake in their award-winning cuisine.</p>
+								<h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Details</h2>
+								<p class="p-4 m-0 border enter-bottom">Join me at Cox Bay on the west coast of Canada for a one-week painting workshop during storm-watching season. Long Beach Lodge is a luxury resort right on the bay with panoramic views of the ocean. We'll hope for storms! In our small group of 8, we'll focus on various ways to experience this landscape/oceanscape, including meditative walking, writing, sketching and breathing in the salt air. We'll come into the studio to create abstract responses to the land using cold wax medium and oil, working in small formats quickly and intuitively and developing larger paintings as well. There will be group discussion time at the end of each day where you'll share your daily work, thoughts and writings. At the end of the week, we'll have a group/critique discussion session where we'll focus on our work for the week and how to carry the work forward once we leave.   </p>
 							 </div>
 						 </div>
 
@@ -110,7 +55,7 @@
 						<div id="sec-3" class="row">
 							 <div class="col-lg-5 d-flex flex-column justify-content-center align-items-end text-right min-100 p-5 rellax">
 								<h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-right">Schedule + Accomodation</h2>
-								<p class="p-4 m-0 border enter-left">Long Beach Lodge offers 41 rooms in a variety of styles, each offering views of the surf or trees. The warm and welcoming interiors utilize natural colours, fabrics and textures. Each of the guest rooms include luxurious bathroom amenities, bathrobes, cozy duvets and waterproof rain jackets.</p>
+								<p class="p-4 m-0 border enter-left">7 nights accommodation in 2-bedroom rainforest cottages. We will have 4 rainforest cottages for our group. Each bedroom in each cottage has an ensuite bath: one bedroom is upstairs and one on the main level. There is a shared living room with gas fireplace in each cottage, and a dining area and kitchen.  Semi-private hot tub on the patio of each cottage. Each cottage, of approximately 1000 sq.ft., offers a ground-floor master bedroom and bathroom with soaker tub and separate shower. The main living area features a sitting area with gas fireplace, dining area and fully equipped kitchen. Upstairs, there is a second bedroom with a choice of one king or two double beds and a bathroom. There is also a semi-private hot tub, located on a patio off the master suite.</p>
 							 </div><!--end col-->
 							 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 p-0 m-0 o-12 rellax" data-rellax-speed="1">
 								<img class="shadow-lg" src="/img/jms-tofino-aerial-2.jpg" alt="Workshops in Wild Places: Newfoundland">

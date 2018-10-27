@@ -28,6 +28,67 @@ include 'includes/header.php';
     </div>
 
     <!--intro-->
+    
+    <div role="banner" class="container-fluid p-0">
+    <div id="sec-1" class="row d-flex text-secondary min-70 m-4 shadow-lg">
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5">
+            <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-bottom">Location</h2>
+            <p class="p-4 m-0 border enter-left">Dunskey is a historically listed Edwardian private home built in 1900 on 2000 acres of ocean-front land. The Castle is superbly maintained and retains all of its original features including the majority of furniture and soft furnishings. There are miles of walking trails on this property, as well as a maze and two lakes.</p>
+              <a href="#sec-2">
+                <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
+              </a>
+        </div>
+        <div class="col-lg-6 min-50 p-0">
+           <img class="enter-bottom" src="/img/jms-dunskey-castle.jpg" alt="Workshops in Wild Places: Dunskey Castle">
+        </div>
+    </div><!--end row-->
+     
+     <!-- details-->
+     
+     <div id="sec-2" class="row d-flex text-secondary min-70 m-4 shadow-lg">
+        <div class="col-lg-6 min-50 p-0">
+           <img class="shadow-lg enter-left" src="/img/jms-dunskey-interior.jpg" alt="Workshops in Wild Places: Dunskey Castle">
+        </div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-light min-50 p-5">
+           <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Details</h2>
+            <p class="p-4 m-0 border enter-left">The workshop focus will be on experiencing various ways of connecting to this unique landscape. Some of these include contemplative walking, observing, sketching, journaling, writing exercises and daily meditation sessions. We'll aim to create abstract responses to the land using water-based media. Added to the itinary will be a talk by the castle owner on the history of the property, a tour by the head gardener, and a foraging expedition led by the head chef accompanied by a hot picnic lunch.</p>
+              <a href="#sec-3">
+                <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
+              </a>
+        </div>
+    </div><!--end row-->
+     
+     <!-- schedule-->
+     
+     <div id="sec-3" class="row d-flex text-secondary min-70 m-4 shadow-lg">
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5">
+           <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Schedule + Accomodation</h2>
+            <p class="p-4 m-0 border enter-left">Accommodation is in separate bedrooms in the East Wing of the castle and you'll enjoy fabulous meals prepared by a Michelin-star executive chef in our private dining room.</p>
+              <a href="#sec-4">
+                <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
+              </a>
+        </div>
+        <div class="col-lg-6 min-50 p-0">
+           <img class="shadow-lg enter-bottom" src="/img/jms-dunskey-interior-2.jpg" alt="Workshops in Wild Places: Dunskey Castle">
+        </div>
+    </div><!--end row-->
+     
+     <!-- booking-->
+     
+     <div id="sec-4" class="row d-flex text-secondary min-70 m-4 shadow-lg">
+        <div class="col-lg-6 min-50 p-0">
+           <img class="shadow-lg enter-left" src="/img/jms-dunskey-river-aerial.jpg" alt="Workshops in Wild Places: Dunskey Castle">
+        </div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5">
+           <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Booking + Info</h2>
+            <div class="wrap p-4 m-0 border enter-left">
+                <p class="">This workshop has a long list of people interested, however to add your name to the list, please contact Janice Mason Steeves at: <a class="font-weight-bold pink" href="mailto:janicemasonsteeves@gmail.com">janicemasonsteeves@gmail.com</a>.</p>
+             </div><!--end wrap-->
+        </div>
+    </div><!--end row-->
+      
+          
+<!--
 
     <div class="container-fluid p-0 bg-white">
       <div id="sec-1" class="row d-flex rellax" data-rellax-speed="0">
@@ -39,8 +100,10 @@ include 'includes/header.php';
         <img class="shadow-lg rounded enter-right" src="/img/jms-dunskey-castle.jpg" alt="Workshops in Wild Places: Dunskey Castle">
      </div>
         </div>
-
+-->
+        
         <!-- details-->
+<!--
 
         <div id="sec-2" class="row rellax" data-rellax-speed="-1">
              <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 p-0 m-0 o-12 enter-left">
@@ -51,21 +114,25 @@ include 'includes/header.php';
                 <p class="p-4 m-0 border enter-right">Dunskey is a historically listed Edwardian private home built in 1900 on 2000 acres of ocean-front land. The Castle is superbly maintained and retains all of its original features including the majority of furniture and soft furnishings. There are miles of walking trails on this property, as well as a maze and two lakes.</p>
              </div>
          </div>
+-->
 
          <!-- schedule -->
 
+<!--
         <div id="sec-3" class="row rellax" data-rellax-speed="0">
              <div class="col-lg-5 d-flex flex-column justify-content-center align-items-end text-right min-100 p-5">
                 <h2 class="section-title text-uppercase font-weight-bold bg-white border border-bottom-0 p-4 m-0 enter-right">Schedule + Accomodation</h2>
                 <p class="p-4 m-0 border enter-left">The interior features Doric columns in the elegant drawing room, Baronnial stone fireplace in the hushed and grand hall, and lovely small details such as original Delft blue tiles in the Dutch kitchen. The Castle sleeps up to thirty six guests and comes with four grand reception rooms, two kitchens and four other smaller sitting and activity rooms. </p>
-             </div><!--end col-->
+             </div>end col
              <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 p-0 m-0 o-12 enter-right">
                 <img class="shadow-lg rounded enter-right" src="/img/jms-dunskey-interior-2.jpg" alt="Workshops in Wild Places: Dunskey Castle">
              </div>
          </div>
+-->
 
          <!-- booking + info-->
 
+<!--
         <div id="sec-4" class="row">
              <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 p-0 m-0 o-12 enter-left">
                 <img class="shadow-lg rounded enter-left" src="/img/jms-dunskey-river-aerial.jpg" alt="Workshops in Wild Places: Dunskey Castle">
@@ -74,9 +141,10 @@ include 'includes/header.php';
                 <h2 class="section-title text-uppercase font-weight-bold bg-white border border-bottom-0 p-4 m-0 enter-right">Booking + Info</h2>
                 <div class="wrap p-4 m-0 border enter-left">
                     <p class="">This workshop has a long list of people interested, however to add your name to the list, please contact Janice Mason Steeves at: <a class="font-weight-bold pink" href="mailto:janicemasonsteeves@gmail.com">janicemasonsteeves@gmail.com</a>.</p>
-                 </div><!--end wrap-->
-             </div><!--end col-->
-         </div><!--end row-->
+                 </div>end wrap
+             </div>end col
+         </div>end row
+-->
     </div><!--end container-->
 </main>
 

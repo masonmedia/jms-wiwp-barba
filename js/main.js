@@ -131,7 +131,7 @@ sr.reveal('.w-left', {
 
 $(document).ready(function(){
   // Add smooth scrolling to all links
-  $("#banner a").on('click', function(event) {
+  $("#banner a, #about a").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {

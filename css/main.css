@@ -123,6 +123,13 @@ a > .headline:hover, a > span:hover {
 	text-decoration: none;
 }
 
+/*buttons */
+
+.btn,
+.btn-lg {
+    border-radius: 21px;
+}
+
 /*jquery ui style disable*/
 
 .ui-page-theme-a a, .ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
@@ -617,9 +624,11 @@ footer .fa {
     
 @media (max-width: 500px) {
 	/*	reduce 100% height to min-50vh @ mobile */
+/*
 	img {
 	    height: auto;
 	}
+*/
     .fs {
         min-height: 100vh;
     }

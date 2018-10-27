@@ -14,63 +14,71 @@ include 'includes/header.php';
 
 <!--banner-->
 
-<div role="banner" class="container-fluid p-0 bg-nfld-banner">
-  <div class="row d-flex min-100">
-     <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left fs p-5">
-         <div class="wrap py-5 mb-5 rellax" data-rellax-speed="3">
-             <h5 class="text-white text-uppercase pb-2 enter-bottom">June 1-8, 2019 · The Doctor’s House · Green’s Harbour</h5>
-             <h2 class="headline text-uppercase l-h border-top border-bottom py-4 animated lightSpeedIn">New<span class="table-lg">found</span><span class="table-lg">land</span></h2>
-             <h5 class="pt-2 m-0 text-white enter-left">*Wait List only. If you’d like to be on the wait list for this workshop, please email <a class="font-weight-bold pink" href="mailto:janicemasonsteeves@gmail.com">here.</a></h5>
-         </div>
-     </div>
-    <div class="offset-lg-5"></div>
-    </div>
-</div>
-
-<!--intro-->
-
-<div class="container-fluid p-0">
-  <div id="sec-1" class="row d-flex rellax" data-rellax-speed="0">
-    <div class="col-lg-5 d-flex flex-column justify-content-center align-items-end text-right min-100 p-5">
-      <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-right">Location</h2>
-      <p class="p-4 m-0 border enter-left">Join me for a week-long immersion into the landscape of Newfoundland at <a class="font-weight-bold pink" href="http://www.doctorshousenewfoundland.com" target="_blank">The Doctor's House.</a> This small luxury inn with a spa is nestled in 100 forested acres on the shores of Trinity Bay. Our focus will be on experiencing various ways of connecting to this unique landscape, including meditative walking, observing, contemplating, sketching and journaling. We'll aim to create abstract responses to the land using cold wax medium and oil. As well as plenty of studio time, there will be opportunities to spend time outdoors and a boat tour on our day off where we hope to see icebergs and whales.</p>
-     </div>
-     <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 rounded p-0 m-0 o-1 enter-right">
-        <img class="shadow-lg" src="/img/jms-the-drs-house-3.jpg" alt="Workshops in Wild Places: Newfoundland">
-     </div>
-</div>
-
-    <!-- details-->
-
-    <div id="sec-2" class="row rellax" data-rellax-speed="-1">
-         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 p-0 m-0 o-12 enter-left">
-            <img class="shadow-lg" src="/img/jms-the-drs-house-2.jpg" alt="Workshops in Wild Places: The Doctor's House">
-         </div>
-         <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
-            <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-left">Details</h2>
-            <p class="p-4 m-0 border enter-right">In the studio, the focus will be on creating an abstract interpretation of your response to the land, working in small formats quickly and intuitively and developing larger paintings as well. At the end of each day, there will be time to share your daily work, thoughts and writings. At the end of the week there will be a group critique/sharing with discussion and suggestions about how to carry your work forward once you return home.</p>
+        <div role="banner" class="container-fluid p-0 bg-nfld-banner">
+          <div class="row d-flex min-100">
+             <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left fs p-5">
+                 <div class="wrap py-5 mb-5 rellax" data-rellax-speed="3">
+                     <h5 class="text-white text-uppercase pb-2 enter-bottom">June 1-8, 2019 · The Doctor’s House · Green’s Harbour</h5>
+                     <h2 class="headline text-uppercase l-h border-top border-bottom py-4 animated lightSpeedIn">New<span class="table-lg">found</span><span class="table-lg">land</span></h2>
+                     <h5 class="pt-2 m-0 text-white enter-left">*Wait List only. If you’d like to be on the wait list for this workshop, please email <a class="font-weight-bold pink" href="mailto:janicemasonsteeves@gmail.com">here.</a></h5>
+                 </div>
+             </div>
+            <div class="offset-lg-5"></div>
+            </div>
         </div>
-     </div>
 
-     <!-- schedule -->
+        <!-- intro-->
+    
+        <div id="sec-1" class="row d-flex text-secondary min-70 m-4 shadow-lg">
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5">
+                <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Location</h2>
+                <p class="p-4 m-0 border enter-left">Join me for a week-long immersion into the landscape of Newfoundland at <a class="font-weight-bold pink" href="http://www.doctorshousenewfoundland.com" target="_blank">The Doctor's House.</a> This small luxury inn with a spa is nestled in 100 forested acres on the shores of Trinity Bay. Our focus will be on experiencing various ways of connecting to this unique landscape, including meditative walking, observing, contemplating, sketching and journaling. We'll aim to create abstract responses to the land using cold wax medium and oil. As well as plenty of studio time, there will be opportunities to spend time outdoors and a boat tour on our day off where we hope to see icebergs and whales.</p>
+                  <a href="#sec-2">
+                    <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
+                  </a>
+            </div>
+            <div class="col-lg-6 min-50 p-0">
+                <img src="/img/jms-the-drs-house-3.jpg" alt="Workshops in Wild Places: Newfoundland">
+            </div>
+        </div><!--end row-->
+       
+        <!-- details-->
+    
+        <div id="sec-2" class="row d-flex text-secondary min-70 m-4 shadow-lg">
+            <div class="col-lg-6 min-50 p-0">
+                <img src="/img/jms-the-drs-house-2.jpg" alt="Workshops in Wild Places: The Doctor's House">
+            </div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-light min-50 p-5">
+                <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Details</h2>
+                <p class="p-4 m-0 border enter-left">In the studio, the focus will be on creating an abstract interpretation of your response to the land, working in small formats quickly and intuitively and developing larger paintings as well. At the end of each day, there will be time to share your daily work, thoughts and writings. At the end of the week there will be a group critique/sharing with discussion and suggestions about how to carry your work forward once you return home.</p>
+                  <a href="#sec-3">
+                    <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
+                  </a>
+            </div>
+        </div><!--end row-->
 
-    <div id="sec-3" class="row rellax" data-rellax-speed="0">
-         <div class="col-lg-5 d-flex flex-column justify-content-center align-items-end text-right min-100 p-5">
-            <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-right">Schedule + Accomodation</h2>
-            <p class="p-4 m-0 border enter-left">This 8-person workshop lasts 6 days/7 nights, with arrival the night before and departure on the morning after. Workshop hours are 9 am to 4 pm. There will be a free day mid- week for a boat tour and also personal time. The Doctor's House offers luxury accommodation, spa services, and provides gourmet meals in a quiet forested environment. The all in an idyllic setting. The workshop will be held just steps from the inn in The Barn, a wide open space with a panoramic view of the land and the sea beyond.</p>
-         </div><!--end col-->
-         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 p-0 m-0 o-12 enter-right">
-            <img class="shadow-lg" src="https://www.doctorshousenewfoundland.com/wp-content/uploads/2017/11/weddingvenue-1024x682.jpg" alt="Workshops in Wild Places: Newfoundland">
-         </div>
-     </div>
+         <!-- schedule -->
+         
+         <div id="sec-3" class="row d-flex text-secondary min-70 m-4 shadow-lg">
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5">
+                <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Schedule + Accomodation</h2>
+                <p class="p-4 m-0 border enter-left">This 8-person workshop lasts 6 days/7 nights, with arrival the night before and departure on the morning after. Workshop hours are 9 am to 4 pm. There will be a free day mid- week for a boat tour and also personal time. The Doctor's House offers luxury accommodation, spa services, and provides gourmet meals in a quiet forested environment. The all in an idyllic setting. The workshop will be held just steps from the inn in The Barn, a wide open space with a panoramic view of the land and the sea beyond.</p>
+                  <a href="#sec-4">
+                    <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
+                  </a>
+            </div>
+            <div class="col-lg-6 min-50 p-0">
+                <img src="https://www.doctorshousenewfoundland.com/wp-content/uploads/2017/11/weddingvenue-1024x682.jpg" alt="Workshops in Wild Places: Newfoundland">
+            </div>
+        </div><!--end row-->
 
      <!-- booking + info-->
 
-    <div id="sec-4" class="row">
-         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-center text-left min-50 p-0 m-0 o-12 enter-left">
+    <div id="sec-4" class="row d-flex text-secondary min-70 m-4 shadow-lg">
+         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-left min-50 p-0 m-0 o-12 enter-left">
             <img class="shadow-lg" src="/img/jms-the-drs-house-1.jpg" alt="Workshops in Wild Places: The Doctor's House">
          </div>
-         <div class="col-lg-5 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
+         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-100 p-5">
             <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-left">Booking + Info</h2>
             <div class="wrap p-4 m-0 border">
                 <p>To book your spot, please contact World Wide Quest at 416-633-5666, or toll free 1-800-387-1483 and ask for Amy, or email <a class="pink font-weight-bold" href="mailto:travel@worldwidequest.com">travel@worldwidequest.com.</a> TICO Registration number is 2667946.</p>
