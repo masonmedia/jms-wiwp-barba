@@ -18,7 +18,7 @@ include 'includes/header.php';
   <div class="row d-flex min-100">
      <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left fs p-5">
          <div class="wrap py-5 mb-5 rellax" data-rellax-speed="3">
-             <h5 class="text-white text-uppercase pb-2 enter-bottom">June 2-7, 2019 · The Doctor’s House · Green’s Harbour</h5>
+             <h5 class="text-white text-uppercase pb-2 enter-bottom">June 1-8, 2019 · The Doctor’s House · Green’s Harbour</h5>
              <h2 class="headline text-uppercase l-h border-top border-bottom py-4 animated lightSpeedIn">New<span class="table-lg">found</span><span class="table-lg">land</span></h2>
              <h5 class="pt-2 m-0 text-white enter-left">*Wait List only. If you’d like to be on the wait list for this workshop, please email <a class="font-weight-bold pink" href="mailto:janicemasonsteeves@gmail.com">here.</a></h5>
          </div>

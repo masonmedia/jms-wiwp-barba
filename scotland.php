@@ -12,15 +12,15 @@ include 'includes/header.php';
 
 <main role="main"> 
 
-    <!--banner-->					
+    <!--banner-->	
 
     <div role="banner" class="container-fluid p-0 bg-scotland-banner">
       <div class="row d-flex min-100">
          <div class="col-lg-7 d-flex flex-column justify-content-end align-items-start text-left fs p-5">
              <div class="wrap py-5 mb-5 rellax" data-rellax-speed="3">
-                 <h5 class="text-white text-uppercase pb-2 enter-bottom">September 22-28, 2019 · The Dunskey Castle · Wigtownshire, Scotland</h5>
+                 <h5 class="text-white text-uppercase pb-2 enter-bottom">September 14-22, 2019 · Dunskey Estate · Portpatrick, Scotland</h5>
                  <h2 class="headline text-uppercase l-h border-top border-bottom py-4 animated zoomIn">Scotland</h2>
-                <h5 class="pt-2 m-0 text-white enter-left">with Janice Mason Steeves and Rebecca Crowell</h5>
+                <h5 class="pt-2 m-0 text-white enter-left">A Painting Workshop in a Scottish Castle</h5>
              </div>
          </div>
         <div class="offset-lg-5"></div>

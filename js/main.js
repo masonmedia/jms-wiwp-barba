@@ -59,7 +59,6 @@ sr.reveal('.fade-in-slow', {
 	distance: '0',
 	origin: 'center',
 	opacity: 0,
-	scale: 0,
 	reset: true
 });
 sr.reveal('.enter-top', {
@@ -126,33 +125,6 @@ sr.reveal('.w-left', {
 //    });
 //}); 
 
-$(document).ready(function() {
-    
-var controller = new ScrollMagic.Controller();
-
-(".content-tween").each(function() {
-  
-  var contentTweenTL = new TimelineMax({
-    repeat:0,
-  });
-  
-  var contentTween = contentTweenTL.from($(this).find(".content-tween-left"), 0.5, {x: -200, autoAlpha: 0, delay: 0, ease: Power4.easeInOut}, .1)
-  .from($(this).find(".content-tween-right"), 0.5, {x: 200, autoAlpha: 0, delay: 0, ease: Power4.easeInOut}, .1)
-  .from($(this).find(".content-tween-up"), 0.5, {y: 200, autoAlpha: 0, delay: 0, ease: Power4.easeInOut}, .1)
-  .from($(this).find(".content-tween-down"), 0.5, {y: -200, autoAlpha: 0, delay: 0, ease: Power4.easeInOut}, .1)
-  .staggerFrom($(this).find(".content-stagger-up"), 0.8, {y: 200, autoAlpha: 0, delay: 0, ease: Back.easeInOut.config(1.7)}, .1);
-
-	var scene4 = new ScrollMagic.Scene({
-	        triggerElement: this,
-//            triggerHook: '0.7',
-            triggerHook: 'onEnter',
-	        offset: -100,
-			reverse:true
-	    })
-		.setTween(contentTween)
-		.addTo(controller);
-    }); 
-});
 
 
 //smooth scroll --> https://css-tricks.com/snippets/jquery/smooth-scrolling/

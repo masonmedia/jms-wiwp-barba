@@ -11,7 +11,7 @@
     <link rel="short icon" href="jms.ico">
     <!-- Place favicon.ico in the root directory -->
     <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200, 500,700,700i,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,500,700,700i,900" rel="stylesheet">
     <!--animate.css-->
     <link rel="stylesheet" href="/css/animate.css/animate.min.css">
     <!--animsition transitions-->
@@ -43,11 +43,15 @@
                 <a class="nav-link animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="1000" href="nfld.php">Newfoundland</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="1000" href="scotland.php">Scotland</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="1000" href="bc.php">British Columbia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="1000" href="scotland.php">Scotland</a>
+                <a class="nav-link animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="1000" href="upcoming.php">Upcoming</a>
               </li>
+              
               <li class="nav-item">
                 <a class="nav-link animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="1000" href="contact.php">Contact</a>
               </li>
