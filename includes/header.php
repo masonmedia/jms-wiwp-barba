@@ -11,25 +11,26 @@
     <link rel="short icon" href="jms.ico">
     <!-- Place favicon.ico in the root directory -->
     <!--google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:200,500,700,700i,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,500,700,900" rel="stylesheet">
     <!--animate.css-->
     <link rel="stylesheet" href="/css/animate.css/animate.min.css">
     <!--animsition transitions-->
     <link rel="stylesheet" href="/css/animsition.min.css">
+    <!--   mailchimp css link -->
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <!--font awesome-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-
 </head>
-<body class="animsition" data-animsition-in-class="fade-in" data-animsition-in-duration="1000" data-animsition-out-class="fade-out" data-animsition-out-duration="1000">
+<body class="animsition" data-animsition-in-class="fade-in-left-sm" data-animsition-in-duration="1000" data-animsition-out-class="fade-out" data-animsition-out-duration="1000">
     <!--[if lte IE 9]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
     <![endif]-->
     <!--nav-->
-        <nav class="navbar navbar-expand-xl fixed-top">
+        <nav id="menu" class="navbar navbar-expand-xl fixed-top">
           <a class="navbar-brand animsition-link" href="/index.php" data-animsition-in-class="fade-in-left" data-animsition-in-duration="1000" data-animsition-out-class="fade-out-right" data-animsition-out-duration="1000">Workshops In Wild Places</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <img src="/img/jms-mobile-menu-round.png" alt="Workshops in Wild Places">
@@ -51,9 +52,11 @@
               <li class="nav-item">
                 <a class="nav-link animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="1000" href="upcoming.php">Upcoming</a>
               </li>
-              
               <li class="nav-item">
-                <a class="nav-link animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="1000" href="contact.php">Contact</a>
+                <a class="nav-link animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="1000" href="https://janicemasonsteeves.com">JMS Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="1000" href="mailto:janicemasonsteeves@gmail.com">Contact</a>
               </li>
             </ul>
           </div>

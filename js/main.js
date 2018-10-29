@@ -23,6 +23,13 @@ $(document).ready(function() {
   });
 });
 
+$(document).click(function(e) {
+	if (!$(e.target).is('.navbar-collapse')) {
+    	$('.collapse').collapse('hide');	    
+    }
+});
+
+
 // Rellax parallax
      
   var rellax = new Rellax('.rellax', {
@@ -131,7 +138,7 @@ sr.reveal('.w-left', {
 
 $(document).ready(function(){
   // Add smooth scrolling to all links
-  $("#banner a, #about a").on('click', function(event) {
+  $("#banner a, #about a, #nfld a, #scotland a, #bc a, #upcoming a").on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {

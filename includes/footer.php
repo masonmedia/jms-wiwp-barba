@@ -1,35 +1,35 @@
           <footer>
-              <div class="row text-white pt-3 min-50 w-100">
-              <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-end align-items-start">
-                  <img class="cl-moss h-100 w-100 circle shadow absolute z--1 l-h op-3">
+              <div class="row text-white pt-4">
+              <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-start">
                   <div class="wrap w-75 m-4 p-4">
-                    <div class="headline x-bold word-break absolute z-0 l-h op-1">facebook</div>
-                    <i class="fa fa-facebook display-2"></i>
-                    <h2 class="font-weight-light">facebook</h2>
+                       <a href="https://www.facebook.com/janice.mason.steeves/" target="_blank">
+                        <i class="fa fa-facebook display-2"></i>
+                        <h2 class="font-weight-light">facebook</h2>
+                        </a>
                   </div>
               </div>
-                <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-end align-items-start">
-                <img class="cl-grey h-100 w-100 circle shadow absolute z--1 l-h op-3">
+                <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-start">
                   <div class="wrap w-75 m-4 p-4">
-                    <div class="headline x-bold word-break absolute z-0 l-h op-1">instagram</div>
-                    <i class="fa fa-instagram display-2"></i>
-                    <h2 class="font-weight-light">instagram</h2>
+                   <a href="https://www.instagram.com/janicemasonsteeves/" target="_blank">
+                        <i class="fa fa-instagram display-2"></i>
+                        <h2 class="font-weight-light">instagram</h2>
+                    </a>
                   </div>
               </div>
-              <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-end align-items-start">
-              <img class="cl-lichen h-100 w-100 circle shadow absolute z--1 l-h op-3">
+              <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-start">
                   <div class="wrap w-75 m-4 p-4">
-                    <div class="headline x-bold word-break absolute z-0 l-h op-1">blog</div>
-                    <i class="fa fa-pencil-square-o display-2"></i>
-                    <h2 class="font-weight-light">blog</h2>
+                   <a href="https://janicemasonsteevesartwork.blogspot.com/" target="_blank">
+                        <i class="fa fa-pencil-square-o display-2"></i>
+                        <h2 class="font-weight-light">blog</h2>
+                    </a>
                   </div>
               </div>
-              <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-end align-items-start">
-              <img class="cl-slate h-100 w-100 circle shadow absolute z--1 l-h op-3">
+              <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-start">
                   <div class="wrap w-75 m-4 p-4">
-                    <div class="headline x-bold word-break absolute z-0 l-h op-1">contact</div>
-                    <i class="fa fa-envelope-o display-2"></i>
-                    <h2 class="font-weight-light">contact</h2>
+                    <a href="mailto:janicemasonsteeves@gmail.com">
+                        <i class="fa fa-envelope-o display-2"></i>
+                        <h2 class="font-weight-light">contact</h2>
+                    </a>
                   </div>
               </div>
             </div><!--end row-->

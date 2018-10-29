@@ -402,7 +402,7 @@ AddDefaultCharset utf-8
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
  
-#Remove .php
+#Remove .php from url
  
 <IfModule mod_rewrite.c>
     RewriteCond %{REQUEST_FILENAME} !-f
