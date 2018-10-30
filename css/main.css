@@ -133,7 +133,6 @@ a > .headline:hover, a > span:hover {
 
 /*jquery ui style disable*/
 
-/*
 .ui-page-theme-a a, .ui-page-theme-a a:visited, html .ui-bar-a a:visited, html .ui-body-a a:visited, html body .ui-group-theme-a a:visited {
      color: #38c; 
      color: #fff; 
@@ -144,8 +143,17 @@ a > .headline:hover, a > span:hover {
     font-weight: 700;
 }
 .ui-page { -webkit-backface-visibility: hidden; }
-*/
 
+.ui-header, .ui-footer {
+    border-width: 0;
+     border-style: solid; 
+    border: none;
+    position: relative;
+}
+
+.ui-loader .ui-icon-loading {
+    display: none;
+}
 
 /* height + width utils */
 
