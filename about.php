@@ -39,15 +39,11 @@ include 'includes/header.php';
                 <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
               </a>
         </div>
-        <div class="col-lg-6 min-50 p-0">
-                <img src="https://images.pexels.com/photos/163550/landscape-scenic-going-to-the-sun-road-rocky-mountains-163550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Janice Mason Steeves: Workshops in Wild Places">
-        </div>
+        <div class="col-lg-6 bg-img-dunskey-aerial min-50 p-0"></div>
       </div><!--end row-->
        
        <div id="sec-2" class="row d-flex text-secondary min-70 m-4 shadow-lg">
-           <div class="col-lg-6 min-50 p-0">
-                <img src="https://www.uniqhotels.com/media/hotels/ef/1.%20three%20camel%20lodge3_credit%20g.%20gan-ulzii%20%26%20nomadic%20expeditions.jpg" alt="Workshops in Wild Places">
-            </div>
+           <div class="col-lg-6 bg-img-mongolia min-50 p-0"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-light min-50 p-5 o-12">
               <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Details</h2>
                 <p class="p-4 m-0 border enter-left">Held in small luxury lodges in remote, wild places with easy access to the outdoors, these Abstract Painting Workshops will guide participants to experience and connect with the land in various ways with the intention of translating that connection into abstract paintings. There will be brief daily meditations, quiet time, journalling, sketching, group discussions, and lots of time for painting. The focus is on connecting with the land.</p>
@@ -98,9 +94,7 @@ include 'includes/header.php';
                       </div>
                     </div><!--end modal-->
              </div><!--end col-->
-             <div class="col-lg-6 d-flex flex-column justify-content-end align-items-start text-left min-50 p-0 m-0 enter-bottom">
-                 <img src="/img/jms-teaching-class.jpg" alt="Janice Mason Steeves: Workshops in Wild Places">
-             </div>
+             <div class="col-lg-6 d-flex flex-column justify-content-end align-items-start text-left bg-img-teaching min-50 p-0 m-0 enter-bottom"></div>
          </div><!--end row-->
     </div><!--end container-->
 </main>

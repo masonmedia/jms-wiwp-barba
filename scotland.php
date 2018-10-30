@@ -74,8 +74,7 @@ include 'includes/header.php';
          <!-- booking-->
 
          <div id="sec-4" class="row d-flex text-secondary min-70 m-4 shadow-lg">
-            <div class="col-lg-6 min-50 p-0">
-               <img class="shadow-lg enter-left" src="/img/jms-dunskey-river-aerial.jpg" alt="Workshops in Wild Places: Dunskey Castle">
+            <div class="col-lg-6 bg-dunskey-aerial min-50 p-0">
             </div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 o-12">
                <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Booking + Info</h2>

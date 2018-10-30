@@ -19,7 +19,7 @@ include 'includes/header.php';
             <div class="offset-lg-1"></div>
                 <div class="col-lg-10 d-flex flex-column justify-content-center align-items-center text-center p-5">
                     <h2 class="headline l-h pb-2 enter-top">Upcoming Workshops</h2>
-                    <h5 class="text-white text-uppercase pb-2 enter-bottom">IN THE WORKS FOR 2020</h5>
+                    <h5 class="text-white text-uppercase pb-2 enter-bottom">IN THE WORKS FOR 2020 and 2021</h5>
                 </div>
             <div class="offset-lg-1"></div>
         </div>
@@ -43,18 +43,6 @@ include 'includes/header.php';
             <div class="col-lg-6 min-50 bg-img-chile-2"></div>
         </div><!--end row--> 
         
-        <!--card -- mongolia-->
-        
-        <div class="row shadow-lg m-4">
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
-                <h2 class="headline text-secondary pb-2 l-h enter-top">Mongolia</h2>
-                <p class="h4 pt-2 enter-left">Art Retreat in the Gobi</p>
-                <p class="py-2 fade-in">August, 2020 | Three Camel Lodge</p>
-                <a href="https://www.threecamellodge.com/" target="_blank" class="btn btn-outline-secondary enter-bottom">Read More</a>
-            </div>
-            <div class="col-lg-6 min-50 bg-img-mongolia-horses"></div>
-        </div><!--end row--> 
-        
         <!--card -- nova scotia-->
         
         <div id="sec-3" class="row shadow-lg m-4">
@@ -66,6 +54,18 @@ include 'includes/header.php';
             </div>
             <div class="col-lg-6 min-50 bg-img-ns"></div>
         </div><!--end row-->  
+        
+        <!--card -- mongolia-->
+        
+        <div class="row shadow-lg m-4">
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
+                <h2 class="headline text-secondary pb-2 l-h enter-top">Mongolia</h2>
+                <p class="h4 pt-2 enter-left">Art Retreat in the Gobi</p>
+                <p class="py-2 fade-in">August, 2021 | Three Camel Lodge</p>
+                <a href="https://www.threecamellodge.com/" target="_blank" class="btn btn-outline-secondary enter-bottom">Read More</a>
+            </div>
+            <div class="col-lg-6 min-50 bg-img-mongolia-horses"></div>
+        </div><!--end row--> 
         
          <!--card -- newsletter/signup-->
         

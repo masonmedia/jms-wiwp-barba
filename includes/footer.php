@@ -2,7 +2,7 @@
               <div class="row text-white pt-4">
               <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-start">
                   <div class="wrap w-75 m-4 p-4">
-                       <a href="https://www.facebook.com/janice.mason.steeves/" target="_blank">
+                       <a href="www.facebook.com/workshopsinwildplaces" target="_blank">
                         <i class="fa fa-facebook display-2"></i>
                         <h2 class="font-weight-light">facebook</h2>
                         </a>

@@ -142,11 +142,23 @@ include 'includes/header.php';
         <!--card -- chile-->
         
         <div id="sec-3" class="row shadow-lg m-4">
-            <div class="col-lg-6 min-50 bg-img-chile"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
                 <h2 class="headline text-secondary pb-2 l-h enter-top">Chile</h2>
                 <p class="h4 pt-2 enter-left">Painting in the Atacama</p>
                 <p class="py-2 fade-in">February 2020</p>
+                <a href="/upcoming.php" class="btn btn-outline-secondary animsition-link enter-bottom">Read More</a>
+            </div>
+            <div class="col-lg-6 min-50 bg-img-chile"></div>
+        </div><!--end row-->  
+        
+        <!--card -- nova scotia-->
+        
+        <div id="sec-3" class="row shadow-lg m-4">
+            <div class="col-lg-6 min-50 bg-img-ns"></div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
+                <h2 class="headline text-secondary pb-2 l-h enter-top">Nova Scotia</h2>
+                <p class="h4 pt-2 enter-left">Art Retreat in old growth forest</p>
+                <p class="py-2 fade-in">September 2020</p>
                 <a href="/upcoming.php" class="btn btn-outline-secondary animsition-link enter-bottom">Read More</a>
             </div>
         </div><!--end row-->  
@@ -163,22 +175,11 @@ include 'includes/header.php';
             <div class="col-lg-6 min-50 bg-img-mongolia"></div>
         </div><!--end row-->
         
-        <!--card -- nova scotia-->
-        
-        <div id="sec-3" class="row shadow-lg m-4">
-            <div class="col-lg-6 min-50 bg-img-ns"></div>
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
-                <h2 class="headline text-secondary pb-2 l-h enter-top">Nova Scotia</h2>
-                <p class="h4 pt-2 enter-left">Art Retreat in old growth forest</p>
-                <p class="py-2 fade-in">September 2020</p>
-                <a href="/upcoming.php" class="btn btn-outline-secondary animsition-link enter-bottom">Read More</a>
-            </div>
-        </div><!--end row-->  
-        
          <!--card -- newsletter/signup-->
         
         <div id="sec-3" class="row shadow-lg bg-light text-secondary m-4">
-            <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
+            <div class="col-lg-6 bg-img-signup min-50"></div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5">
                 <h2 class="headline text-secondary pb-2 l-h enter-top">Signup</h2>
                 <p class="pt-2 mb-0 enter-left">Get WiWP news, anouncements, and workshop info straight to your inbox.</p>
                 <!-- Begin MailChimp Signup Form -->
@@ -194,7 +195,6 @@ include 'includes/header.php';
                   </form>
                </div><!--End mailchimp form 2-->
             </div><!--end col-->
-            <div class="col-lg-4 bg-img-signup min-50"></div>
         </div><!--end row-->   
     </div><!--end container-->
 </main>
