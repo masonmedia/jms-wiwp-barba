@@ -29,6 +29,27 @@ $(document).click(function(e) {
     }
 });
 
+//add rel="external" to each link
+//$(function () {
+//    $('a').each(function () {
+//        $(this).attr('rel', 'external');
+//    });
+//});
+
+//add rel="back" to each link
+//$(function () {
+//    $('a').each(function () {
+//        $(this).attr('data-rel', 'back');
+//    });
+//});
+
+//add rel="back" to each link
+//$(function () {
+//    $('a').each(function () {
+//        $(this).attr('data-dom-cache', 'true');
+//    });
+//});
+
 
 // Rellax parallax
      

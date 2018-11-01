@@ -221,13 +221,11 @@ a > .headline:hover, a > span:hover {
 	font-size: 6vmin;
 	font-weight: 200;
     letter-spacing: 7px;
-	opacity: 0.8;
 }
 .headline {
 	color: white;
 	font-size: 10vmin;
 	font-weight: 200;
-	opacity: 0.8;
     transition: all .3s ease;
 }
 .headline-big {
@@ -236,7 +234,6 @@ a > .headline:hover, a > span:hover {
 	font-size: 10vmin;
 /*	font-weight: 200;*/
 	font-weight: 900;
-/*	opacity: 0.8;*/
     transition: all .3s ease;
 /*	-webkit-text-stroke: 1px white;*/
 }
@@ -557,6 +554,24 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
 	background: url(/img/jms-tofino-aerial.jpg) 20% center;
 	background-size: cover;
 }
+.bg-img-tofino-1 {
+    background: url(/img/jms-tofino-interior.jpg) center;
+	background-size: cover;
+}
+.bg-img-tofino-2 {
+    background: url(/img/jms-tofino-room.jpg) center;
+	background-size: cover;
+}
+.bg-img-tofino-3 {
+    background: url(/img/jms-tofino-pano.jpg) center;
+	background-size: cover;
+}
+.bg-img-tofino-4 {
+    background: url(/img/jms-tofino-pano.jpg) center;
+	background-size: cover;
+}
+
+
 
 /* nova scotia */
 
@@ -589,13 +604,19 @@ footer .fa {
     color: transparent;
     -webkit-text-stroke: 1px #fff;
 }
-.bg-ink-stroke {
-    background: url(/img/jms-ink-stroke.jpg) center;
-	background-size: cover;
-}
-.bg-ink-blot {
-    background: url(https://s3.envato.com/files/228849984/preview.jpg) center;
-	background-size: cover;
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
 }
 
 
@@ -635,8 +656,12 @@ footer .fa {
 
 @media (max-width: 768px) {
     
-    div[class*="bg-"] {
+    div[class*="bg-"],
+    .banner-home {
         background-attachment: scroll;
+    }
+    .banner-home {
+        min-height: 700px;
     }
 }
 
