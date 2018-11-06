@@ -239,16 +239,7 @@ a > .headline:hover, a > span:hover {
 }
 
 .big {
-    background: #000;
-    background: rgba(0,0,0,0.9);
-    color: transparent;
     font-size: 12vw;
-    opacity: 0.8;
-    padding: 10px 20px;
-    position: absolute;
-    -webkit-text-stroke: 1px rgba(255,255,255,0.8);
-    text-align: center;
-    z-index: 1;
 }
 
 .l-h {
@@ -406,10 +397,7 @@ media (min-width: 992px)
 /* home section slides */
 
 .banner-home {
-	background: url(/img/jms-artist-photo-yellow.jpg) center;
-	background: url(https://images.pexels.com/photos/163550/landscape-scenic-going-to-the-sun-road-rocky-mountains-163550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center;
-	background: linear-gradient(to top left, rgba(0,0,0,0.7), rgba(0,0,0,0.2), rgba(0,0,0,0)), url(https://images.pexels.com/photos/753873/pexels-photo-753873.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center;
-	background: linear-gradient(to top left, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1503515235263-c699356bfb17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c5bc9902c181f76455b3d265f60d292e&auto=format&fit=crop&w=1336&q=80) center;
+	background: linear-gradient(to top left, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jms-home-banner.jpeg) center;
 /*	background: linear-gradient(to top left, rgba(0,0,0,0.7), rgba(0,0,0,0.2), rgba(0,0,0,0)), url(https://images.unsplash.com/photo-1493160831989-93b036daec5f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=36f52224eeae62dbb60a6da97e88889c&auto=format&fit=crop&w=1789&q=80) center;*/
 	background-size: cover;
     background-attachment: fixed;
@@ -506,7 +494,6 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
 /* home */
 
 
-
 /* mailchimp form styles*/
  #mc_embed_signup input.email {border: 1px solid #ABB0B2; border-radius: 0; font-family: 'Raleway', Avenir, Helvetica, sans-serif; font-size: 18px; margin: 5px 0 0; padding: 20px;}
  #mc_embed_signup .button {background-color: #91B4BA; border-radius: 0; font-family: 'Raleway', Avenir, Helvetica, sans-serif; font-size: 18px; margin: 5px 0 0; padding: 20px; line-height: 0; border: 1px solid #ABB0B2;}
@@ -534,6 +521,22 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
 	background: url(/img/jms-the-drs-house-1.jpg) center;
 	background-size: cover;
 }
+.bg-img-nfld-2 {
+    background: url(/img/jms-the-drs-house-3.jpg) center;
+	background-size: cover;
+}
+.bg-img-nfld-3 {
+    background: url(/img/jms-the-drs-house-2.jpg) center;
+	background-size: cover;
+}
+.bg-img-nfld-4 {
+    background: url(/img/jms-wiwp-nfld-barn.jpg) center;
+	background-size: cover;
+}
+.bg-img-nfld-5 {
+    background: url(/img/jms-wiwp-nfld-barn.jpg) center;
+	background-size: cover;
+}
 
 /* scotland page */
 
@@ -543,7 +546,19 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
     background-attachment: fixed;
     filter: contrast(160%);
 }
-.bg-img-dunskey-aerial {
+.bg-img-sotland-2 {
+    background: url(/img/jms-dunskey-castle.jpg) center;
+    background-size: cover;
+}
+.bg-img-sotland-3 {
+    background: url(/img/jms-dunskey-interior.jpg) center;
+    background-size: cover;
+}
+.bg-img-sotland-4 {
+    background: url(/img/jms-dunskey-room.jpg) center;
+    background-size: cover;
+}
+.bg-img-scotland-5 {
     background: url(/img/jms-dunskey-river-aerial.jpg) center;
 	background-size: cover;
 }
@@ -559,19 +574,17 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
 	background-size: cover;
 }
 .bg-img-tofino-2 {
-    background: url(/img/jms-tofino-room.jpg) center;
+    background: url(/img/jms-tofino-forest.jpg) center;
 	background-size: cover;
 }
 .bg-img-tofino-3 {
-    background: url(/img/jms-tofino-pano.jpg) center;
+    background: url(/img/jms-wiwp-bc-cottage.jpg) center;
 	background-size: cover;
 }
 .bg-img-tofino-4 {
     background: url(/img/jms-tofino-pano.jpg) center;
 	background-size: cover;
 }
-
-
 
 /* nova scotia */
 
@@ -660,9 +673,6 @@ footer .fa {
     .banner-home {
         background-attachment: scroll;
     }
-    .banner-home {
-        min-height: 700px;
-    }
 }
 
 @media (max-width: 600px) {
@@ -694,9 +704,11 @@ footer .fa {
     /* mailchimp form make 100% */
     #mc_embed_signup input.email {width: 100%;}
     
+/*
     div[class*="min-100"] {
         min-height: 100%;
     }
+*/
     
 }
 

@@ -36,17 +36,13 @@ include 'includes/header.php';
                     <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
                   </a>
             </div>
-            <div class="col-lg-6 min-50 p-0">
-               <img class="enter-bottom" src="/img/jms-dunskey-castle.jpg" alt="Workshops in Wild Places: Dunskey Castle">
-            </div>
+            <div class="col-lg-6 min-50 bg-img-sotland-2 p-0"></div>
         </div><!--end row-->
 
          <!-- details-->
 
          <div id="sec-2" class="row d-flex text-secondary min-70 m-4 shadow-lg">
-            <div class="col-lg-6 min-50 p-0">
-               <img class="shadow-lg enter-left" src="/img/jms-dunskey-interior.jpg" alt="Workshops in Wild Places: Dunskey Castle">
-            </div>
+            <div class="col-lg-6 min-50 bg-img-sotland-3 p-0"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-light min-50 p-5 o-12">
                <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Details</h2>
                 <p class="p-4 m-0 border enter-left">The workshop focus will be on experiencing various ways of connecting to this unique landscape. Some of these include contemplative walking, observing, sketching, journaling, writing exercises and daily meditation sessions. We'll aim to create abstract responses to the land using water-based media. Added to the itinary will be a talk by the castle owner on the history of the property, a tour by the head gardener, and a foraging expedition led by the head chef accompanied by a hot picnic lunch.</p>
@@ -66,16 +62,13 @@ include 'includes/header.php';
                     <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
                   </a>
             </div>
-            <div class="col-lg-6 min-50 p-0">
-               <img class="shadow-lg enter-bottom" src="https://static.wixstatic.com/media/67a80f_ff4a453858234ca1b62cb68366a15f76~mv2_d_4724_3149_s_4_2.jpg/v1/fill/w_1360,h_906,al_c,q_85,usm_0.66_1.00_0.01/67a80f_ff4a453858234ca1b62cb68366a15f76~mv2_d_4724_3149_s_4_2.jpg" alt="Workshops in Wild Places: Dunskey Castle">
-            </div>
+            <div class="col-lg-6 min-50 bg-img-sotland-4 p-0"></div>
         </div><!--end row-->
 
          <!-- booking-->
 
          <div id="sec-4" class="row d-flex text-secondary min-70 m-4 shadow-lg">
-            <div class="col-lg-6 bg-dunskey-aerial min-50 p-0">
-            </div>
+            <div class="col-lg-6 bg-img-scotland-5 min-50 p-0"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 o-12">
                <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Booking + Info</h2>
                 <div class="wrap p-4 m-0 border enter-left">

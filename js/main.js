@@ -29,6 +29,44 @@ $(document).click(function(e) {
     }
 });
 
+$(document).ready(function() {
+  AOS.init();
+});
+
+//ajax no page load --> https://www.youtube.com/watch?v=ytKc0QsVRY4
+//$(document).ready(function(){
+////  init  
+//    $('#content').load('content/index.php');
+//    
+////    handle menu clicks
+//    $('#menu nav li a').click(function() {
+//       var page = $(this).attr('href');
+//        $('#content').load('content/' + page + '.php');
+//        return false
+//    });
+//});
+
+// http://www.web2feel.com/creating-a-fullscreen-hero-div-for-your-site-header/
+// https://codepen.io/web2feel/pen/gbjNgw
+jQuery(document).ready(function($){
+ // Defining a function to set size for #hero 
+	function fullscreen(){
+		jQuery('#hero').css({
+            width: jQuery(window).width(),
+            height: jQuery(window).height()
+        });
+	}
+  
+	fullscreen();
+
+  // Run the function in case of window resize
+  jQuery(window).resize(function() {
+       fullscreen();         
+    });
+
+});
+
+
 //add rel="external" to each link
 //$(function () {
 //    $('a').each(function () {

@@ -10,7 +10,7 @@ include 'includes/header.php';
 
 ?>
    
-<main id="about" role="main" class="body-wrap">
+<main id="about" role="main">
 
 <!--banner-->
 
@@ -28,18 +28,18 @@ include 'includes/header.php';
     </div>
 
     <!--intro-->
-
+    
     <div class="container-fluid p-0">
      
      <div id="sec-1" class="row d-flex text-secondary min-70 m-4 shadow-lg">
-        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12">
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="2000">
             <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">About <span class="pink">WiWP</span></h2>
               <p class="p-3 m-0 border enter-bottom">In these unique, innovative workshops, students travel to remote locations throughout the world to connect with the beauty, energy and power of the wild landscape and then – through a facilitated contemplative and creative process – translate that response into abstract paintings.</p>
               <a href="#sec-2">
                 <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
               </a>
         </div>
-        <div class="col-lg-6 bg-img-dunskey-aerial min-50 p-0"></div>
+        <div class="col-lg-6 bg-img-scotland-5 min-50 p-0"></div>
       </div><!--end row-->
        
        <div id="sec-2" class="row d-flex text-secondary min-70 m-4 shadow-lg">

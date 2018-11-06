@@ -47,6 +47,8 @@
 		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
         <!--rellax js-->
         <script src="/js/rellax/rellax.min.js"></script>
+<!--        scrollme-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <!--animsition js-->
         <script src="/js/animsition.min.js"></script>
 		<!--bootstrap js-->

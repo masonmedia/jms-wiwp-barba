@@ -36,8 +36,8 @@ include 'includes/header.php';
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
                 <h2 class="headline text-secondary pb-2 l-h enter-top">Chile</h2>
                 <p class="h4 pt-2 enter-left">Painting in the Atacama</p>
-                <p class="py-2 fade-in">February 2020</p>
-                <p class="py-2 fade-in">Location Coming Soon</p>
+                <p class="pt-2 m-0 fade-in">February 2020</p>
+                <p class="font-italic pt-2 m-0 fade-in">Location Coming Soon</p>
                 <!--<a href="http://www.altoatacama.com/" target="_blank" class="btn btn-outline-secondary enter-bottom">Read More</a>-->
             </div>
             <div class="col-lg-6 min-50 bg-img-chile-2"></div>

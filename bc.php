@@ -36,13 +36,13 @@ include 'includes/header.php';
                     <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
                   </a>
             </div>
-            <div class="col-lg-6 min-50 bg-tofino-1 p-0"></div>
+            <div class="col-lg-6 min-50 bg-img-tofino-1 p-0"></div>
         </div><!--end row-->         
          
          <!-- details-->
 
          <div id="sec-2" class="row d-flex text-secondary m-4 shadow-lg">
-            <div class="col-lg-6 min-50 bg-tofino-2 p-0"></div>
+            <div class="col-lg-6 min-50 bg-img-tofino-2 p-0"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-light min-50 p-5 o-12">
                <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Details</h2>
                 <p class="p-4 m-0 border enter-bottom">Long Beach Lodge is a luxury resort with panoramic views of the ocean. In our small group of 8, we'll focus on various ways to experience the landscape/oceanscape, including meditative walking, writing, sketching and breathing in the salt air. We'll create abstract responses to the land using cold wax medium and oil, working in small formats, quickly and intuitively, as well as developing larger paintings. There will be group discussion at the end of each day, as well as a group critique/discussion at the end of the week which will focus on the weeks' work and how to move forward once we leave.</p>
@@ -62,7 +62,7 @@ include 'includes/header.php';
                     <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
                   </a>
             </div>
-            <div class="col-lg-6 min-50 bg-tofino-3 p-0"></div>
+            <div class="col-lg-6 min-50 bg-img-tofino-3 p-0"></div>
         </div><!--end row-->
          
          <!-- booking-->
