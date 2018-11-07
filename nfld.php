@@ -28,11 +28,14 @@ include 'includes/header.php';
         <!--card -- wait list only-->
         
         <div class="row shadow-lg bg-light text-secondary m-4">
-           <div class="col-lg-4 bg-img-nfld-banner min-50"></div>
-            <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left p-5 o-12">
-                <h2 class="headline text-secondary pb-2 l-h enter-top"><i class="fa fa-warning fa-stroke"></i>Wait List Only</h2>
+           <div class="col-lg-4 bg-img-nfld-banner min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
+            <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+               <div class="display-4 pb-3">
+                  <i class="fa fa-warning fa-stroke"></i> 
+               </div>
+                <h2 class="display-4 text-secondary l-h">Wait List Only</h2>
                 <p class="pt-2 enter-left">If you’d like to be on the wait list for this workshop, please email below.</p>                
-                <a href="mailto:travel@worldwidequest.com" class="btn btn-outline-secondary animsition-link enter-bottom">Contact</a>
+                <a href="mailto:travel@worldwidequest.com" class="btn btn-outline-secondary animsition-link">Contact</a>
             </div>
         </div><!--end row-->  
 
@@ -40,21 +43,21 @@ include 'includes/header.php';
     
        <div role="banner" class="container-fluid p-0">
         <div id="sec-1" class="row d-flex text-secondary min-70 m-4 shadow-lg">
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12">
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Location</h2>
                 <p class="p-4 m-0 border enter-left">Join me for a week-long immersion into the landscape of Newfoundland at <a class="font-weight-bold pink" href="http://www.doctorshousenewfoundland.com" target="_blank">The Doctor's House.</a> This small luxury inn with a spa is nestled in 100 forested acres on the shores of Trinity Bay. Our focus will be on experiencing various ways of connecting to this unique landscape, including meditative walking, observing, contemplating, sketching and journaling. We'll aim to create abstract responses to the land using cold wax medium and oil. As well as plenty of studio time, there will be opportunities to spend time outdoors and a boat tour on our day off where we hope to see icebergs and whales.</p>
                   <a href="#sec-2">
                     <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
                   </a>
             </div>
-            <div class="col-lg-6 min-50 bg-img-nfld-2 p-0 enter-bottom"></div>
+            <div class="col-lg-6 min-50 bg-img-nfld-2 p-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
         </div><!--end row--> 
        
         <!-- details-->
     
         <div id="sec-2" class="row d-flex text-secondary min-70 m-4 shadow-lg">
-            <div class="col-lg-6 min-50 bg-img-nfld-3 p-0 enter-bottom"></div>
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-light min-50 p-5 o-12">
+            <div class="col-lg-6 min-50 bg-img-nfld-3 p-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Details</h2>
                 <p class="p-4 m-0 border enter-left">In the studio, the focus will be on creating an abstract interpretation of your response to the land, working in small formats quickly and intuitively and developing larger paintings as well. At the end of each day, there will be time to share your work, thoughts, and writings. At the end of the week there will be a group critique/sharing with discussion and suggestions about how to carry your work forward once you return home.</p>
                   <a href="#sec-3">
@@ -66,20 +69,20 @@ include 'includes/header.php';
          <!-- schedule -->
          
          <div id="sec-3" class="row d-flex text-secondary min-70 m-4 shadow-lg">
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12">
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Schedule + Accomodation</h2>
                 <p class="p-4 m-0 border enter-left">Running from June 1-8, 2019, this 8-person workshop lasts 6 days/7 nights, with arrival the night before and departure on the morning after. Workshop hours are 9 am to 4 pm. There will be a free day mid- week for a boat tour and also personal time. The Doctor's House offers luxury accommodation, spa services, and provides gourmet meals in a quiet forested environment. The workshop will be held just steps from the inn in The Barn, a wide open space with a panoramic view of the land and the sea beyond.</p>
                   <a href="#sec-4">
                     <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
                   </a>
             </div>
-            <div class="col-lg-6 min-50 bg-img-nfld-4 p-0 enter-bottom"></div>
+            <div class="col-lg-6 min-50 bg-img-nfld-4 p-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000"></div>
         </div><!--end row-->
 
      <!-- booking + info-->
 
     <div id="sec-4" class="row d-flex text-secondary min-70 m-4 shadow-lg">
-         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-left bg-img-nfld-banner min-50 p-0 m-0 enter-left"></div>
+         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-left bg-img-nfld-banner min-50 p-0 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
          <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 o-12">
             <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-left">Booking + Info</h2>
             <div class="wrap p-4 m-0 border enter-top">
