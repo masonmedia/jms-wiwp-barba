@@ -18,8 +18,8 @@ include 'includes/header.php';
         <div class="row d-flex fs bg-img-scotland">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
-                    <h2 class="headline l-h pb-2 enter-top">Scotland</h2>
-                    <h5 class="text-white text-uppercase pb-2 enter-bottom">September 14-22, 2019 &#8226; Dunskey Estate &#8226; Portpatrick, Scotland</h5>
+                    <h2 class="headline l-h pb-2" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Scotland</h2>
+                    <h5 class="text-white text-uppercase pb-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">September 14-22, 2019 &#8226; Dunskey Estate &#8226; Portpatrick, Scotland</h5>
                 </div>
             <div class="offset-lg-2"></div>
         </div>

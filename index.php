@@ -43,8 +43,8 @@ include 'includes/header.php';
           
         <div class="row d-flex min-70 text-light m-4 shadow-lg">
             <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center bg-img-nfld min-50 p-5">
-                <h2 class="headline card-home py-2 l-h">New<span class="table-lg">found</span><span class="table-lg">land</span></h2>
-                <p class="h4 pt-2">The Doctor’s House</p>
+                <h2 class="headline card-home py-2 l-h enter-top">New<span class="table-lg">found</span><span class="table-lg">land</span></h2>
+                <p class="h4 pt-2 enter-left">The Doctor’s House</p>
                 <p class="py-2 enter-top">June 1-8, 2019</p>
                 <a href="/nfld.php" class="btn btn-outline-light animsition-link enter-bottom">Learn More</a>
             </div>

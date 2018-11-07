@@ -18,8 +18,8 @@ include 'includes/header.php';
           <div class="row d-flex fs bg-img-nfld">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
-                    <h2 class="headline card-home py-2 l-h enter-left">New<span class="table-lg">found</span><span class="table-lg">land</span></h2>
-                    <h5 class="text-white text-uppercase pb-2 enter-bottom">June 1-8, 2019 &#8226; The Doctor’s House &#8226; Green’s Harbour</h5>
+                    <h2 class="headline card-home py-2 l-h" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">New<span class="table-lg">found</span><span class="table-lg">land</span></h2>
+                    <h5 class="text-white text-uppercase pb-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">June 1-8, 2019 &#8226; The Doctor’s House &#8226; Green’s Harbour</h5>
              </div>
             <div class="offset-lg-2"></div>
             </div>

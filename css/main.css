@@ -225,6 +225,7 @@ a > .headline:hover, a > span:hover {
 .headline {
 	color: white;
 	font-size: 10vmin;
+	font-size: 15vmin;
 	font-weight: 200;
     transition: all .3s ease;
 }
@@ -591,6 +592,10 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
 
 /* upcoming */
 
+.bg-img-upcoming-banner {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jms-chile-horizon-2.jpg) center;
+	background-size: cover;
+}
 .bg-img-mongolia-horses {
     background: url(https://www.threecamellodge.com/wp-content/uploads/2014/06/three-camel-lodge-testimonials-slider.jpg) center;
 	background-size: cover;
