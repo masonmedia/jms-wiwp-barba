@@ -191,8 +191,6 @@ sr.reveal('.w-left', {
 //    });
 //}); 
 
-
-
 //smooth scroll --> https://css-tricks.com/snippets/jquery/smooth-scrolling/
 
 //$(document).ready(function(){

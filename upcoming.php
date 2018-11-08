@@ -10,7 +10,7 @@ include 'includes/header.php';
 
 ?>
 
-<main id="upcoming" role="main" class="body-wrap">
+<main id="upcoming" role="main">
    
     <!--banner-->					
 
@@ -46,11 +46,44 @@ include 'includes/header.php';
         <!--card -- nova scotia-->
         
         <div id="sec-3" class="row shadow-lg m-4">
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="headline text-secondary pb-2 l-h enter-top">Nova Scotia</h2>
-                <p class="h4 pt-2 enter-left">Art Retreat in old growth forest</p>
-                <p class="py-2 fade-in">September 2020 | Trout Point Lodge</p>
-                <a href="https://www.troutpoint.com/" target="_blank" class="btn btn-outline-secondary enter-bottom">Read More</a>
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
+                <h2 class="headline text-secondary pb-2 l-h" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Nova Scotia</h2>
+                <p class="h4 pt-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Art Retreat in old growth forest</p>
+                <p class="py-2" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">September 2020 | Trout Point Lodge</p>
+                <!--activate modal-->
+                <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#troutPoint">Read More</button>
+                <!-- Modal -->
+                <div class="modal fade" id="troutPoint" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="troutPoint">WiWP: Nova Scotia</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">X</span>
+                        </button>
+                      </div>
+                      <div class="modal-body bg-cubes text-left p-4">
+                         <div class="jumbotron jumbotron-fluid shadow-lg bg-img-ns p-4 mb-3 animated fadeIn">
+                            <div class="wrap h-100 w-100 p-4 border border-light">
+                             <h2 class="text-light font-weight-bold font-italic mb-0 pb-0 animated fadeInRight">Forest Bathing</h2>
+                             <p class="text-light font-weight-light font-italic pt-0 animated fadeInLeft">Trout Point Lodge, Nova Scotia</p>
+                             </div>
+                         </div>
+                        <!--schedule-->
+                         <h5 class="font-weight-bold border-top border-bottom py-3">September 27 - October 4, 2020</h5>
+                          <p class="pt-2">I invite you to join me at a luxury wilderness resort deep in the forests of southwestern Nova Scotia, designated a UNESCO Biosphere Reserve. Trout Point Lodge is an architectural masterpiece, made from giant Eastern Spruce logs. Trout Point's main lodge celebrates the Great Camps erected along the US and Canadian Eastern Seaboard in the early 20th century.</p>
+                          <p>In addition to belonging to the prestigious Small Luxury Hotels of the World, Trout Point's main lodge, rooms and suites have qualified as a 5-star Nova Scotia Inn from Canada Select, the national accommodation rating agency</p>
+                          <p>As well as being in Nova Scotia in high season for fall colours, we'll have the opportunity of forest bathing. The Japanese government coined the term in 1982 ... a translation of "shinrin-yoku," meaning "taking in the forest atmosphere." It means mindfully walking in the forest with all of your senses open. In addition to forest bathing, Trout Point is the world's first Starlight Hotel, a distinction given by the Starlight Foundation. There is a permanent astronomer on staff who offers guided stargazing using various sophisticated telescopes and astronomic binoculars.</p>
+                          <p>In our small group of 8, we'll focus on some ways to experience this forest environment, including forest bathing, meditative walking, sketching, journaling and stargazing. We'll come into the studio to create abstract responses to the land and forest, using cold wax and oil, working in small formats quickly and intuitively, as well as developing larger paintings. At the end of each day, you'll have the opportunity to share your daily work with the group as well as thoughts, ideas and writings. We'll have a group/critique discussion session on the final day, where we'll focus on the work each has done during the week with suggestions as to how to carry the work forward once back at home.</p>
+                          <h5 class="font-weight-bold border-top border-bottom py-3">More information</h5>
+                          <p class="m-0 py-2">Contact <a class="pink font-weight-bold" href="mailto:janicemasonsteeves@gmail.com">janicemasonsteeves@gmail.com</a></p>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div><!--modal content-->
+                    </div>
+                </div><!--end modal-->
             </div>
             <div class="col-lg-6 min-50 bg-img-ns" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
         </div><!--end row-->  
@@ -58,11 +91,41 @@ include 'includes/header.php';
         <!--card -- mongolia-->
         
         <div class="row shadow-lg m-4">
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="headline text-secondary pb-2 l-h enter-top">Mongolia</h2>
-                <p class="h4 pt-2 enter-left">Art Retreat in the Gobi</p>
-                <p class="py-2 fade-in">August, 2021 | Three Camel Lodge</p>
-                <a href="https://www.threecamellodge.com/" target="_blank" class="btn btn-outline-secondary enter-bottom">Read More</a>
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
+                <h2 class="headline text-secondary pb-2 l-h" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Mongolia</h2>
+                <p class="h4 pt-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Art Retreat in the Gobi</p>
+                <p class="py-2" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">August, 2021 | Three Camel Lodge</p>
+                <!--activate modal-->
+                <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#mongolia">Read More</button>
+                <!-- Modal -->
+                <div class="modal fade" id="mongolia" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="mongolia">WiWP: Mongolia</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">X</span>
+                        </button>
+                      </div>
+                      <div class="modal-body bg-cubes text-left p-4">
+                         <div class="jumbotron jumbotron-fluid shadow-lg bg-img-mongolia-horses p-4 mb-3 animated fadeIn">
+                            <div class="wrap h-100 w-100 p-4 border border-light">
+                             <h2 class="text-light font-weight-bold font-italic mb-0 pb-0 animated fadeInRight">Art Retreat in the Gobi</h2>
+                             <p class="text-light font-weight-light font-italic pt-0 animated fadeInLeft">Three Camel Lodge, Mongolia</p>
+                             </div>
+                         </div>
+                        <!--schedule-->
+                         <h5 class="font-weight-bold border-top border-bottom py-3">August 2020</h5>
+                          <p class="pt-2">I invite you to join me in a remote outpost in Mongolia, probably in August of 2020.  There we will stay in the Three Camel Lodge where our accommodation is in luxury gers (or yurts) in the Gobi Desert, each with it's own bathroom. We'll hold our workshop in a ger, eat gourmet meals in the dining room and spend 2 days on out-trips in land rovers to see this area of Mongolia. There will be a tour of Ulaanbaatar, the capital of Mongolia the day after we arrive. Out-trips from our lodge would include a visit to the Yol Valley National Park, the Singing Sands, a meditation temple and the Flaming Cliffs. How exciting is this!</p>
+                          <h5 class="font-weight-bold border-top border-bottom py-3">More information</h5>
+                          <p class="m-0 py-2">Contact <a class="pink font-weight-bold" href="mailto:janicemasonsteeves@gmail.com">janicemasonsteeves@gmail.com</a></p>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div><!--modal content-->
+                    </div>
+                </div><!--end modal-->
             </div>
             <div class="col-lg-6 min-50 bg-img-mongolia-horses" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
         </div><!--end row--> 

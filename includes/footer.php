@@ -1,15 +1,15 @@
           <footer>
               <div class="row text-white pt-4">
               <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-start">
-                  <div class="wrap w-75 m-4 p-4">
-                       <a href="www.facebook.com/workshopsinwildplaces" target="_blank">
+                  <div class="wrap w-100 m-4 p-4">
+                       <a href="https://www.facebook.com/workshopsinwildplaces" target="_blank">
                         <i class="fa fa-facebook display-2"></i>
                         <h2 class="font-weight-light">facebook</h2>
                         </a>
                   </div>
               </div>
                 <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-start">
-                  <div class="wrap w-75 m-4 p-4">
+                  <div class="wrap w-100 m-4 p-4">
                    <a href="https://www.instagram.com/janicemasonsteeves/" target="_blank">
                         <i class="fa fa-instagram display-2"></i>
                         <h2 class="font-weight-light">instagram</h2>
@@ -17,7 +17,7 @@
                   </div>
               </div>
               <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-start">
-                  <div class="wrap w-75 m-4 p-4">
+                  <div class="wrap w-100 m-4 p-4">
                    <a href="https://janicemasonsteevesartwork.blogspot.com/" target="_blank">
                         <i class="fa fa-pencil-square-o display-2"></i>
                         <h2 class="font-weight-light">blog</h2>
@@ -25,7 +25,7 @@
                   </div>
               </div>
               <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-start">
-                  <div class="wrap w-75 m-4 p-4">
+                  <div class="wrap w-100 m-4 p-4">
                     <a href="mailto:janicemasonsteeves@gmail.com">
                         <i class="fa fa-envelope-o display-2"></i>
                         <h2 class="font-weight-light">contact</h2>
@@ -47,7 +47,7 @@
 		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
         <!--rellax js-->
         <script src="/js/rellax/rellax.min.js"></script>
-<!--        scrollme-->
+        <!--aos-->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <!--animsition js-->
         <script src="/js/animsition.min.js"></script>

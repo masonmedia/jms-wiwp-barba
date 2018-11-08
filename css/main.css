@@ -97,8 +97,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
+body, html {
 	font-family: 'Raleway', Avenir, sans-serif;
+    overflow-x: hidden;
+	width: 100%;
 }
 
 .body-wrap {
@@ -225,7 +227,7 @@ a > .headline:hover, a > span:hover {
 .headline {
 	color: white;
 	font-size: 10vmin;
-	font-size: 15vmin;
+	font-size: 12vmin;
 	font-weight: 200;
     transition: all .3s ease;
 }
@@ -547,15 +549,15 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
     background-attachment: fixed;
     filter: contrast(160%);
 }
-.bg-img-sotland-2 {
+.bg-img-scotland-2 {
     background: url(/img/jms-dunskey-castle.jpg) center;
     background-size: cover;
 }
-.bg-img-sotland-3 {
+.bg-img-scotland-3 {
     background: url(/img/jms-dunskey-interior.jpg) center;
     background-size: cover;
 }
-.bg-img-sotland-4 {
+.bg-img-scotland-4 {
     background: url(/img/jms-dunskey-room.jpg) center;
     background-size: cover;
 }
