@@ -1,28 +1,3 @@
-$(document).ready(function() {
-  $(".animsition").animsition({
-//    inClass: 'fade-in',
-//    outClass: 'fade-out',
-//    inDuration: 1500,
-//    outDuration: 800,
-    linkElement: '.animsition-link',
-    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-    loading: false,
-    loadingParentElement: 'body', //animsition wrapper element
-    loadingClass: 'animsition-loading',
-    loadingInner: '', // e.g '<img src="loading.svg" />'
-    timeout: false,
-    timeoutCountdown: 5000,
-    onLoadEvent: true,
-    browser: [ 'animation-duration', '-webkit-animation-duration'],
-    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-    overlay : false,
-    overlayClass : 'animsition-overlay-slide',
-    overlayParentElement : 'body',
-    transition: function(url){ window.location.href = url; }
-  });
-});
-
 $(document).click(function(e) {
 	if (!$(e.target).is('.navbar-collapse')) {
     	$('.collapse').collapse('hide');	    
@@ -65,6 +40,11 @@ jQuery(document).ready(function($){
     });
 
 });
+
+
+
+
+
 
 
 //add rel="external" to each link
@@ -191,31 +171,28 @@ sr.reveal('.w-left', {
 //    });
 //}); 
 
-//smooth scroll --> https://css-tricks.com/snippets/jquery/smooth-scrolling/
+//barba
 
-//$(document).ready(function(){
-//  // Add smooth scrolling to all links
-//  $("#banner a, #about a, #nfld a, #scotland a, #bc a, #upcoming a").on('click', function(event) {
-//
-//    // Make sure this.hash has a value before overriding default behavior
-//    if (this.hash !== "") {
-//      // Prevent default anchor click behavior
-//      event.preventDefault();
-//
-//      // Store hash
-//      var hash = this.hash;
-//
-//      // Using jQuery's animate() method to add smooth page scroll
-//      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-//      $('html, body').animate({
-//        scrollTop: $(hash).offset().top
-//      }, 800, function(){
-//   
-//        // Add hash (#) to URL when done scrolling (default click behavior)
-////        window.location.hash = hash;
-//      });
-//    } // End if
-//  });
-//});
+$('document').ready(function(){
+            var transEffect = Barba.BaseTransition.extend({
+                start: function(){
+                  this.newContainerLoading.then(val => this.fadeInNewcontent($(this.newContainer)));
+                },
+                fadeInNewcontent: function(nc) {
+                  nc.hide();
+                  var _this = this;
+                  $(this.oldContainer).fadeOut(1000).promise().done(() => {
+                    nc.css('visibility','visible');
+                    nc.fadeIn(1000, function(){
+                      _this.done();
+                    })
+                  });
+                }
+            });
+            Barba.Pjax.getTransition = function() {
+              return transEffect;
+            }
+            Barba.Pjax.start();
+          });
 
 

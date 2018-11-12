@@ -98,9 +98,15 @@ textarea {
    ========================================================================== */
 
 body, html {
+    background: black;
 	font-family: 'Raleway', Avenir, sans-serif;
     overflow-x: hidden;
 	width: 100%;
+}
+
+.container, .container-fluid {
+    background: #f2f2f2;
+    padding: 5px 0;
 }
 
 .body-wrap {
@@ -231,14 +237,9 @@ a > .headline:hover, a > span:hover {
 	font-weight: 200;
     transition: all .3s ease;
 }
-.headline-big {
-	color: white;
-	font-size: 10vmin;
-	font-size: 10vmin;
-/*	font-weight: 200;*/
-	font-weight: 900;
-    transition: all .3s ease;
-/*	-webkit-text-stroke: 1px white;*/
+.section-title {
+    font-size: 6vmin;
+	font-weight: 300;
 }
 
 .big {
@@ -274,17 +275,6 @@ a > .headline:hover, a > span:hover {
     opacity: 0.5;
 }
 
-/*border image */
-
-.nfld-border {
-    border: 10px solid transparent;
-    border-image: url(/img/jms-the-drs-house-1.jpg) 50 stretch;
-}
-.bc-border {
-    border: 10px solid transparent;
-    border-image: url(/img/jms-tofino-aerial.jpg) 50 stretch;
-}
-
 /* icons */
 
 .fa-stroke {
@@ -299,17 +289,6 @@ a > .headline:hover, a > span:hover {
 }
 
 /* bg colors */
-
-.cl-brown {background-color: rgba(126, 101, 81, 1);}
-.cl-lightbrown {background-color: rgba(147, 133, 129, 1);}
-.cl-lightgrey {background-color: rgba(205, 202, 204, 1);}
-.cl-seagreen {background-color: rgba(70, 99, 98, 1);}
-.cl-slate {background-color: rgba(136, 150, 171, 1);}
-.cl-sienna {background-color: rgba(114, 17, 33, 1);}
-.cl-moss {background-color: rgba(187, 190, 100, 1);}
-.cl-lichen {background-color: rgba(234, 240, 206, 1);}
-.cl-grey {background-color: rgba(192, 197, 193, 1);}
-.cl-bluegrey {background-color: rgba(125, 132, 145, 1);}
 
 .bg-black {
 	background: black;
@@ -328,28 +307,11 @@ a > .headline:hover, a > span:hover {
     background: rgba(255,255,255,0.8);
 }
 
-/* shapes */
-.circle {
-    -webkit-clip-path: circle(50% at 50% 50%);
-clip-path: circle(50% at 50% 50%);
-}
-	
-/* imgs */
-
-/*
-img {
-	height: 100%;
-    min-height: 50vh;
-	width: 100%;
-	object-fit: cover;
-}
-*/
-
 /*animation*/
 
 .animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -364,50 +326,19 @@ img {
 }
 
 
-media (min-width: 992px)
+@media (min-width: 992px) {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 1.5rem;
     padding-left: .5rem;
-}
-/* carousel */
-
-.carousel-fade .carousel-item {
- opacity: 0;
- transition-duration: 2s;
- transition-property: opacity;
-}
-
-.carousel-fade  .carousel-item.active,
-.carousel-fade  .carousel-item-next.carousel-item-left,
-.carousel-fade  .carousel-item-prev.carousel-item-right {
-  opacity: 1;
-}
-
-.carousel-fade .active.carousel-item-left,
-.carousel-fade  .active.carousel-item-right {
- opacity: 0;
-}
-
-.carousel-fade  .carousel-item-next,
-.carousel-fade .carousel-item-prev,
-.carousel-fade .carousel-item.active,
-.carousel-fade .active.carousel-item-left,
-.carousel-fade  .active.carousel-item-prev {
- transform: translateX(0);
- transform: translate3d(0, 0, 0);
+    }
 }
 
 /* home section slides */
 
 .banner-home {
-	background: linear-gradient(to top left, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jms-home-banner.jpeg) center;
-/*	background: linear-gradient(to top left, rgba(0,0,0,0.7), rgba(0,0,0,0.2), rgba(0,0,0,0)), url(https://images.unsplash.com/photo-1493160831989-93b036daec5f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=36f52224eeae62dbb60a6da97e88889c&auto=format&fit=crop&w=1789&q=80) center;*/
+	background: linear-gradient(to top left, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(/img/jms-home-banner.jpg) center;
 	background-size: cover;
     background-attachment: fixed;
-}
-.bg-img-about {
-    background: linear-gradient(to top left, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/163550/landscape-scenic-going-to-the-sun-road-rocky-mountains-163550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center; 
-    background-size: cover;
 }
 .bg-img-nfld {
 	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/jms-the-drs-house-1.jpg) center;
@@ -415,23 +346,23 @@ media (min-width: 992px)
     background-attachment: fixed;
 }
 .bg-img-scotland {
-    background: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url(/img/jms-dunskey-aerial.jpg) 80% center;
-	background-size: cover;
+    background: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url(/img/jms-dunskey-aerial-min.jpg) 80% center;
+    background-size: cover;
     background-attachment: fixed;
     filter: contrast(160%);
 }
 .bg-img-bc {
 	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jms-tofino-aerial.jpg) 20% center;
-	background-size: cover;
+    background-size: cover;
     background-attachment: fixed;
 }
 .bg-img-ns {
-	background: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url(/img/jms-trout-point-1.jpg) center;
+	background: linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.05)), url(/img/jms-trout-point-1-min.jpg) center;
 	background-size: cover;
     background-attachment: fixed;
 }
 .bg-img-mongolia {
-    background: url(https://exp.cdn-hotels.com/hotels/2000000/1570000/1563900/1563895/94e2e35c_z.jpg) center;
+    background: url(/img/jms-mongolia-min.jpg) center;
 	background-size: cover;
 }
 .bg-img-chile {
@@ -439,11 +370,7 @@ media (min-width: 992px)
 	background-size: cover;
 }
 .bg-img-ns {
-    background: url(https://exp.cdn-hotels.com/hotels/2000000/1570000/1563900/1563895/94e2e35c_z.jpg) center;
-	background-size: cover;
-}
-.bg-img-signup {
-    background: url(https://images.pexels.com/photos/163550/landscape-scenic-going-to-the-sun-road-rocky-mountains-163550.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center;
+    background: url(/img/jms-trout-point-1-min.jpg) center;
 	background-size: cover;
 }
 .bg-jms {
@@ -459,21 +386,7 @@ media (min-width: 992px)
 background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
-.bg-angles {
-    background-color: #ffffff;
-background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
-.bg-marble {
-    background-color: #ffffff;
-background-image: url("https://www.transparenttextures.com/patterns/wall-4-light.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
-.bg-squares {
-    background-color: #ffffff;
-background-image: url("https://www.transparenttextures.com/patterns/transparent-square-tiles.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-}
+
 /* nav */
 
 .navbar {
@@ -504,14 +417,10 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
 
 /* about page */
 
-.bg-img-about-banner {
-	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jms-about-banner-Ireland.jpg) center left;
+.bg-img-banner-about {
+	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jms-about-banner-Ireland-min.jpg) center left;
 	background-size: cover;
     filter: saturate(2);
-}
-.bg-img-mongolia {
-    background: url(https://www.uniqhotels.com/media/hotels/ef/1.%20three%20camel%20lodge3_credit%20g.%20gan-ulzii%20%26%20nomadic%20expeditions.jpg) center;
-    background-size: cover;
 }
 .bg-img-teaching {
     background: url(/img/jms-teaching-class.jpg) center;
@@ -529,32 +438,28 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
 	background-size: cover;
 }
 .bg-img-nfld-3 {
-    background: url(/img/jms-the-drs-house-2.jpg) center;
+    background: url(/img/jms-the-drs-house-2-min.jpg) center;
 	background-size: cover;
 }
 .bg-img-nfld-4 {
-    background: url(/img/jms-wiwp-nfld-barn.jpg) center;
-	background-size: cover;
-}
-.bg-img-nfld-5 {
-    background: url(/img/jms-wiwp-nfld-barn.jpg) center;
+    background: url(/img/jms-nfld-forest-path-min.jpg) center;
 	background-size: cover;
 }
 
 /* scotland page */
 
 .bg-img-scotland-banner {
-    background: url(/img/jms-dunskey-aerial.jpg) 80% center;
+    background: url(/img/jms-dunskey-aerial-min.jpg) 80% center;
 	background-size: cover;
     background-attachment: fixed;
     filter: contrast(160%);
 }
 .bg-img-scotland-2 {
-    background: url(/img/jms-dunskey-castle.jpg) center;
+    background: url(/img/jms-dunskey-castle-min.jpg) center;
     background-size: cover;
 }
 .bg-img-scotland-3 {
-    background: url(/img/jms-dunskey-interior.jpg) center;
+    background: url(/img/jms-dunskey-interior-min.jpg) center;
     background-size: cover;
 }
 .bg-img-scotland-4 {
@@ -562,7 +467,7 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
     background-size: cover;
 }
 .bg-img-scotland-5 {
-    background: url(/img/jms-dunskey-river-aerial.jpg) center;
+    background: url(/img/jms-dunskey-river-aerial-min.jpg) center;
 	background-size: cover;
 }
 
@@ -577,7 +482,7 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
 	background-size: cover;
 }
 .bg-img-tofino-2 {
-    background: url(/img/jms-tofino-forest.jpg) center;
+    background: url(/img/jms-tofino-forest-min.jpg) center;
 	background-size: cover;
 }
 .bg-img-tofino-3 {
@@ -599,7 +504,7 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
 	background-size: cover;
 }
 .bg-img-mongolia-horses {
-    background: url(https://www.threecamellodge.com/wp-content/uploads/2014/06/three-camel-lodge-testimonials-slider.jpg) center;
+    background: url(/img/jms-mongolia-horses-min.jpg) center;
 	background-size: cover;
 }
 .bg-img-chile-2 {
@@ -610,12 +515,11 @@ background-image: url("https://www.transparenttextures.com/patterns/transparent-
 /* footer */
 
 footer {
-    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1493160831989-93b036daec5f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=36f52224eeae62dbb60a6da97e88889c&auto=format&fit=crop&w=1789&q=80) center;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/1031200/pexels-photo-1031200.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) center bottom;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/img/jms-footer-min.jpg) center bottom;
     background-size: cover;
 } 
 .bg-img-contact {
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1503515235263-c699356bfb17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c5bc9902c181f76455b3d265f60d292e&auto=format&fit=crop&w=1336&q=80) center;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/jms-home-banner.jpg) center;
 	background-size: cover;
 }
 
@@ -680,6 +584,16 @@ footer .fa {
     .banner-home {
         background-attachment: scroll;
     }
+    .min-100,
+    .fs,
+    .banner-home,
+    .bg-img-banner-about,
+    .bg-img-banner-about,
+    .bg-img-banner-nfld,
+    .bg-img-banner-scotland,
+    .bg-img-banner-bc {
+	    min-height: 600px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -687,10 +601,15 @@ footer .fa {
         font-size: 15vmin;
     }
     .site-title {
-        font-size: 8vmin;
+        font-size: 12vmin;
+        text-align: left;
+    }
+    .section-title {
+        font-size: 7vmin;
+        font-weight: bold;
     }
     .bg-img-scotland {
-        background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jms-dunskey-aerial.jpg) 70% 70%;
+        background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jms-dunskey-aerial-min.jpg) 70% 70%;
         background-size: cover;
     }
     .bg-img-bc {
@@ -709,23 +628,8 @@ footer .fa {
         text-align: center;
     }
     /* mailchimp form make 100% */
-    #mc_embed_signup input.email {width: 100%;}
-    
-/*
-    div[class*="min-100"] {
-        min-height: 100%;
-    }
-*/
-    
+    #mc_embed_signup input.email {width: 100%;}    
 }
-
-
-
-
-
-
-
-
 
 
 

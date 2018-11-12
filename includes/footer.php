@@ -1,4 +1,7 @@
-          <footer>
+
+                </div><!--end barba container-->
+            </div><!--end barba wrapper-->
+            <footer>
               <div class="row text-white pt-4">
               <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-start">
                   <div class="wrap w-100 m-4 p-4">
@@ -43,20 +46,30 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
         <!--  popper-->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<!--scroll reveal-->
-		<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
         <!--rellax js-->
         <script src="/js/rellax/rellax.min.js"></script>
+        <!--barba-->
+       <script src="/js/barba.js-master/dist/barba.js"></script>
         <!--aos-->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <!--animsition js-->
-        <script src="/js/animsition.min.js"></script>
 		<!--bootstrap js-->
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 		<!--main.js-->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script>
+            $('document').ready(function(){
+                Barba.Pjax.start();
+            });
+        </script>
+        <script>
 
+            Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
+                $('document').ready(function(){
+                    AOS.init();
+                });
+            });
+        </script>
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;

@@ -1,8 +1,6 @@
 <?php
 
-$page = "Newfoundland";
-
-$title = "Newfoundland";
+$title = "WiWP | Newfoundland";
 
 $metaD = "Welcome to Workshops in Wild Places";
 
@@ -14,7 +12,7 @@ include 'includes/header.php';
 
 <!--banner-->
 
-        <div role="banner" class="container-fluid p-0">
+        <div role="banner" class="container-fluid">
           <div class="row d-flex fs bg-img-nfld">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
@@ -23,11 +21,10 @@ include 'includes/header.php';
              </div>
             <div class="offset-lg-2"></div>
             </div>
-        </div>
         
         <!--card -- wait list only-->
         
-        <div class="row shadow-lg bg-light text-secondary m-4">
+        <div class="row shadow-lg text-secondary m-3">
            <div class="col-lg-4 bg-img-nfld-banner min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
             <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                <div class="display-4 pb-3">
@@ -41,10 +38,9 @@ include 'includes/header.php';
 
         <!-- intro-->
     
-       <div role="banner" class="container-fluid p-0">
-        <div id="sec-1" class="row d-flex text-secondary min-70 m-4 shadow-lg">
+        <div id="sec-1" class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Location</h2>
+                <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top">Location</h2>
                 <p class="p-4 m-0 border enter-left">Join me for a week-long immersion into the landscape of Newfoundland at <a class="font-weight-bold pink" href="http://www.doctorshousenewfoundland.com" target="_blank">The Doctor's House.</a> This small luxury inn with a spa is nestled in 100 forested acres on the shores of Trinity Bay. Our focus will be on experiencing various ways of connecting to this unique landscape, including meditative walking, observing, contemplating, sketching and journaling. We'll aim to create abstract responses to the land using cold wax medium and oil. As well as plenty of studio time, there will be opportunities to spend time outdoors and a boat tour on our day off where we hope to see icebergs and whales.</p>
                   <a href="#sec-2">
                     <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
@@ -55,10 +51,10 @@ include 'includes/header.php';
        
         <!-- details-->
     
-        <div id="sec-2" class="row d-flex text-secondary min-70 m-4 shadow-lg">
+        <div id="sec-2" class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 min-50 bg-img-nfld-3 p-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Details</h2>
+                <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top">Details</h2>
                 <p class="p-4 m-0 border enter-left">In the studio, the focus will be on creating an abstract interpretation of your response to the land, working in small formats quickly and intuitively and developing larger paintings as well. At the end of each day, there will be time to share your work, thoughts, and writings. At the end of the week there will be a group critique/sharing with discussion and suggestions about how to carry your work forward once you return home.</p>
                   <a href="#sec-3">
                     <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
@@ -68,9 +64,9 @@ include 'includes/header.php';
 
          <!-- schedule -->
          
-         <div id="sec-3" class="row d-flex text-secondary min-70 m-4 shadow-lg">
+         <div id="sec-3" class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-top">Schedule + Accomodation</h2>
+                <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top">Schedule + Accomodation</h2>
                 <p class="p-4 m-0 border enter-left">Running from June 1-8, 2019, this 8-person workshop lasts 6 days/7 nights, with arrival the night before and departure on the morning after. Workshop hours are 9 am to 4 pm. There will be a free day mid- week for a boat tour and also personal time. The Doctor's House offers luxury accommodation, spa services, and provides gourmet meals in a quiet forested environment. The workshop will be held just steps from the inn in The Barn, a wide open space with a panoramic view of the land and the sea beyond.</p>
                   <a href="#sec-4">
                     <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
@@ -81,12 +77,12 @@ include 'includes/header.php';
 
      <!-- booking + info-->
 
-    <div id="sec-4" class="row d-flex text-secondary min-70 m-4 shadow-lg">
+    <div id="sec-4" class="row d-flex text-secondary min-70 m-3 shadow-lg">
          <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-left bg-img-nfld-banner min-50 p-0 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
-         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 o-12">
-            <h2 class="section-title text-uppercase font-weight-bold border border-bottom-0 p-4 m-0 enter-left">Booking + Info</h2>
-            <div class="wrap p-4 m-0 border enter-top">
-                <p>To add your name to the wait list, please contact World Wide Quest at 416-633-5666, or toll free 1-800-387-1483 and ask for Amy, or email <a class="pink font-weight-bold" href="mailto:travel@worldwidequest.com">travel@worldwidequest.com.</a> TICO Registration number is 2667946.</p>
+         <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start bg-light text-left min-50 p-5 o-12">
+            <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Booking + Info</h2>
+            <div class="wrap p-4 m-0 border" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">
+                <p data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">To add your name to the wait list, please contact World Wide Quest at 416-633-5666, or toll free 1-800-387-1483 and ask for Amy, or email <a class="pink font-weight-bold" href="mailto:travel@worldwidequest.com">travel@worldwidequest.com.</a> TICO Registration number is 2667946.</p>
              </div>
              <div class="button-wrap border border-top-0 p-3">
                 <!-- Button trigger modal -->
@@ -110,8 +106,9 @@ include 'includes/header.php';
                              <p class="text-light font-weight-light font-italic pt-0 animated fadeInLeft">June 2-7, 2019 · Green’s Harbour Newfoundland</p>
                              </div>
                          </div>
-                          <h5 class="font-weight-bold pb-3 pt-2">COST: $3950 in Canadian Dollars + HST</h5>
-                          <h5 class="font-weight-bold border-top border-bottom py-3">Price includes</h5>
+                            <h5 class="font-weight-bold border-top py-3 m-0">Dates: June 2-7, 2019</h5>
+                            <h5 class="font-weight-bold py-3 border-top m-0">Cost: $3950 CAD + HST</h5>
+                            <h5 class="font-weight-bold border-top border-bottom py-3">Price includes</h5>
                            <ul class="py-3">
                                 <li>7 nights accommodation: Each person has their own room with ensuite.</li>
                                 <li>Ground transportation from St. John's to The Doctor's House and return (at specified arrival and departure dates/times only).</li>

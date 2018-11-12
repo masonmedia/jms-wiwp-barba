@@ -1,8 +1,6 @@
 <?php
 
-$page = "Home";
-
-$title = "Home";
+$title = "WiWP | Home";
 
 $metaD = "Welcome to Workshops in Wild Places";
 
@@ -10,110 +8,107 @@ include 'includes/header.php';
 
 ?>
   
-<main role="main" class="body-wrap">  
+<main role="main">  
 
   <!--banner-->
 
     <div role="banner" class="container-fluid p-0">
       <div id="banner" class="row d-flex fs banner-home m-0">
-         <div class="offset-lg-2"></div>
-            <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center text-white min-100 p-5 rellax" data-rellax-speed="-3">
-                <h1 class="site-title ts l-h mb-3">
-                    <span class="d-inline-block enter-top">Workshops</span> in <span class="d-inline-block pink enter-left">Wild</span> <span class="d-inline-block enter-bottom">Places</span>
+            <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center text-white min-100 p-5 rellax" data-rellax-speed="-3">
+                <h1 class="site-title ts l-h mb-3 w-100">
+                    <span class="d-inline-block table-lg" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Workshops</span> in <span class="d-inline-block pink table-lg" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Wild</span> <span class="d-inline-block table-lg" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Places</span>
                 </h1>
             </div>
-            <div class="offset-lg-2"></div>
         </div>
-        <div id="sec-1"></div>
     </div>
 
     <!--about-->
         
-    <div class="container-fluid p-0">
+    <div class="container-fluid">
         <div class="row d-flex text-secondary min-70 m-4 shadow-lg">
-            <div class="col-lg-6 bg-img-scotland-5 min-50"></div>
+            <div class="col-lg-6 bg-img-scotland-5 min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500" data-aos-anchor-placement="top-bottom"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center bg-light min-50 p-5">
-              <h2 class="headline text-secondary pb-2 l-h enter-left">About</h2>
-                <p class="pt-2 enter-top">Workshops in <span class="pink">Wild</span> Places is an international art teaching initiative developed by Canadian artist and educator Janice Mason Steeves. Travel to remote locations throughout the world to connect with the beauty and power of the wild landscape.</p>
-              <a href="/about.php" class="btn btn-outline-secondary mt-2 animsition-link enter-bottom">Learn More</a>
+              <h2 class="headline text-secondary pb-2 l-h" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">About</h2>
+                <p class="pt-2" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">Workshops in <span class="pink">Wild</span> Places is an international art teaching initiative developed by Canadian artist and educator Janice Mason Steeves. Travel to remote locations throughout the world to connect with the beauty and power of the wild landscape.</p>
+              <a href="/about.php" class="btn btn-outline-secondary mt-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">Learn More</a>
             </div>
         </div><!--end row-->
         
         <!--nfld-->
           
-        <div class="row d-flex min-70 text-light m-4 shadow-lg">
+        <div class="row d-flex min-70 text-light m-3 shadow-lg">
             <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center bg-img-nfld min-50 p-5">
-                <h2 class="headline card-home py-2 l-h enter-top">New<span class="table-lg">found</span><span class="table-lg">land</span></h2>
-                <p class="h4 pt-2 enter-left">The Doctor’s House</p>
-                <p class="py-2 enter-top">June 1-8, 2019</p>
-                <a href="/nfld.php" class="btn btn-outline-light animsition-link enter-bottom">Learn More</a>
+                <h2 class="headline card-home py-2 l-h" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">New<span class="table-lg">found</span><span class="table-lg">land</span></h2>
+                <p class="h4 pt-2" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">The Doctor’s House</p>
+                <p class="py-2" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">June 1-8, 2019</p>
+                <a href="/nfld.php" class="btn btn-outline-light" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom" data-aos-anchor-placement="top-bottom">Learn More</a>
             </div>
         </div><!--end row-->
           
         <!--scotland-->
            
-        <div class="row d-flex min-70 text-light m-4 shadow-lg">
+        <div class="row d-flex min-70 text-light m-3 shadow-lg">
             <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center bg-img-scotland min-50 p-5">
-                <h2 class="headline text-light pb-2 l-h enter-top">Scotland</h2>
-                <p class="h4 pt-2 enter-left">Dunskey Estate</p>
-                <p class="py-2 enter-top">September 14-22, 2019</p>
-                <a href="/scotland.php" class="btn btn-outline-light animsition-link enter-bottom">Read More</a>
+                <h2 class="headline text-light pb-2 l-h" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">Scotland</h2>
+                <p class="h4 pt-2" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">Dunskey Estate</p>
+                <p class="py-2" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">September 14-22, 2019</p>
+                <a href="/scotland.php" class="btn btn-outline-light" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">Read More</a>
             </div>
         </div><!--end row-->
            
         <!--bc-->
            
-        <div id="sec-3" class="row d-flex min-70 text-light m-4 shadow-lg">
+        <div id="sec-3" class="row d-flex min-70 text-light m-3 shadow-lg">
             <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center bg-img-bc min-50 p-5">
-                <h2 class="headline pb-2 l-h enter-top">British Columbia</h2>
-                <p class="h4 pt-2 enter-left">Long Beach Lodge</p>
-                <p class="py-2 enter-top">November 10-17, 2019</p>
-                <a href="/bc.php" class="btn btn-outline-light animsition-link enter-bottom">Read More</a>
+                <h2 class="headline pb-2 l-h" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">British Columbia</h2>
+                <p class="h4 pt-2" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">Long Beach Lodge</p>
+                <p class="py-2" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">November 10-17, 2019</p>
+                <a href="/bc.php" class="btn btn-outline-light" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">Read More</a>
             </div>
         </div><!--end row-->
         
         <!--card -- chile-->
         
-        <div id="sec-3" class="row shadow-lg m-4">
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
-                <h2 class="headline text-secondary pb-2 l-h enter-top">Chile</h2>
-                <p class="h4 pt-2 enter-left">Painting in the Atacama</p>
-                <p class="py-2 fade-in">February 2020</p>
-                <a href="/upcoming.php" class="btn btn-outline-secondary animsition-link enter-bottom">Read More</a>
+        <div id="sec-3" class="row shadow-lg m-3">
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                <h2 class="headline text-secondary pb-2 l-h">Chile</h2>
+                <p class="h4 pt-2">Painting in the Atacama</p>
+                <p class="py-2">February 2020</p>
+                <a href="/upcoming.php" class="btn btn-outline-secondary">Read More</a>
             </div>
-            <div class="col-lg-6 min-50 bg-img-chile"></div>
+            <div class="col-lg-6 min-50 bg-img-chile" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
         </div><!--end row-->  
         
         <!--card -- nova scotia-->
         
-        <div id="sec-3" class="row shadow-lg m-4">
-            <div class="col-lg-6 min-50 bg-img-ns"></div>
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
-                <h2 class="headline text-secondary pb-2 l-h enter-top">Nova Scotia</h2>
-                <p class="h4 pt-2 enter-left">Art Retreat in old growth forest</p>
-                <p class="py-2 fade-in">September 2020</p>
-                <a href="/upcoming.php" class="btn btn-outline-secondary animsition-link enter-bottom">Read More</a>
+        <div id="sec-3" class="row shadow-lg m-3">
+            <div class="col-lg-6 min-50 bg-img-ns" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                <h2 class="headline text-secondary pb-2 l-h">Nova Scotia</h2>
+                <p class="h4 pt-2">Art Retreat in old growth forest</p>
+                <p class="py-2">September 2020</p>
+                <a href="/upcoming.php" class="btn btn-outline-secondary">Read More</a>
             </div>
         </div><!--end row-->  
         
         <!--card -- mongolia-->
         
-        <div id="sec-3" class="row shadow-lg m-4">
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
-                <h2 class="headline text-secondary pb-2 l-h enter-top">Mongolia</h2>
-                <p class="h4 pt-2 enter-left">Art Retreat in the Gobi</p>
-                <p class="py-2 fade-in">August, 2021</p>
-                <a href="/upcoming.php" class="btn btn-outline-secondary animsition-link enter-bottom">Read More</a>
+        <div id="sec-3" class="row shadow-lg m-3">
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                <h2 class="headline text-secondary pb-2 l-h">Mongolia</h2>
+                <p class="h4 pt-2">Art Retreat in the Gobi</p>
+                <p class="py-2">August, 2021</p>
+                <a href="/upcoming.php" class="btn btn-outline-secondary">Read More</a>
             </div>
-            <div class="col-lg-6 min-50 bg-img-mongolia"></div>
+            <div class="col-lg-6 min-50 bg-img-mongolia" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
         </div><!--end row-->
         
          <!--card -- newsletter/signup-->
         
-        <div id="sec-3" class="row shadow-lg bg-light text-secondary m-4">
-            <div class="col-lg-6 bg-img-signup min-50"></div>
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5">
-                <h2 class="headline text-secondary pb-2 l-h enter-top">Signup</h2>
+        <div id="sec-3" class="row shadow-lg bg-light text-secondary m-3">
+            <div class="col-lg-6 bg-img-contact min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                <h2 class="headline text-secondary pb-2 l-h">Signup</h2>
                 <p class="pt-2 mb-0 enter-left">Get WiWP news, anouncements, and workshop info straight to your inbox.</p>
                 <!-- Begin MailChimp Signup Form -->
                <div id="mc_embed_signup">

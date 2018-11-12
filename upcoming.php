@@ -1,8 +1,6 @@
 <?php
 
-$page = "Upcoming";
-
-$title = "Upcoming";
+$title = "WiWP | Upcoming";
 
 $metaD = "Welcome to Workshops in Wild Places";
 
@@ -14,12 +12,12 @@ include 'includes/header.php';
    
     <!--banner-->					
 
-    <div role="banner" class="container-fluid p-0 bg-img-upcoming-banner">        
+    <div role="banner" class="container-fluid bg-img-upcoming-banner">        
         <div class="row d-flex min-70">
             <div class="offset-lg-1"></div>
                 <div class="col-lg-10 d-flex flex-column justify-content-center align-items-center text-center p-5">
-                    <h2 class="headline l-h pb-2" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Upcoming Workshops</h2>
-                    <h5 class="text-white text-uppercase pb-2" data-aos="fade-right" data-aos-easing="ease-in-out-back" data-aos-duration="1500">IN THE WORKS FOR 2020 and 2021</h5>
+                    <h2 class="headline l-h pb-2 mt-5" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Upcoming Workshops</h2>
+                    <h5 class="text-white text-uppercase pt-2" data-aos="fade-right" data-aos-easing="ease-in-out-back" data-aos-duration="1500">IN THE WORKS FOR 2020 and 2021</h5>
                 </div>
             <div class="offset-lg-1"></div>
         </div>
@@ -28,16 +26,16 @@ include 'includes/header.php';
 
     <!--intro-->
 
-    <div class="container-fluid p-0">
+    <div class="container-fluid">
         
         <!--card -- chile-->
         
-        <div id="sec-3" class="row shadow-lg m-4">
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="headline text-secondary pb-2 l-h">Chile</h2>
-                <p class="h4 pt-2">Painting in the Atacama</p>
-                <p class="pt-2 m-0 fade-in">February 2020</p>
-                <p class="font-italic pt-2 m-0">Location Coming Soon</p>
+        <div id="sec-3" class="row shadow-lg m-3">
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
+                <h2 class="headline text-secondary pb-2 l-h" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Chile</h2>
+                <p class="h4 pt-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Painting in the Atacama</p>
+                <p class="pt-2 m-0" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">February 2020</p>
+                <p class="font-italic pt-2 m-0" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Location Coming Soon</p>
                 <!--<a href="http://www.altoatacama.com/" target="_blank" class="btn btn-outline-secondary enter-bottom">Read More</a>-->
             </div>
             <div class="col-lg-6 min-50 bg-img-chile-2" data-aos="fade" data-aos-easing="linear" data-aos-duration="1500"></div>
@@ -45,7 +43,7 @@ include 'includes/header.php';
         
         <!--card -- nova scotia-->
         
-        <div id="sec-3" class="row shadow-lg m-4">
+        <div id="sec-3" class="row shadow-lg m-3">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
                 <h2 class="headline text-secondary pb-2 l-h" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Nova Scotia</h2>
                 <p class="h4 pt-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Art Retreat in old growth forest</p>
@@ -90,7 +88,7 @@ include 'includes/header.php';
         
         <!--card -- mongolia-->
         
-        <div class="row shadow-lg m-4">
+        <div class="row shadow-lg m-3">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12">
                 <h2 class="headline text-secondary pb-2 l-h" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Mongolia</h2>
                 <p class="h4 pt-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Art Retreat in the Gobi</p>
@@ -132,7 +130,7 @@ include 'includes/header.php';
         
          <!--card -- newsletter/signup-->
         
-        <div id="sec-3" class="row shadow-lg bg-light text-secondary m-4">
+        <div id="sec-3" class="row shadow-lg bg-light text-secondary m-3">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="headline text-secondary pb-2 l-h">Signup</h2>
                 <p class="pt-2 mb-0">Get WiWP info, news, updates, and workshop info straight to your inbox.</p>
@@ -155,7 +153,7 @@ include 'includes/header.php';
         
          <!--card -- contact-->
         
-        <div id="sec-3" class="row shadow-lg bg-light text-secondary m-4">
+        <div id="sec-3" class="row shadow-lg bg-light text-secondary m-3">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="headline text-secondary pb-2 l-h enter-top">Contact</h2>
                 <p class="py-2 mb-0 enter-left">To put your name on the list or for more information about upcoming workshops, please contact Janice below.</p>
