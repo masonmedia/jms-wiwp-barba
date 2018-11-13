@@ -12,8 +12,8 @@ include 'includes/header.php';
    
     <!--banner-->					
 
-    <div role="banner" class="container-fluid bg-img-upcoming-banner">        
-        <div class="row d-flex min-70">
+    <div role="banner" class="container-fluid bg-light p-0">        
+        <div class="row d-flex bg-img-upcoming-banner min-70">
             <div class="offset-lg-1"></div>
                 <div class="col-lg-10 d-flex flex-column justify-content-center align-items-center text-center p-5">
                     <h2 class="headline l-h pb-2 mt-5" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Upcoming Workshops</h2>
@@ -26,7 +26,7 @@ include 'includes/header.php';
 
     <!--intro-->
 
-    <div class="container-fluid">
+    <div class="container-fluid bg-light p-0 py-2">
         
         <!--card -- chile-->
         

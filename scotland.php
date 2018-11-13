@@ -8,11 +8,11 @@ include 'includes/header.php';
 
 ?>
 
-<main id="scotland" role="main" class="body-wrap"> 
+<main id="scotland" role="main"> 
 
     <!--banner-->	
 
-    <div role="banner" class="container-fluid">        
+    <div role="banner" class="container-fluid bg-light p-0">        
         <div class="row d-flex fs bg-img-scotland">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
@@ -25,7 +25,7 @@ include 'includes/header.php';
 
     <!--intro-->
     
-    <div role="banner" class="container-fluid">
+    <div role="banner" class="container-fluid bg-light p-0 py-2">
         <div id="sec-1" class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
                 <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-bottom">A Painting Workshop in a Scottish Castle</h2>

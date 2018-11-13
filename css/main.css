@@ -175,7 +175,7 @@ a > .headline:hover, a > span:hover {
 	min-height: 100vh;
 }
 .fs {
-    min-height: 100vh;
+    height: 100vh;
     }
 
 /* display */
@@ -306,6 +306,9 @@ a > .headline:hover, a > span:hover {
 .bg-white-op {
     background: rgba(255,255,255,0.8);
 }
+.bg-light {
+    background: #f2f2f2!important;
+}
 
 /*animation*/
 
@@ -417,7 +420,7 @@ background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 
 /* about page */
 
-.bg-img-banner-about {
+.bg-img-about-banner {
 	background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(/img/jms-about-banner-Ireland-min.jpg) center left;
 	background-size: cover;
     filter: saturate(2);
@@ -587,8 +590,7 @@ footer .fa {
     .min-100,
     .fs,
     .banner-home,
-    .bg-img-banner-about,
-    .bg-img-banner-about,
+    .bg-img-about-banner,
     .bg-img-banner-nfld,
     .bg-img-banner-scotland,
     .bg-img-banner-bc {

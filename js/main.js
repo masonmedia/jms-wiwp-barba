@@ -162,6 +162,16 @@ sr.reveal('.w-left', {
 	reset: true
 });
 
+//force scroll top on page change
+
+//$(document).ready(function(){
+//    $(this).scrollTop(0);
+//});
+//
+//window.onbeforeunload = function () {
+//  window.scrollTo(0, 0);
+//}
+
 //back button functionality:  https://jqmtricks.wordpress.com/2014/12/01/detect-back-navigation/
 //http://pracheek.blogspot.com/2013/08/hyperlinks-not-working-with-jquery.html
 

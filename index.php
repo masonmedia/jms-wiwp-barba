@@ -12,9 +12,9 @@ include 'includes/header.php';
 
   <!--banner-->
 
-    <div role="banner" class="container-fluid p-0">
-      <div id="banner" class="row d-flex fs banner-home m-0">
-            <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center text-white min-100 p-5 rellax" data-rellax-speed="-3">
+    <div role="banner" class="container-fluid bg-light p-0">
+      <div id="banner" class="row d-flex m-0">
+            <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center text-white fs banner-home p-5">
                 <h1 class="site-title ts l-h mb-3 w-100">
                     <span class="d-inline-block table-lg" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Workshops</span> in <span class="d-inline-block pink table-lg" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Wild</span> <span class="d-inline-block table-lg" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Places</span>
                 </h1>
@@ -24,8 +24,8 @@ include 'includes/header.php';
 
     <!--about-->
         
-    <div class="container-fluid">
-        <div class="row d-flex text-secondary min-70 m-4 shadow-lg">
+    <div class="container-fluid bg-light">
+        <div class="row d-flex text-secondary min-70 p-0 m-3 shadow-lg">
             <div class="col-lg-6 bg-img-scotland-5 min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500" data-aos-anchor-placement="top-bottom"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center bg-light min-50 p-5">
               <h2 class="headline text-secondary pb-2 l-h" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">About</h2>

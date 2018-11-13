@@ -8,11 +8,11 @@ include 'includes/header.php';
 
 ?>
 
-<main id="nfld" role="main" class="body-wrap">
+<main id="nfld" role="main">
 
 <!--banner-->
 
-        <div role="banner" class="container-fluid">
+        <div role="banner" class="container-fluid bg-light p-0">
           <div class="row d-flex fs bg-img-nfld">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
@@ -24,13 +24,15 @@ include 'includes/header.php';
         
         <!--card -- wait list only-->
         
+        <div class="container-fluid bg-light p-0 py-2">
+        
         <div class="row shadow-lg text-secondary m-3">
            <div class="col-lg-4 bg-img-nfld-banner min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
             <div class="col-lg-8 d-flex flex-column justify-content-center align-items-start text-left p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                <div class="display-4 pb-3">
-                  <i class="fa fa-warning fa-stroke"></i> 
+                  <i class="fa fa-check-square fa-stroke"></i> 
                </div>
-                <h2 class="display-4 text-secondary l-h">Wait List Only</h2>
+                <h2 class="display-4 text-secondary l-h">Open for registration</h2>
                 <p class="pt-2 enter-left">If you’d like to be on the wait list for this workshop, please email below.</p>                
                 <a href="mailto:travel@worldwidequest.com" class="btn btn-outline-secondary animsition-link">Contact</a>
             </div>
@@ -163,6 +165,7 @@ include 'includes/header.php';
          </div><!--end col-->
      </div><!--end row-->
     </div>
+    </div><!--end container-->
 </main>
 
 <?php

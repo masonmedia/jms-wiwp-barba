@@ -63,12 +63,16 @@
             });
         </script>
         <script>
-
             Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
                 $('document').ready(function(){
                     AOS.init();
                 });
             });
+        </script>
+        <script>
+            //force scroll top on page change
+            window.onbeforeunload = function () {
+            window.scrollTo(0, 0);
         </script>
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>

@@ -78,4 +78,4 @@
         </nav><!--end nav-->
         
        <div id="barba-wrapper">
-            <div class="barba-container bg-black animated fadeIn">
+            <div class="barba-container">
