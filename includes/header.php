@@ -25,6 +25,23 @@
     <link rel="apple-touch-icon" href="jms-touch-icon-1.png">
     <link rel="short icon" href="jms.ico">
     <!-- Place favicon.ico in the root directory -->
+     <!--core meta data-->
+    <meta name="description" content="Workshops in Wild Places is an international art teaching initiative developed by Canadian artist and educator Janice Mason Steeves.">
+    <meta name="keywords" content="Janice Mason Steeves,Art,Abstract,Workshops in Wild Places">
+    <!-- Open Graph Meta Data -->
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://www.jaxx.io/img/jaxx-banner-ss.jpg">
+    <meta property="og:site_name" content="workshopsinwildplaces.com">
+    <meta property="og:title" content="Workshops in Wild Places">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://workshopsinwildplaces.com">
+    <!-- Twitter Card Meta Data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://workshopsinwildplaces.com">
+    <meta name="twitter:creator" content="Workshops in Wild Places">
+    <meta name="twitter:title" content="Workshops in Wild Places">
+    <meta name="twitter:description" content="Workshops in Wild Places is an international art teaching initiative developed by Canadian artist and educator Janice Mason Steeves.">
+    <meta name="twitter:image" content="https://workshopsinwildplaces.com/img/jms-home-banner.jpg">
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,500,700,900" rel="stylesheet">
     <!--animate.css-->
@@ -76,6 +93,3 @@
             </ul>
           </div>
         </nav><!--end nav-->
-        
-       <div id="barba-wrapper">
-            <div class="barba-container">

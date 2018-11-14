@@ -41,12 +41,6 @@ jQuery(document).ready(function($){
 
 });
 
-
-
-
-
-
-
 //add rel="external" to each link
 //$(function () {
 //    $('a').each(function () {
@@ -162,16 +156,24 @@ sr.reveal('.w-left', {
 	reset: true
 });
 
+//Barba js scripts (add to footer on each page)
 //force scroll top on page change
-
-//$(document).ready(function(){
+//window.onbeforeunload = function(){ window.scrollTo(0,0); }
+//$('document').ready(function(){
 //    $(this).scrollTop(0);
 //});
 //
-//window.onbeforeunload = function () {
-//  window.scrollTo(0, 0);
-//}
-
+//$('document').ready(function(){
+//    Barba.Pjax.start();
+//});
+//
+//Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
+//    $('document').ready(function(){
+//        AOS.init();
+//    });
+//});
+      
+        
 //back button functionality:  https://jqmtricks.wordpress.com/2014/12/01/detect-back-navigation/
 //http://pracheek.blogspot.com/2013/08/hyperlinks-not-working-with-jquery.html
 
@@ -181,28 +183,6 @@ sr.reveal('.w-left', {
 //    });
 //}); 
 
-//barba
 
-$('document').ready(function(){
-            var transEffect = Barba.BaseTransition.extend({
-                start: function(){
-                  this.newContainerLoading.then(val => this.fadeInNewcontent($(this.newContainer)));
-                },
-                fadeInNewcontent: function(nc) {
-                  nc.hide();
-                  var _this = this;
-                  $(this.oldContainer).fadeOut(1000).promise().done(() => {
-                    nc.css('visibility','visible');
-                    nc.fadeIn(1000, function(){
-                      _this.done();
-                    })
-                  });
-                }
-            });
-            Barba.Pjax.getTransition = function() {
-              return transEffect;
-            }
-            Barba.Pjax.start();
-          });
 
 

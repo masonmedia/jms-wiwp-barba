@@ -138,6 +138,9 @@ a > .headline:hover, a > span:hover {
 .btn-lg {
     border-radius: 21px;
 }
+.radius-0 {
+    border-radius: 0;
+}
 
 /*jquery ui style disable*/
 

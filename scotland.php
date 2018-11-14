@@ -8,11 +8,11 @@ include 'includes/header.php';
 
 ?>
 
-<main id="scotland" role="main"> 
+<main id="scotland" role="main" data-aos="fade-up-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000"> 
 
     <!--banner-->	
 
-    <div role="banner" class="container-fluid bg-light p-0">        
+    <div role="banner" class="container-fluid bg-light p-0 animated fadeIn">        
         <div class="row d-flex fs bg-img-scotland">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
@@ -70,12 +70,12 @@ include 'includes/header.php';
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 o-12">
                <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top" data-aos="fade-down" data-aos-duration="1000">Booking + Info</h2>
                 <div class="wrap p-4 m-0 border" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">
-                    <p class="">This workshop has a long list of people interested, however to add your name to the list, please contact Janice.</p>
+                    <p class="">We are now accepting registrations for the Scottish Castle Workshop.</p>
                  </div><!--end wrap-->
                  <div class="wrap border border-top-0 p-3 enter-bottom">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-lg btn-dark" data-toggle="modal" data-target="#exampleModalCenter">
-                  More Info
+                  Register
                 </button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -160,9 +160,6 @@ include 'includes/header.php';
                           <!--Cancellation-->
                           <h5 class="font-weight-bold border-top border-bottom py-3">Cancellation policy</h5>
                           <p class="pt-2">We reserve the right to cancel any trip prior to departure. Full refund constitutes final settlement.</p>
-                          <h5 class="font-weight-bold border-top border-bottom py-3">For info and to register</h5>
-                          <p class="m-0 pt-2">Contact <a class="pink font-weight-bold" href="mailto:janicemasonsteeves@gmail.com">janicemasonsteeves@gmail.com</a></p>
-                          <p class="m-0 pb-3">You will then be directed to call Amy at Worldwide Quest.</p> 
                           <!--book-->
                           <h5 class="font-weight-bold border-top border-bottom py-3">Booking + Contact</h5>
                           <p class="pt-3">To register for this trip, please contact Donna at World Wide Quest:</p>
@@ -171,7 +168,7 @@ include 'includes/header.php';
                               <li>toll free 1-800-387-1483</li>
                               <li>or email: <a class="font-weight-bold pink" href="mailto:donna@worldwidequest.com">donna@worldwidequest.com</a></li>
                               <li>TICO Registration number is 2667946.</li>
-                              <li>World Wide Quest can also provide you with medical and cancellation insurance and assist you with your flight arrangements.</li>
+                              <li>Worldwide Quest can also provide you with medical and cancellation insurance and assist you with your flight arrangements.</li>
                           </ul>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

@@ -1,6 +1,4 @@
 
-                </div><!--end barba container-->
-            </div><!--end barba wrapper-->
             <footer>
               <div class="row text-white pt-4">
               <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-start">
@@ -57,23 +55,7 @@
 		<!--main.js-->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        <script>
-            $('document').ready(function(){
-                Barba.Pjax.start();
-            });
-        </script>
-        <script>
-            Barba.Dispatcher.on('newPageReady', function(currentStatus, oldStatus, container) {
-                $('document').ready(function(){
-                    AOS.init();
-                });
-            });
-        </script>
-        <script>
-            //force scroll top on page change
-            window.onbeforeunload = function () {
-            window.scrollTo(0, 0);
-        </script>
+                  
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;

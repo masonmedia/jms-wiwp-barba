@@ -8,11 +8,11 @@ include 'includes/header.php';
 
 ?>
 
-<main id="upcoming" role="main">
+<main id="upcoming" role="main" data-aos="fade-up-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
    
     <!--banner-->					
 
-    <div role="banner" class="container-fluid bg-light p-0">        
+    <div role="banner" class="container-fluid bg-light p-0 animated fadeIn">        
         <div class="row d-flex bg-img-upcoming-banner min-70">
             <div class="offset-lg-1"></div>
                 <div class="col-lg-10 d-flex flex-column justify-content-center align-items-center text-center p-5">
