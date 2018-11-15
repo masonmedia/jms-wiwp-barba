@@ -43,7 +43,7 @@ include 'includes/header.php';
            <div class="col-lg-6 bg-img-mongolia min-50 p-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-white min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">
               <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top">Details</h2>
-                <p class="p-4 m-0 border enter-left">Held in small comfortable lodges in remote, wild places with easy access to the outdoors, these Abstract Painting Workshops will guide participants to experience and connect with the land in various ways with the intention of translating that connection into abstract paintings. There will be brief daily meditations, quiet time, journalling, sketching, group discussions, and lots of time for painting. The focus is on connecting with the land.</p>
+                <p class="p-4 m-0 border enter-left">Held in small comfortable lodges in remote, wild locations, these abstract painting workshops guide participants to connect with the land in various ways, and translate that connection into abstract paintings. There will be brief daily meditations, quiet time, journalling, sketching, group discussions, and lots of time for painting. The focus is on connecting with the land.</p>
                 <a href="#sec-3">
                 <i class="fa fa-long-arrow-down pink border border-top-0 px-4 py-3 m-0 enter-bottom"></i>
               </a>
