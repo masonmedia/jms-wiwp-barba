@@ -12,7 +12,7 @@ include 'includes/header.php';
 
 <!--banner-->
 
-        <div role="banner" class="container-fluid bg-light p-0">
+    <div role="banner" class="container-fluid bg-light p-0">
           <div class="row d-flex fs bg-img-nfld" data-aos="fade-up-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
@@ -20,7 +20,7 @@ include 'includes/header.php';
                     <h5 class="text-white text-uppercase pb-2" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">June 1-8, 2019 &#8226; The Doctor’s House &#8226; Green’s Harbour</h5>
              </div>
             <div class="offset-lg-2"></div>
-            </div>
+        </div>
         
         <!--card -- wait list only-->
         
@@ -100,8 +100,8 @@ include 'includes/header.php';
                     <div class="modal-content">
                       <div class="modal-header">
                         <h5 class="modal-title" id="nfldModalTitle">WiWP: Newfoundland</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">X</span>
+                        <button type="button" class="close h2" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true"><i class="fa fa-plus"></i></span>
                         </button>
                       </div>
                       <div class="modal-body bg-cubes p-4">

@@ -30,7 +30,7 @@
     <meta name="keywords" content="Janice Mason Steeves,Art,Abstract,Workshops in Wild Places">
     <!-- Open Graph Meta Data -->
     <meta property="og:description" content="">
-    <meta property="og:image" content="https://www.jaxx.io/img/jaxx-banner-ss.jpg">
+    <meta property="og:image" content="https://workshopsinwildplaces.com/img/jms-wiwp-social-banner.png">
     <meta property="og:site_name" content="workshopsinwildplaces.com">
     <meta property="og:title" content="Workshops in Wild Places">
     <meta property="og:type" content="website">
@@ -41,7 +41,7 @@
     <meta name="twitter:creator" content="Workshops in Wild Places">
     <meta name="twitter:title" content="Workshops in Wild Places">
     <meta name="twitter:description" content="Workshops in Wild Places is an international art teaching initiative developed by Canadian artist and educator Janice Mason Steeves.">
-    <meta name="twitter:image" content="https://workshopsinwildplaces.com/img/jms-home-banner.jpg">
+    <meta name="twitter:image" content="https://workshopsinwildplaces.com/img/jms-wiwp-social-banner.png">
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,500,700,900" rel="stylesheet">
     <!--animate.css-->
@@ -51,11 +51,11 @@
     <!--aos-->
    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" rel="stylesheet">
     <!--font awesome-->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link href="/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/main.min.css">
 </head>
 <body class="body-wrap">
     <!--[if lte IE 9]>

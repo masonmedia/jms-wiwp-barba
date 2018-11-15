@@ -8,11 +8,11 @@ include 'includes/header.php';
 
 ?>
 
-<main id="scotland" role="main" data-aos="fade-up-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000"> 
+<main id="scotland" role="main"> 
 
     <!--banner-->	
 
-    <div role="banner" class="container-fluid bg-light p-0 animated fadeIn">        
+    <div role="banner" class="container-fluid bg-light p-0" data-aos="fade-up-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">        
         <div class="row d-flex fs bg-img-scotland">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
@@ -84,7 +84,7 @@ include 'includes/header.php';
                       <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalCenterTitle">WiWP: Scotland</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">X</span>
+                          <span aria-hidden="true"><i class="fa fa-plus"></i></span>
                         </button>
                       </div>
                       <div class="modal-body bg-cubes p-4">
