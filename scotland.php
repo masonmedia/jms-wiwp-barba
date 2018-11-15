@@ -28,7 +28,7 @@ include 'includes/header.php';
    <!-- register now-->
    
     <div class="row shadow-lg text-secondary bg-light m-3">
-           <div class="col-lg-6 bg-img-scotland-register min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
+           <div class="col-lg-6 bg-img-scotland-1 min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start min-50 text-left p-5 bg-light o-12">
                <div class="d-inline-block display-4 border border-bottom-0 py-3 px-4" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                   <i class="fa fa-check-square fa-stroke align-middle mr-1"></i> 
