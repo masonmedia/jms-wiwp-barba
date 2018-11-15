@@ -22,10 +22,27 @@ include 'includes/header.php';
             <div class="offset-lg-2"></div>
         </div>
     </div>
+  
+  <div role="banner" class="container-fluid bg-light p-0 py-2">
+   
+   <!-- register now-->
+   
+    <div class="row shadow-lg text-secondary bg-light m-3">
+           <div class="col-lg-6 bg-img-scotland-register min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start min-50 text-left p-5 bg-light o-12">
+               <div class="d-inline-block display-4 border border-bottom-0 py-3 px-4" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                  <i class="fa fa-check-square fa-stroke align-middle mr-1"></i> 
+                </div>
+                <h2 class="section-title text-uppercase font-weight-light text-secondary border border-bottom-0 p-4 m-0" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000"><span class="pink">Open</span> for registration</h2>
+                <p class="border p-4 m-0" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">We are now accepting registrations for the Scottish Castle Workshop. For more information and to reserve your spot, please click below.</p>
+                <div class="button-wrap border border-top-0 p-3 m-0">
+                    <button class="d-inline-block btn btn-lg btn-secondary border-0 m-0" data-toggle="modal" data-target="#scotlandModal">Register</button>
+                </div>
+            </div>
+        </div><!--end row-->  
 
     <!--intro-->
     
-    <div role="banner" class="container-fluid bg-light p-0 py-2">
         <div id="sec-1" class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
                 <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-bottom">A Painting Workshop in a Scottish Castle</h2>
@@ -68,21 +85,21 @@ include 'includes/header.php';
          <div id="sec-4" class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 bg-img-scotland-5 min-50 p-0" data-aos="fade" data-aos-duration="1000"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 o-12">
-               <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top" data-aos="fade-down" data-aos-duration="1000">Booking + Info</h2>
+               <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0" data-aos="fade-down" data-aos-duration="1000">Booking + Info</h2>
                 <div class="wrap p-4 m-0 border" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">
-                    <p class="">We are now accepting registrations for the Scottish Castle Workshop.</p>
+                    <p>Now open for registration. Book your spot today.</p>
                  </div><!--end wrap-->
-                 <div class="wrap border border-top-0 p-3 enter-bottom">
+                 <div class="wrap border border-top-0 p-3">
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-lg btn-dark" data-toggle="modal" data-target="#exampleModalCenter">
+                <a class="btn btn-lg btn-dark" href="mailto:donna@worldwidequest.com">
                   Register
-                </button>
+                </a>
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal fade" id="scotlandModal" tabindex="-1" role="dialog" aria-labelledby="scotlandModalTitle" aria-hidden="true">
                   <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalCenterTitle">WiWP: Scotland</h5>
+                        <h5 class="modal-title" id="scotlandModalTitle">WiWP: Scotland</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true"><i class="fa fa-plus"></i></span>
                         </button>
@@ -156,10 +173,10 @@ include 'includes/header.php';
                                <li>We provide a 1% discount for cheque payment.</li>
                                <li>All payments are non-refundable.</li>                               
                           </ul>
-                          <p>Check <a href="https://mailchi.mp/89197dfb9766/join-me-in-dunskey-castle-in-scotland" target="_blank">HERE</a> for more information.</p>
+                          <p>Check <a class="font-weight-bold" href="https://mailchi.mp/89197dfb9766/join-me-in-dunskey-castle-in-scotland" target="_blank">HERE</a> for more information.</p>
                           <!--Cancellation-->
-                          <h5 class="font-weight-bold border-top border-bottom py-3">Cancellation policy</h5>
-                          <p class="pt-2">We reserve the right to cancel any trip prior to departure. Full refund constitutes final settlement.</p>
+                          <h5 class="font-weight-bold border-top border-bottom py-3 m-0">Cancellation policy</h5>
+                          <p class="py-3 m-0">We reserve the right to cancel any trip prior to departure. Full refund constitutes final settlement.</p>
                           <!--book-->
                           <h5 class="font-weight-bold border-top border-bottom py-3">Booking + Contact</h5>
                           <p class="pt-3">To register for this trip, please contact Donna at World Wide Quest:</p>

@@ -27,21 +27,18 @@ include 'includes/header.php';
         <div class="container-fluid bg-light p-0 py-2">
         
         <div class="row shadow-lg text-secondary m-3">
-           <div class="col-lg-4 bg-img-nfld-banner min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
-            <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center min-50 text-center bg-light o-12">
-               <div class="d-inline-block display-4 border p-3">
-                  <i class="fa fa-check-square fa-stroke align-middle mr-2" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000"></i> 
-                  <h2 class="d-inline-block h1 font-weight-light text-secondary py-4 m-0 l-h" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000"><span class="pink">Open</span> for registration</h2>
-                  <button class="d-inline-block btn btn-lg btn-secondary border-0 radius-0 m-0" data-toggle="modal" data-target="#nfldModal">Register</button>
-               </div>
-<!--                <h2 class="d-inline-block h1 font-weight-light text-secondary border p-4 m-0 l-h" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000"><span class="pink">Open</span> for registration</h2>-->
-<!--
-                 <div class="button-wrap border border-top-0 p-3">
-                    <button class="btn btn-lg btn-secondary border border-top m-0" data-toggle="modal" data-target="#nfldModal">Register</button>
+           <div class="col-lg-6 bg-img-nfld-banner min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start min-50 text-left p-5 bg-light o-12">
+               <div class="d-inline-block display-4 border border-bottom-0 py-3 px-4" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                  <i class="fa fa-warning fa-stroke align-middle mr-1"></i> 
                 </div>
--->
+                <h2 class="section-title text-uppercase font-weight-light text-secondary border border-bottom-0 p-4 m-0" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000"><span class="pink">Wait</span> list only</h2>              
+                <p class="border p-4 m-0" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">This workshop is currently full. To add your name to the wait list please email below.</p>
+                <div class="button-wrap border border-top-0 p-3 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+                    <a class="btn btn-lg btn-secondary border border-top m-0" href="mailto:travel@worldwidequest.com">Contact</a>
+                </div>
             </div>
-        </div><!--end row-->  
+        </div><!--end row-->
 
         <!-- intro-->
     
@@ -89,11 +86,11 @@ include 'includes/header.php';
          <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start bg-light text-left min-50 p-5 o-12">
             <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Booking + Info</h2>
             <div class="wrap p-4 m-0 border" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">
-                <p data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">To register, please contact Worldwide Quest at 416-633-5666, or toll free 1-800-387-1483 and ask for Donna, or email <a class="pink font-weight-bold" href="mailto:travel@worldwidequest.com">travel@worldwidequest.com.</a> TICO Registration number is 2667946.</p>
+                <p data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">To register, please contact Worldwide Quest at 416-633-5666, or toll free 1-800-387-1483 and ask for Donna, or email <a class="pink font-weight-bold" href="mailto:donna@worldwidequest.com">donna@worldwidequest.com.</a> TICO Registration number is 2667946.</p>
              </div>
              <div class="button-wrap border border-top-0 p-3">
                 <!-- Button trigger modal -->
-                <a href="mailto:travel@worldwidequest.com" class="btn btn-lg btn-dark">More Info</a>
+                <button class="btn btn-lg btn-dark" data-toggle="modal" data-target="#nfldModal">More Info</button>
                 <!-- Modal -->
                 <div class="modal fade" id="nfldModal" tabindex="-1" role="dialog" aria-labelledby="Newfoundland" aria-hidden="true">
                   <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
@@ -146,17 +143,17 @@ include 'includes/header.php';
                                <li>All payments are non-refundable.</li>
                           </ul>
                           <!--book-->
+                          <h5 class="font-weight-bold border-top border-bottom py-3">Cancellation policy</h5>
+                          <p class="py-3">We reserve the right to cancel any trip prior to departure. Full refund constitutes final settlement. For questions related to the workshop and materials, please contact us.</p>
+                          <!--book-->
                           <h5 class="font-weight-bold border-top border-bottom py-3">Booking + Contact</h5>
                           <p class="pt-3">To book your spot, please contact Donna at Worldwide Quest:</p>
-                          <ul class="pb-3">
+                          <ul>
                               <li>416-633-5666</li>
                               <li>toll free 1-800-387-1483</li>
-                              <li>or email: <a class="font-weight-bold pink" href="mailto:travel@worldwidequest.com">travel@worldwidequest.com</a></li>
+                              <li>or email: <a class="font-weight-bold pink" href="mailto:donna@worldwidequest.com">donna@worldwidequest.com</a></li>
                               <li>TICO Registration number is 2667946.</li>
                           </ul>
-                          <h5 class="font-weight-bold border-top border-bottom py-3">Cancellation policy</h5>
-                          <p>We reserve the right to cancel any trip prior to departure. Full refund constitutes final settlement. For questions related to the workshop and materials, please contact us.</p>
-                          <a class="btn btn-outline-secondary" href="mailto:janicemasonsteeves@gmail.com">Contact</a>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
