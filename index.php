@@ -8,13 +8,13 @@ include 'includes/header.php';
 
 ?>
   
-<main role="main" data-aos="fade-up-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">  
+<main role="main" data-aos="fade-up-right">  
 
   <!--banner-->
 
     <div role="banner" class="container-fluid bg-light p-0">
-      <div id="hero" class="row d-flex m-0">
-            <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center text-white fs banner-home p-5">
+      <div class="row d-flex vh100 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+            <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center vh100 text-white banner-home p-5">
                 <h1 class="site-title ts l-h mb-3 w-100">
                     <span class="d-inline-block table-lg" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Workshops</span> in <span class="d-inline-block pink table-lg" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Wild</span> <span class="d-inline-block table-lg" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Places</span>
                 </h1>

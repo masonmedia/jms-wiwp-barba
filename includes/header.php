@@ -56,6 +56,7 @@
     <link href="/css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/main.min.css">
+    <script src="/js/vunit/dist/vunit-0.2.0.min.js"></script>
 </head>
 <body class="body-wrap">
     <!--[if lte IE 9]>

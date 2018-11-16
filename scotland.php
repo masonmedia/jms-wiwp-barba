@@ -12,8 +12,8 @@ include 'includes/header.php';
 
     <!--banner-->	
 
-    <div role="banner" class="container-fluid bg-light p-0" data-aos="fade-up-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">        
-        <div class="row d-flex fs bg-img-scotland">
+    <div role="banner" class="container-fluid bg-light p-0">        
+        <div id="hero" class="row d-flex bg-img-scotland vh100 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
                     <h2 class="headline l-h pb-2" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Scotland</h2>
@@ -23,23 +23,7 @@ include 'includes/header.php';
         </div>
     </div>
   
-  <div role="banner" class="container-fluid bg-light p-0 py-2">
-   
-   <!-- register now-->
-   
-    <div class="row shadow-lg text-secondary bg-light m-3">
-           <div class="col-lg-6 bg-img-scotland-1 min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
-            <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start min-50 text-left p-5 bg-light o-12">
-               <div class="d-inline-block display-4 border border-bottom-0 py-3 px-4" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                  <i class="fa fa-check-square fa-stroke align-middle mr-1"></i> 
-                </div>
-                <h2 class="section-title text-uppercase font-weight-light text-secondary border border-bottom-0 p-4 m-0" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000"><span class="pink">Open</span> for registration</h2>
-                <p class="border p-4 m-0" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">We are now accepting registrations for the Scottish Castle Workshop. For more information and to reserve your spot, please click below.</p>
-                <div class="button-wrap border border-top-0 p-3 m-0">
-                    <button class="d-inline-block btn btn-lg btn-secondary border-0 m-0" data-toggle="modal" data-target="#scotlandModal">Register</button>
-                </div>
-            </div>
-        </div><!--end row-->  
+  <div role="banner" class="container-fluid bg-light p-0 py-2"> 
 
     <!--intro-->
     
@@ -87,13 +71,13 @@ include 'includes/header.php';
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 o-12">
                <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0" data-aos="fade-down" data-aos-duration="1000">Booking + Info</h2>
                 <div class="wrap p-4 m-0 border" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1500">
-                    <p>Now open for registration. Book your spot today.</p>
+                    <p>We are now accepting registrations for the Scottish Castle Workshop. Get more information and book your spot below.</p>
                  </div><!--end wrap-->
                  <div class="wrap border border-top-0 p-3">
                 <!-- Button trigger modal -->
-                <a class="btn btn-lg btn-dark" href="mailto:donna@worldwidequest.com">
-                  Register
-                </a>
+                <button class="btn btn-lg btn-dark" data-toggle="modal" data-target="#scotlandModal">
+                  To Book
+                </button>
                 <!-- Modal -->
                 <div class="modal fade" id="scotlandModal" tabindex="-1" role="dialog" aria-labelledby="scotlandModalTitle" aria-hidden="true">
                   <div class="modal-dialog modal-lg modal-dialog-centered" role="document">

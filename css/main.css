@@ -595,6 +595,7 @@ footer .fa {
     .banner-home {
         background-attachment: scroll;
     }
+/*
     .min-100,
     .fs,
     .banner-home,
@@ -602,8 +603,9 @@ footer .fa {
     .bg-img-banner-nfld,
     .bg-img-banner-scotland,
     .bg-img-banner-bc {
-	    min-height: 600px;
+	    height: 100vh;
     }
+*/
 }
 
 @media (max-width: 600px) {

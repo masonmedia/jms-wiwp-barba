@@ -21,25 +21,58 @@ $(document).ready(function() {
 //    });
 //});
 
+new vUnit({
+    CSSMap: {
+        '.vh': {
+            property: 'height',
+            reference: 'vh'
+        },
+        '.vw': {
+            property: 'width',
+            reference: 'vw'
+        },
+        '.vwfs': {
+            property: 'font-size',
+            reference: 'vw'
+        },
+        '.vhmt': {
+            property: 'margin-top',
+            reference: 'vh'
+        },
+        '.vhmb': {
+            property: 'margin-bottom',
+            reference: 'vh'
+        },
+        '.vminw': {
+            property: 'width',
+            reference: 'vmin'
+        },
+        '.vmaxw': {
+            property: 'width',
+            reference: 'vmax'
+        }
+    }
+}).init();
+
 // http://www.web2feel.com/creating-a-fullscreen-hero-div-for-your-site-header/
 // https://codepen.io/web2feel/pen/gbjNgw
-jQuery(document).ready(function($){
- // Defining a function to set size for #hero 
-	function fullscreen(){
-		jQuery('#hero').css({
-            width: jQuery(window).width(),
-            height: jQuery(window).height()
-        });
-	}
-  
-	fullscreen();
-
-  // Run the function in case of window resize
-  jQuery(window).resize(function() {
-       fullscreen();         
-    });
-
-});
+//jQuery(document).ready(function($){
+// // Defining a function to set size for #hero 
+//	function fullscreen(){
+//		jQuery('#hero').css({
+//            width: jQuery(window).width(),
+//            height: jQuery(window).height()
+//        });
+//	}
+//  
+//	fullscreen();
+//
+//  // Run the function in case of window resize
+//  jQuery(window).resize(function() {
+//       fullscreen();         
+//    });
+//
+//});
 
 //add rel="external" to each link
 //$(function () {
