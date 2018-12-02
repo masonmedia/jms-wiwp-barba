@@ -23,7 +23,7 @@ include 'includes/header.php';
         </div>
     </div>
   
-  <div role="banner" class="container-fluid bg-light p-0 py-2"> 
+  <div role="banner" class="container-fluid bg-light p-0 py-1"> 
 
     <!--intro-->
     
@@ -102,7 +102,7 @@ include 'includes/header.php';
                           <ul>
                               <li class="font-weight-bold">Six have ensuite:</li>
                               <li>Single occupancy with ensuite bathroom: C$5495* (approx US$4100)</li>
-                              <li class="font-weight-bold">Four have shared bathrroms:</li>
+                              <li class="font-weight-bold">Four have shared bathrooms:</li>
                               <li>Single occupancy with shared bathroom (4 rooms share 2 bathrooms) C$5195* (approx US$3900)</li>
                           </ul>
                           <h5 class="font-weight-bold py-3 m-0">Two of these 10 rooms are available to share (two participants per room)</h5>
@@ -192,6 +192,19 @@ include 'includes/header.php';
              </div><!--end wrap-->
             </div>
         </div><!--end row-->
+        
+        <!--quote-->
+                
+        <div class="row d-flex bg-img-long-beach-aerial text-light min-70 m-3 shadow-lg" data-aos="fade" data-aos-duration="1000">
+            <div class="offset-lg-2"></div>
+            <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
+                <h2 class="section-title text-uppercase">Get <span class="pink">Out</span> There</h2>
+                <p class="h5 py-3 m-0 enter-bottom">“Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover."
+                <span class="d-block pt-3 font-italic">― Mark Twain</span></p>
+            </div>
+            <div class="offset-lg-2"></div>
+        </div>
+      <!--end row--> 
     </div><!--end container-->
 </main>
 

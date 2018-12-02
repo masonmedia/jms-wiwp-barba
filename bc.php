@@ -25,7 +25,7 @@ include 'includes/header.php';
 
     <!--intro-->
 
-    <div class="container-fluid bg-light p-0 py-2">
+    <div class="container-fluid bg-light p-0 py-1">
         <div id="sec-1" class="row d-flex text-secondary m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
                 <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-bottom">Storm-watching Workshop</h2>
@@ -66,13 +66,26 @@ include 'includes/header.php';
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1000">
                <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top">Booking + Info</h2>
                 <div class="wrap p-4 m-0 border enter-left">
-                    <p class="">We will be taking registrations for this workshop in January 2019.</p>
+                    <p class="m-0">We will be taking registrations for this workshop in January 2019.</p>
                  </div><!--end wrap-->
                  <div class="wrap border border-top-0 p-3 enter-bottom">
                     <a class="btn btn-secondary" href="mailto:janicemasonsteeves@gmail.com">Contact</a>
                 </div>
             </div>
         </div><!--end row-->
+        
+         <!--quote-->
+                
+        <div class="row d-flex bg-img-long-beach-aerial text-light min-70 m-3 shadow-lg" data-aos="fade" data-aos-duration="1000">
+            <div class="offset-lg-2"></div>
+            <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
+                <h2 class="section-title text-uppercase">Get <span class="pink">Out</span> There</h2>
+                <p class="h5 py-3 m-0 enter-bottom">“Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover."
+                <span class="d-block pt-3 font-italic">― Mark Twain</span></p>
+            </div>
+            <div class="offset-lg-2"></div>
+        </div>
+      <!--end row--> 
     </div><!--end container-->
 </main>
 

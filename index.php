@@ -8,7 +8,7 @@ include 'includes/header.php';
 
 ?>
   
-<main role="main" data-aos="fade-up-right">  
+<main role="main" data-aos="fade-in">  
 
   <!--banner-->
 
@@ -58,7 +58,7 @@ include 'includes/header.php';
            
         <!--bc-->
            
-        <div id="sec-3" class="row d-flex min-70 text-light m-3 shadow-lg">
+        <div class="row d-flex min-70 text-light m-3 shadow-lg">
             <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center bg-img-bc min-50 p-5">
                 <h2 class="headline pb-2 l-h" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">British Columbia</h2>
                 <p class="h4 pt-2" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">Long Beach Lodge</p>
@@ -69,7 +69,7 @@ include 'includes/header.php';
         
         <!--card -- chile-->
         
-        <div id="sec-3" class="row shadow-lg m-3">
+        <div class="row shadow-lg m-3">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="headline text-secondary pb-2 l-h">Chile</h2>
                 <p class="h4 pt-2">Painting in the Atacama</p>
@@ -81,7 +81,7 @@ include 'includes/header.php';
         
         <!--card -- nova scotia-->
         
-        <div id="sec-3" class="row shadow-lg m-3">
+        <div class="row shadow-lg m-3">
             <div class="col-lg-6 min-50 bg-img-ns" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="headline text-secondary pb-2 l-h">Nova Scotia</h2>
@@ -93,7 +93,7 @@ include 'includes/header.php';
         
         <!--card -- mongolia-->
         
-        <div id="sec-3" class="row shadow-lg m-3">
+        <div class="row shadow-lg m-3">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center text-secondary bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="headline text-secondary pb-2 l-h">Mongolia</h2>
                 <p class="h4 pt-2">Art Retreat in the Gobi</p>
@@ -105,7 +105,7 @@ include 'includes/header.php';
         
          <!--card -- newsletter/signup-->
         
-        <div id="sec-3" class="row shadow-lg bg-light text-secondary m-3">
+        <div class="row shadow-lg bg-light text-secondary m-3">
             <div class="col-lg-6 bg-img-contact min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="headline text-secondary pb-2 l-h">Sign up</h2>
@@ -124,7 +124,21 @@ include 'includes/header.php';
                </div><!--End mailchimp form 2-->
             </div><!--end col-->
         </div><!--end row-->   
-    </div><!--end container-->
+        
+      <!--quote-->
+                
+      <div class="row d-flex bg-img-long-beach-aerial text-light min-70 m-3 shadow-lg rounded scene_element scene_element--fadeinright">
+            <div class="offset-lg-2"></div>
+            <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
+                <h2 class="section-title text-uppercase">Get <span class="pink">Out</span> There</h2>
+                <p class="h5 py-3 m-0 enter-bottom">“Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover."
+                <span class="d-block pt-3 font-italic">― Mark Twain</span></p>
+            </div>
+            <div class="offset-lg-2"></div>
+      </div>
+      <!--end row-->    
+    </div>
+    <!--end container-->
 </main>
 
 <?php

@@ -429,8 +429,9 @@ background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     filter: saturate(2);
 }
 .bg-img-long-beach-aerial {
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/jms-long-beach-lodge-aerial.jpg) center 30%;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/jms-long-beach-lodge-aerial.jpg) center 20%;
     background-size: cover;
+    filter: saturate(130%);
 }
 .bg-img-teaching {
     background: url(/img/jms-teaching-class.jpg) center;

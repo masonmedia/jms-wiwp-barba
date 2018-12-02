@@ -26,7 +26,7 @@ include 'includes/header.php';
 
     <!--intro-->
 
-    <div class="container-fluid bg-light p-0 py-2">
+    <div class="container-fluid bg-light p-0 py-1">
         
         <!--card -- chile-->
         
@@ -162,6 +162,18 @@ include 'includes/header.php';
             <div class="col-lg-6 bg-img-contact min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
         </div><!--end row--> 
         
+        <!--quote-->
+                
+        <div class="row d-flex bg-img-long-beach-aerial text-light min-70 m-3 shadow-lg" data-aos="fade" data-aos-duration="1000">
+            <div class="offset-lg-2"></div>
+            <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
+                <h2 class="section-title text-uppercase">Get <span class="pink">Out</span> There</h2>
+                <p class="h5 py-3 m-0 enter-bottom">“Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover."
+                <span class="d-block pt-3 font-italic">― Mark Twain</span></p>
+            </div>
+            <div class="offset-lg-2"></div>
+        </div>
+      <!--end row--> 
     </div><!--end container-->
 </main>
 

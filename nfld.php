@@ -12,7 +12,7 @@ include 'includes/header.php';
 
 <!--banner-->
 
-    <div role="banner" class="container-fluid bg-light p-0">
+    <div role="banner" class="container-fluid bg-light p-0 py-1">
           <div class="row d-flex bg-img-nfld min-100 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
@@ -21,11 +21,10 @@ include 'includes/header.php';
              </div>
             <div class="offset-lg-2"></div>
         </div>
+    </div>
         
         <!--card -- wait list only-->
-        
-        <div class="container-fluid bg-light p-0 py-2">
-        
+    <div class="container-fluid bg-light p-0 py-1">
         <div class="row shadow-lg text-secondary m-3">
            <div class="col-lg-6 bg-img-nfld-banner min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start min-50 text-left p-5 bg-light o-12">
@@ -42,7 +41,7 @@ include 'includes/header.php';
 
         <!-- intro-->
     
-        <div id="sec-1" class="row d-flex text-secondary min-70 m-3 shadow-lg">
+        <div class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top">Location</h2>
                 <p class="p-4 m-0 border enter-left">Join me for a week-long immersion into the landscape of Newfoundland at <a class="font-weight-bold pink" href="http://www.doctorshousenewfoundland.com" target="_blank">The Doctor's House.</a> This small luxury inn with a spa is nestled in 100 forested acres on the shores of Trinity Bay. Our focus will be on experiencing various ways of connecting to this unique landscape, including meditative walking, observing, contemplating, sketching and journaling. We'll aim to create abstract responses to the land using cold wax medium and oil. As well as plenty of studio time, there will be opportunities to spend time outdoors and a boat tour on our day off where we hope to see icebergs and whales.</p>
@@ -55,7 +54,7 @@ include 'includes/header.php';
        
         <!-- details-->
     
-        <div id="sec-2" class="row d-flex text-secondary min-70 m-3 shadow-lg">
+        <div class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 min-50 bg-img-nfld-3 p-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start text-left bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top">Details</h2>
@@ -68,7 +67,7 @@ include 'includes/header.php';
 
          <!-- schedule -->
          
-         <div id="sec-3" class="row d-flex text-secondary min-70 m-3 shadow-lg">
+         <div class="row d-flex text-secondary min-70 m-3 shadow-lg">
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-end text-right bg-light min-50 p-5 o-12" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
                 <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0 enter-top">Schedule + Accomodation</h2>
                 <p class="p-4 m-0 border enter-left">Running from June 1-8, 2019, this 8-person workshop lasts 6 days/7 nights, with arrival the night before and departure on the morning after. Workshop hours are 9 am to 4 pm. There will be a free day mid- week for a boat tour and also personal time. The Doctor's House offers luxury accommodation, spa services, and provides gourmet meals in a quiet forested environment. The workshop will be held just steps from the inn in The Barn, a wide open space with a panoramic view of the land and the sea beyond.</p>
@@ -81,7 +80,7 @@ include 'includes/header.php';
 
      <!-- booking + info-->
 
-    <div id="sec-4" class="row d-flex text-secondary min-70 m-3 shadow-lg">
+    <div class="row d-flex text-secondary min-70 m-3 shadow-lg">
          <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-left bg-img-nfld-banner min-50 p-0 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
          <div class="col-lg-6 d-flex flex-column justify-content-center align-items-start bg-light text-left min-50 p-5 o-12">
             <h2 class="section-title text-uppercase border border-bottom-0 p-4 m-0" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Booking + Info</h2>
@@ -164,7 +163,19 @@ include 'includes/header.php';
              </div><!--end wrap-->
          </div><!--end col-->
      </div><!--end row-->
-    </div>
+     
+     <!--quote-->
+                
+     <div class="row d-flex bg-img-long-beach-aerial text-light min-70 m-3 shadow-lg" data-aos="fade" data-aos-duration="1000">
+        <div class="offset-lg-2"></div>
+        <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center min-50 p-5 o-12" data-aos="fade-up" data-aos-duration="1500">
+            <h2 class="section-title text-uppercase">Get <span class="pink">Out</span> There</h2>
+            <p class="h5 py-3 m-0 enter-bottom">“Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade winds in your sails. Explore. Dream. Discover."
+            <span class="d-block pt-3 font-italic">― Mark Twain</span></p>
+        </div>
+         <div class="offset-lg-2"></div>
+      </div>
+      <!--end row--> 
     </div><!--end container-->
 </main>
 
