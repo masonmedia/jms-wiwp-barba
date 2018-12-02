@@ -13,7 +13,7 @@ include 'includes/header.php';
     <!--banner-->	
 
     <div role="banner" class="container-fluid bg-light p-0">        
-        <div id="hero" class="row d-flex bg-img-scotland vh100 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+        <div id="hero" class="row d-flex bg-img-scotland min-100 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
                     <h2 class="headline l-h pb-2" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Scotland</h2>
@@ -97,15 +97,26 @@ include 'includes/header.php';
                          </div>
                            <h5 class="font-weight-bold border-top border-bottom py-3 m-0">Dates: September 14-22, 2019</h5>
                           <h5 class="font-weight-bold py-3 border-bottom m-0">Cost</h5>
-                          <h5 class="font-weight-bold py-3 m-0">
-                          <span class="d-table">$5495*CAD per person in rooms with ensuite bathroom</span>
-                          <span class="d-table">$5195*CAD per person in rooms with shared bathroom</span>
-                          </h5>
-                          <p class="m-0">*(Rooms with shared bathroom share with only one other room)</p>
+                         
+                          <h5 class="font-weight-bold py-3 m-0">10 rooms are available for us in the East Wing</h5>
+                          <ul>
+                              <li class="font-weight-bold">Six have ensuite:</li>
+                              <li>Single occupancy with ensuite bathroom: C$5495* (approx US$4100)</li>
+                              <li class="font-weight-bold">Four have shared bathrroms:</li>
+                              <li>Single occupancy with shared bathroom (4 rooms share 2 bathrooms) C$5195* (approx US$3900)</li>
+                          </ul>
+                          <h5 class="font-weight-bold py-3 m-0">Two of these 10 rooms are available to share (two participants per room)</h5>
+                          <ul>
+                              <li class="font-weight-bold">1. Shared cost with ensuite bath:</li>
+                              <li>C$1245 (approx. US$950) single supplement</li>
+                              <li class="font-weight-bold">2.  Shared cost with shared bath:</li>
+                              <li>C$3950 (approx. US$2995)per person based on twin occupancy (twin beds) in room with shared bathroom (2 rooms share 1 bathroom)</li>
+                              <li>C$1245 (approx. US$950) single supplement</li>
+                          </ul>
                           <p class="m-0">*Based on 9 participants and based on an exchange rate of £1=C$1.75</p>
                           <p class="m-0 mb-3">*Price based on current rates and subject to change.</p>
-<!--                          schedule-->
-                         <h5 class="font-weight-bold border-top border-bottom py-3">Schedule</h5>
+                          <!--schedule-->
+                          <h5 class="font-weight-bold border-top border-bottom py-3">Schedule</h5>
                           <p class="pt-2">We will meet at Glasgow Airport on September 14 and be transferred as a group to Dunskey Castle. The workshop begins on September 15. We will depart Dunskey Castle as a group on September 22 with a transfer to Glasgow Airport. Please do not book your flights until we confirm the times of these transfers. Workshop hours will be determined in coordination with kitchen staff but probably 9:00 to 12:30 and then from 2-5pm. There will be one full day off and one half day off during the week. I am limiting the class to 9 participants to ensure plenty of one-on-one time.</p>
                          
                           <h5 class="font-weight-bold border-top border-bottom py-3">Price includes</h5>

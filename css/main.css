@@ -428,6 +428,10 @@ background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 	background-size: cover;
     filter: saturate(2);
 }
+.bg-img-long-beach-aerial {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(/img/jms-long-beach-lodge-aerial.jpg) center 30%;
+    background-size: cover;
+}
 .bg-img-teaching {
     background: url(/img/jms-teaching-class.jpg) center;
     background-size: cover;
@@ -595,18 +599,6 @@ footer .fa {
     .banner-home {
         background-attachment: scroll;
     }
-/*
-    .min-100,
-    .fs,
-    .banner-home,
-    .bg-img-about-banner,
-    .bg-img-banner-nfld,
-    .bg-img-banner-scotland,
-    .bg-img-banner-bc {
-	    height: 100vh;
-    }
-*/
-}
 
 @media (max-width: 600px) {
     .headline {

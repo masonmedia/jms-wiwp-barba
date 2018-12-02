@@ -13,7 +13,7 @@ include 'includes/header.php';
     <!--banner-->					
 
     <div role="banner" class="container-fluid bg-light p-0">        
-        <div id="hero" class="row d-flex bg-img-bc vh100 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+        <div id="hero" class="row d-flex bg-img-bc min-100 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
             <div class="offset-lg-2"></div>
                 <div class="col-lg-8 d-flex flex-column justify-content-center align-items-center text-center p-5">
                     <h2 class="headline l-h pb-2" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">British <span class="table-lg">Columbia</span></h2>

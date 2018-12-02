@@ -1,4 +1,3 @@
-
             <footer>
               <div class="row text-white pt-4">
               <div class="col-md-6 col-lg-3 d-flex flex-column justify-content-center align-items-start">
@@ -21,7 +20,7 @@
                   <div class="wrap w-100 m-4 p-4">
                    <a href="https://janicemasonsteevesartwork.blogspot.com/" target="_blank">
                         <i class="fa fa-pencil-square-o display-2"></i>
-                        <h2 class="font-weight-light">blog</h2>
+                        <h2 class="font-weight-light pt-3">blog</h2>
                     </a>
                   </div>
               </div>
@@ -52,7 +51,21 @@
 		<!--main.js-->
         <script src="/js/plugins.js"></script>
         <script src="/js/main.js"></script>
-                  
+        <!-- Default Statcounter code for Workshops in Wild Places http://www.workshopsinwildplaces.com -->
+        <script type="text/javascript">
+        var sc_project=11884463; 
+        var sc_invisible=1; 
+        var sc_security="75884ead"; 
+        </script>
+        <script type="text/javascript"
+        src="https://www.statcounter.com/counter/counter.js"
+        async></script>
+        <noscript><div class="statcounter"><a title="Web Analytics
+        Made Easy - StatCounter" href="http://statcounter.com/"
+        target="_blank"><img class="statcounter"
+        src="//c.statcounter.com/11884463/0/75884ead/1/" alt="Web
+        Analytics Made Easy - StatCounter"></a></div></noscript>
+        <!-- End of Statcounter Code -->
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;

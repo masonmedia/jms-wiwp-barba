@@ -13,7 +13,7 @@ include 'includes/header.php';
   <!--banner-->
 
     <div role="banner" class="container-fluid bg-light p-0">
-      <div class="row d-flex vh100 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
+      <div class="row d-flex min-100 m-0" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
             <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center text-center vh100 text-white banner-home p-5">
                 <h1 class="site-title ts l-h mb-3 w-100">
                     <span class="d-inline-block table-lg" data-aos="fade-down" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Workshops</span> in <span class="d-inline-block pink table-lg" data-aos="fade-right" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Wild</span> <span class="d-inline-block table-lg" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">Places</span>
@@ -108,7 +108,7 @@ include 'includes/header.php';
         <div id="sec-3" class="row shadow-lg bg-light text-secondary m-3">
             <div class="col-lg-6 bg-img-contact min-50" data-aos="fade" data-aos-easing="ease-in-out-sine" data-aos-duration="1500"></div>
             <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center text-center p-5" data-aos="fade-up" data-aos-easing="ease-in-out-sine" data-aos-duration="1000">
-                <h2 class="headline text-secondary pb-2 l-h">Signup</h2>
+                <h2 class="headline text-secondary pb-2 l-h">Sign up</h2>
                 <p class="pt-2 mb-0 enter-left">Get WiWP news, anouncements, and workshop info straight to your inbox.</p>
                 <!-- Begin MailChimp Signup Form -->
                <div id="mc_embed_signup">
