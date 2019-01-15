@@ -95,19 +95,6 @@ new vUnit({
 //    });
 //});
 
-
-// Rellax parallax
-     
-  var rellax = new Rellax('.rellax', {
-//    wrapper: '.rellax-wrap',
-    speed: -1,
-    center: true,
-    wrapper: null,
-    round: true,
-    vertical: true,
-    horizontal: false
-  });
-
 //Barba js scripts (add to footer on each page)
 //force scroll top on page change
 //window.onbeforeunload = function(){ window.scrollTo(0,0); }
